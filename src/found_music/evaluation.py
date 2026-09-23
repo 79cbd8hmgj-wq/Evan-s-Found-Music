@@ -50,6 +50,7 @@ def feedback_discrimination(
     scored: list[tuple[Feedback, float]] = []
     for i, rated in enumerate(history):
         if rated.feedback not in {
+            Feedback.FAVORITE,
             Feedback.STAR,
             Feedback.ADDED,
             Feedback.SKIPPED,
@@ -62,7 +63,7 @@ def feedback_discrimination(
 
     positive_scores = [
         score for feedback, score in scored
-        if feedback in {Feedback.STAR, Feedback.ADDED}
+        if feedback in {Feedback.FAVORITE, Feedback.STAR, Feedback.ADDED}
     ]
     negative_scores = [
         score for feedback, score in scored

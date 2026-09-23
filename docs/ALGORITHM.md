@@ -7,6 +7,7 @@ The goal is not to find one narrow sound. It is to keep learning a broad persona
 - **Library**: hard exclusion set. Owned tracks never appear as recommendations.
 - **Feedback**: `star`, `added`, `rejected`, or `library`.
 - **Candidate metadata**: artist, year, genres and lightweight tags.
+- **Source archives**: any number of ZIP archives containing library screenshots. They are combined into one deduplicated library corpus after transcription.
 
 ## Scoring
 
@@ -27,9 +28,21 @@ Default batch target:
 
 This split is intentionally configurable and should be tuned from real Found Music outcomes, not assumed permanently.
 
+## Library ingestion
+
+`scripts/index_music_zip.py` indexes all ZIP archives in the repository root by default. This means new screenshot batches can be added without replacing or renaming earlier source material.
+
+The transcription stage should:
+
+1. combine screenshots from every archive;
+2. normalize artist/title spelling;
+3. collapse duplicate tracks appearing in multiple screenshots or archives;
+4. preserve star/favorite evidence when visible;
+5. produce one canonical `data/library.csv` used as the hard exclusion set.
+
 ## Next milestones
 
-1. Convert the screenshots in `Music.zip` into a structured library CSV.
+1. Convert screenshots across all source ZIP archives into a structured, deduplicated library CSV.
 2. Backfill previous recommendation outcomes from the chat history.
 3. Add a candidate metadata/enrichment pipeline.
 4. Measure hit rate, star rate, duplicate rate, artist diversity and intra-batch similarity.

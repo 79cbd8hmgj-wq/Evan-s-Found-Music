@@ -11,7 +11,7 @@ def test_backtest_scores_round_without_leaking_round_outcomes():
         RatedTrack(Track("Anchor", "C", 2000, ("hip-hop",)), Feedback.STAR),
     ]
     rounds = [
-        RoundTrack("r1", star, Feedback.STAR),
+        RoundTrack("r1", star, Feedback.FAVORITE),
         RoundTrack("r1", skip, Feedback.SKIPPED),
     ]
     result = backtest_rounds(rounds, history)

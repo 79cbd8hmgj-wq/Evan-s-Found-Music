@@ -6,6 +6,7 @@ from enum import Enum
 
 
 class Feedback(str, Enum):
+    FAVORITE = "favorite"
     STAR = "star"
     ADDED = "added"
     SKIPPED = "skipped"

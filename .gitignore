@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+dist/
+build/
+*.egg-info/
+data/library.csv
+data/candidates.csv
+data/library_manifest.json

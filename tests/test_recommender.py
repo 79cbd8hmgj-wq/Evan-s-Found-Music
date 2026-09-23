@@ -85,3 +85,17 @@ def test_rejected_track_reduces_similar_candidate_score():
     club = Track("Club", "D", 2006, ("crunk",), ("club",))
     result = recommend_batch([soulful, club], [positive, rejected], set(), batch_size=2, exploration_fraction=0)
     assert result[0].track.title == "Soulful"
+
+def test_default_batch_caps_repeated_artists():
+    history = [
+        RatedTrack(Track("Anchor", "Same Artist", 2004, ("hip-hop",)), Feedback.STAR)
+    ]
+    candidates = [
+        Track("A1", "Same Artist", 2004, ("hip-hop",)),
+        Track("A2", "Same Artist", 2005, ("hip-hop",)),
+        Track("B", "Other Artist", 2004, ("hip-hop",)),
+    ]
+    result = recommend_batch(candidates, history, set(), batch_size=2)
+    assert len(result) == 2
+    assert len({track.track.artist for track in result}) == 2
+

@@ -2,7 +2,7 @@
 
 A personal music-discovery system built around one rule: **learn the whole taste profile without over-filtering around the latest favorite.**
 
-The repository currently contains the source screenshot archive (`Music.zip`) plus the first implementation of a diversity-aware recommendation engine.
+The repository contains multiple screenshot archives of the music library (`Music.zip`, `Archive.zip`, and future ZIP additions) plus the first implementation of a diversity-aware recommendation engine. All source archives are treated as one library corpus and deduplicated after transcription.
 
 ## What v1 does
 
@@ -10,13 +10,17 @@ The repository currently contains the source screenshot archive (`Music.zip`) pl
 - learns from starred, added and rejected recommendations;
 - scores candidates against multiple individual taste anchors instead of one narrow centroid;
 - reserves room for exploration;
-- diversifies each batch so one sound, artist or lane does not take over.
+- diversifies each batch so one sound, artist or lane does not take over;
+- indexes any number of ZIP-based library sources.
 
 ## Quick start
 
 ```bash
 python -m pip install -e '.[dev]'
 pytest
+
+# Index every ZIP archive in the repository root.
+python scripts/index_music_zip.py
 
 found-music \
   --candidates data/candidates.csv \

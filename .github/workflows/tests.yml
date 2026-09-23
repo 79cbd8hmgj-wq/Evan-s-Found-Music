@@ -21,3 +21,5 @@ jobs:
       - run: pytest -q
       - name: Evaluate current model
         run: python scripts/evaluate_model.py
+      - name: Backtest historical rounds
+        run: python scripts/backtest_rounds.py

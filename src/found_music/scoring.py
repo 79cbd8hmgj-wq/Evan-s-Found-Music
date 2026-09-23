@@ -10,6 +10,7 @@ from .models import Feedback, RatedTrack, ScoredTrack, Track
 class Weights:
     star: float = 2.4
     added: float = 1.4
+    skipped: float = -0.35
     rejected: float = -1.0
     year_similarity: float = 0.18
     novelty: float = 0.28
@@ -44,6 +45,8 @@ def score_candidate(candidate: Track, history: list[RatedTrack], weights: Weight
         elif rated.feedback == Feedback.ADDED:
             weight = weights.added
             positive_similarities.append(sim)
+        elif rated.feedback == Feedback.SKIPPED:
+            weight = weights.skipped
         elif rated.feedback == Feedback.REJECTED:
             weight = weights.rejected
         else:

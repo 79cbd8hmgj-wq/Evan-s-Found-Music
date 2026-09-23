@@ -16,9 +16,12 @@ def recommend_batch(
     max_year: int = 2016,
     allow_unknown_year: bool = False,
     max_per_artist: int = 1,
+    seen_recommendation_keys: set[str] | None = None,
 ) -> list[ScoredTrack]:
     """Select a mixed, deduplicated batch inside the configured year boundary."""
     seen_keys = history_key_set(history)
+    if seen_recommendation_keys:
+        seen_keys.update(seen_recommendation_keys)
 
     def eligible(candidate: Track) -> bool:
         if candidate.alias_keys & library_keys:

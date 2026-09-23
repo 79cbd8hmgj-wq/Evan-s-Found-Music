@@ -99,3 +99,23 @@ def test_default_batch_caps_repeated_artists():
     assert len(result) == 2
     assert len({track.track.artist for track in result}) == 2
 
+def test_served_recommendation_history_is_excluded():
+    served = Track("Served Song", "Artist", 2005)
+    fresh = Track("Fresh Song", "Other", 2005)
+    result = recommend_batch(
+        [served, fresh],
+        [],
+        set(),
+        batch_size=5,
+        seen_recommendation_keys=library_key_set([served]),
+    )
+    assert [item.track.title for item in result] == ["Fresh Song"]
+
+def test_favorite_is_stronger_than_star():
+    candidate = Track("Candidate", "C", 1999, ("r&b",))
+    favorite = RatedTrack(Track("Favorite", "A", 1999, ("r&b",)), Feedback.FAVORITE)
+    star = RatedTrack(Track("Star", "B", 1999, ("r&b",)), Feedback.STAR)
+    favorite_score = score_candidate(candidate, [favorite], Weights()).final_score
+    star_score = score_candidate(candidate, [star], Weights()).final_score
+    assert favorite_score > star_score
+

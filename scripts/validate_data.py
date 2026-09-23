@@ -8,11 +8,13 @@ def main() -> None:
     candidates = read_tracks("data/candidates.csv")
     history = read_feedback("data/feedback.csv")
     library = read_tracks("data/library.csv")
+    seen = read_tracks("data/seen_recommendations.csv")
 
     library_keys = library_key_set(library)
     history_keys = {
         alias for rated in history for alias in rated.track.alias_keys
     }
+    seen_keys = library_key_set(seen)
 
     errors: list[str] = []
     seen_candidate_aliases: set[str] = set()
@@ -29,6 +31,8 @@ def main() -> None:
             errors.append(f"candidate already in library: {track.artist} — {track.title}")
         if track.alias_keys & history_keys:
             errors.append(f"candidate already in feedback history: {track.artist} — {track.title}")
+        if track.alias_keys & seen_keys:
+            errors.append(f"candidate was previously served: {track.artist} — {track.title}")
         if track.alias_keys & seen_candidate_aliases:
             errors.append(f"duplicate candidate alias: {track.artist} — {track.title}")
         seen_candidate_aliases.update(track.alias_keys)
@@ -38,7 +42,8 @@ def main() -> None:
 
     print(
         f"validated {len(candidates)} candidates against "
-        f"{len(library)} library tracks and {len(history)} feedback events"
+        f"{len(library)} library tracks, {len(history)} feedback events, "
+        f"and {len(seen)} served recommendations"
     )
 
 

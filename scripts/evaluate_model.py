@@ -14,16 +14,19 @@ def main() -> None:
     parser.add_argument("--candidates", default="data/candidates.csv")
     parser.add_argument("--feedback", default="data/feedback.csv")
     parser.add_argument("--library", default="data/library.csv")
+    parser.add_argument("--seen", default="data/seen_recommendations.csv")
     parser.add_argument("--size", type=int, default=15)
     args = parser.parse_args()
 
     candidates = read_tracks(args.candidates)
     history = read_feedback(args.feedback)
     library = read_tracks(args.library)
+    seen = read_tracks(args.seen)
     batch = recommend_batch(
         candidates,
         history,
         library_key_set(library),
+        seen_recommendation_keys=library_key_set(seen),
         batch_size=args.size,
     )
 
@@ -32,6 +35,7 @@ def main() -> None:
             "candidates": len(candidates),
             "feedback": len(history),
             "library": len(library),
+            "seen_recommendations": len(seen),
         },
         "feedback_discrimination": metrics_dict(feedback_discrimination(history)),
         "batch_metrics": metrics_dict(batch_metrics(batch)),

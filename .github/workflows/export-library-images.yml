@@ -1,0 +1,60 @@
+name: Export library screenshots
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "*.zip"
+      - ".github/workflows/export-library-images.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Extract screenshot sources
+        shell: python
+        run: |
+          import json
+          import pathlib
+          import shutil
+          import zipfile
+
+          image_exts = {".png", ".jpg", ".jpeg", ".webp", ".heic"}
+          out = pathlib.Path("library-images")
+          out.mkdir()
+          manifest = []
+          for archive_path in sorted(pathlib.Path(".").glob("*.zip")):
+              with zipfile.ZipFile(archive_path) as zf:
+                  index = 0
+                  for info in zf.infolist():
+                      path = pathlib.PurePosixPath(info.filename)
+                      if info.is_dir() or "__MACOSX" in path.parts:
+                          continue
+                      if path.suffix.lower() not in image_exts:
+                          continue
+                      index += 1
+                      safe_name = f"{archive_path.stem}-{index:03d}{path.suffix.lower()}"
+                      target = out / safe_name
+                      with zf.open(info) as src, target.open("wb") as dst:
+                          shutil.copyfileobj(src, dst)
+                      manifest.append({
+                          "archive": archive_path.name,
+                          "source_path": info.filename,
+                          "export_name": safe_name,
+                          "size": info.file_size,
+                      })
+          (out / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
+          print(f"Exported {len(manifest)} images from {len(list(pathlib.Path('.').glob('*.zip')))} ZIP archives")
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: library-images
+          path: library-images/
+          if-no-files-found: error
+          retention-days: 7

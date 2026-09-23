@@ -10,6 +10,24 @@ def test_library_tracks_are_excluded():
     assert [x.track.title for x in result] == ["Fresh Song"]
 
 
+def test_feature_and_album_version_variants_dedupe():
+    library = {
+        Track("Can't Stop Me (feat. Ayanna Irish)", "Jadakiss").key,
+        Track("Same N****s (Album Version)", "Mase").key,
+    }
+    candidates = [
+        Track("Can't Stop Me", "Jadakiss feat. Ayanna Irish"),
+        Track("Same N****s", "Mase"),
+        Track("Fresh Song", "Other"),
+    ]
+    result = recommend_batch(candidates, [], library, batch_size=5)
+    assert [x.track.title for x in result] == ["Fresh Song"]
+
+
+def test_luchini_title_alias_dedupes():
+    assert Track("Luchini AKA This Is It", "Camp Lo").key == Track("Luchini - This Is It", "Camp Lo").key
+
+
 def test_diversity_avoids_near_duplicates():
     anchor = RatedTrack(Track("Anchor", "A", 2004, ("hip-hop",), ("melodic",)), Feedback.STAR)
     a = Track("A1", "Same", 2004, ("hip-hop",), ("melodic", "rnb-hook"))

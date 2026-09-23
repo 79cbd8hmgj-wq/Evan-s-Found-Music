@@ -8,7 +8,7 @@ from .models import Feedback, RatedTrack, Track
 from .scoring import Weights, score_candidate
 
 
-POSITIVE = {Feedback.STAR, Feedback.ADDED}
+POSITIVE = {Feedback.FAVORITE, Feedback.STAR, Feedback.ADDED}
 NEGATIVE = {Feedback.SKIPPED, Feedback.REJECTED}
 
 

@@ -6,38 +6,58 @@ The repository currently contains two ZIP source archives:
 
 - `Music.zip`: 28 screenshots
 - `Archive.zip`: 14 screenshots
+- **42 screenshots total**
 
-The GitHub Actions export job successfully extracted **42 total screenshots** into the `library-images` workflow artifact.
+The GitHub Actions export job successfully extracted the full screenshot corpus.
 
-## Phase 1 transcription
+## Phase 1 transcription: complete
 
-This pass establishes a canonical `data/library.csv` and `data/feedback.csv`.
+All 42 screenshots have now been reviewed and merged into the structured library dataset.
 
-Current structured baseline:
+Current canonical baseline:
 
-- **53 known library tracks** in `data/library.csv`
-- **37 explicit feedback events** in `data/feedback.csv`
-- transcription from `Music.zip` screenshots 001–004
-- confirmed historical Found Music accepts/stars/rejections backfilled from project records
+- **370 unique known-library tracks** in `data/library.csv`
+- **132 explicit feedback events** in `data/feedback.csv`
+  - **112 favorite/star signals**
+  - **11 added signals**
+  - **9 rejected signals**
 
-The first four screenshots include records spanning Ginuwine, Mase, Nas, Eve, Fat Joe, 50 Cent, Fabolous, Lloyd Banks, Mario, Amerie, Common-era discoveries and broader pop/R&B/rap material. They are intentionally treated as library evidence, not as a single style cluster.
+The screenshot corpus is intentionally treated as broad library evidence rather than one genre cluster. It spans rap, R&B, pop, dancehall, alternative/pop crossover and multiple eras. This breadth is the reason plain ownership is not weighted the same as a visible favorite star.
 
-## Deduplication improvement
+## Favorite evidence
 
-Track-key normalization now handles common screenshot/catalog variations:
+Visible Apple Music favorite stars were preserved as `star` feedback. Existing historical feedback was retained, and an `added` record was upgraded to `star` when the later screenshot clearly showed the track favorited.
+
+No favorite was inferred when the star icon was not visible.
+
+## Deduplication improvements
+
+Track-key normalization handles:
 
 - `(feat. ...)` / `[feat. ...]`
 - featured artist placed in the artist field
 - `(Album Version)`
-- `AKA` versus dash title aliases such as `Luchini AKA This Is It` / `Luchini - This Is It`
+- punctuation/case normalization
+- `AKA` versus dash title aliases
+- collaboration artist variants and ordering
 
-This matters because the exclusion database should reject a known song even when Apple Music or a recommendation source formats it differently.
+Examples include:
 
-## Remaining work
+- `Can't Stop Me` ↔ `Can't Stop Me (feat. Ayanna Irish)`
+- `Same N****s` ↔ `Same N****s (Album Version)`
+- `Luchini AKA This Is It` ↔ `Luchini - This Is It`
+- `Wonderful — Ashanti, Ja Rule & R. Kelly` ↔ a candidate credited to `Ja Rule feat. Ashanti`
 
-1. Transcribe screenshots 005–028 from `Music.zip`.
-2. Transcribe screenshots 001–014 from `Archive.zip`.
-3. Merge and deduplicate all tracks into `data/library.csv`.
-4. Enrich structured tracks with catalog metadata without changing ownership evidence.
-5. Backfill additional historic feedback where the source records make the outcome explicit.
-6. Run the first recommendation evaluation against the expanded exclusion set.
+## Discovery boundary
+
+The recommender now enforces **1989–2016 inclusive** before scoring. Unknown-year candidates are excluded by default.
+
+This is separate from the library itself: the library may contain newer tracks, and those can still provide taste evidence, but Found Music candidate output remains inside the requested discovery window.
+
+## Next work
+
+1. Build/enrich a large candidate pool with reliable title, artist and release year.
+2. Run the first offline recommendation evaluation using the 370-track exclusion set.
+3. Use the 132 feedback signals to compare scoring variants.
+4. Add evaluation metrics for duplicate rate, hit rate, star rate, artist diversity and intra-batch similarity.
+5. Tune exploration and diversity weights from measured results.

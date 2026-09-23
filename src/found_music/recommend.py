@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from .models import RatedTrack, ScoredTrack, Track
+from .models import RatedTrack, ScoredTrack, Track, history_key_set
 from .scoring import Weights, score_candidate, similarity
 
 
@@ -17,9 +17,12 @@ def recommend_batch(
     allow_unknown_year: bool = False,
 ) -> list[ScoredTrack]:
     """Select a mixed, deduplicated batch inside the configured year boundary."""
+    seen_keys = history_key_set(history)
 
     def eligible(candidate: Track) -> bool:
         if candidate.alias_keys & library_keys:
+            return False
+        if candidate.alias_keys & seen_keys:
             return False
         if candidate.year is None:
             return allow_unknown_year

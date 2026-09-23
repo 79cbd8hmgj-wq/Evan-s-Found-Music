@@ -8,6 +8,7 @@ from enum import Enum
 class Feedback(str, Enum):
     STAR = "star"
     ADDED = "added"
+    SKIPPED = "skipped"
     REJECTED = "rejected"
     LIBRARY = "library"
 
@@ -96,3 +97,7 @@ def normalize_key(artist: str, title: str) -> str:
 
 def library_key_set(tracks: list[Track]) -> set[str]:
     return {alias for track in tracks for alias in track.alias_keys}
+
+
+def history_key_set(history: list[RatedTrack]) -> set[str]:
+    return {alias for rated in history for alias in rated.track.alias_keys}

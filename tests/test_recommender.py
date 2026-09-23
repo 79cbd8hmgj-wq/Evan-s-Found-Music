@@ -1,5 +1,6 @@
 from found_music.models import Feedback, RatedTrack, Track, library_key_set
 from found_music.recommend import recommend_batch
+from found_music.scoring import Weights, score_candidate
 
 
 def test_library_tracks_are_excluded():
@@ -7,6 +8,13 @@ def test_library_tracks_are_excluded():
     other = Track("Fresh Song", "Other", 2002, ("hip-hop",), ("smooth",))
     history = [RatedTrack(Track("Anchor", "A", 2001, ("hip-hop",), ("smooth",)), Feedback.STAR)]
     result = recommend_batch([owned, other], history, library_key_set([owned]), batch_size=2)
+    assert [x.track.title for x in result] == ["Fresh Song"]
+
+
+def test_previously_rated_tracks_are_never_recommended_again():
+    seen = RatedTrack(Track("Seen Song", "Artist", 2005), Feedback.SKIPPED)
+    fresh = Track("Fresh Song", "Artist", 2006)
+    result = recommend_batch([seen.track, fresh], [seen], set(), batch_size=5)
     assert [x.track.title for x in result] == ["Fresh Song"]
 
 
@@ -49,6 +57,15 @@ def test_unknown_year_can_be_explicitly_allowed():
     candidate = Track("Unknown", "D", None)
     result = recommend_batch([candidate], [], set(), allow_unknown_year=True)
     assert [x.track.title for x in result] == ["Unknown"]
+
+
+def test_skipped_is_a_milder_negative_than_rejected():
+    candidate = Track("Candidate", "C", 2005, ("hip-hop",), ("club",))
+    skipped = RatedTrack(Track("Skip", "A", 2005, ("hip-hop",), ("club",)), Feedback.SKIPPED)
+    rejected = RatedTrack(Track("Reject", "B", 2005, ("hip-hop",), ("club",)), Feedback.REJECTED)
+    skip_score = score_candidate(candidate, [skipped], Weights()).final_score
+    reject_score = score_candidate(candidate, [rejected], Weights()).final_score
+    assert skip_score > reject_score
 
 
 def test_diversity_avoids_near_duplicates():

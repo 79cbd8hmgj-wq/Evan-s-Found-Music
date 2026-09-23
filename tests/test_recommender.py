@@ -1,4 +1,4 @@
-from found_music.models import Feedback, RatedTrack, Track
+from found_music.models import Feedback, RatedTrack, Track, library_key_set
 from found_music.recommend import recommend_batch
 
 
@@ -6,8 +6,49 @@ def test_library_tracks_are_excluded():
     owned = Track("Owned Song", "Artist", 2001, ("hip-hop",), ("smooth",))
     other = Track("Fresh Song", "Other", 2002, ("hip-hop",), ("smooth",))
     history = [RatedTrack(Track("Anchor", "A", 2001, ("hip-hop",), ("smooth",)), Feedback.STAR)]
-    result = recommend_batch([owned, other], history, {owned.key}, batch_size=2)
+    result = recommend_batch([owned, other], history, library_key_set([owned]), batch_size=2)
     assert [x.track.title for x in result] == ["Fresh Song"]
+
+
+def test_feature_and_album_version_variants_dedupe():
+    library = [
+        Track("Can't Stop Me (feat. Ayanna Irish)", "Jadakiss"),
+        Track("Same N****s (Album Version)", "Mase"),
+    ]
+    candidates = [
+        Track("Can't Stop Me", "Jadakiss feat. Ayanna Irish", 2009),
+        Track("Same N****s", "Mase", 1999),
+        Track("Fresh Song", "Other", 2000),
+    ]
+    result = recommend_batch(candidates, [], library_key_set(library), batch_size=5)
+    assert [x.track.title for x in result] == ["Fresh Song"]
+
+
+def test_collaboration_artist_order_dedupes():
+    library = [Track("Wonderful", "Ashanti, Ja Rule & R. Kelly")]
+    candidate = Track("Wonderful", "Ja Rule feat. Ashanti", 2004)
+    assert recommend_batch([candidate], [], library_key_set(library)) == []
+
+
+def test_luchini_title_alias_dedupes():
+    assert Track("Luchini AKA This Is It", "Camp Lo").key == Track("Luchini - This Is It", "Camp Lo").key
+
+
+def test_hard_year_boundary_is_enforced():
+    candidates = [
+        Track("Too Old", "A", 1988),
+        Track("Inside", "B", 1999),
+        Track("Too New", "C", 2017),
+        Track("Unknown", "D", None),
+    ]
+    result = recommend_batch(candidates, [], set(), batch_size=10)
+    assert [x.track.title for x in result] == ["Inside"]
+
+
+def test_unknown_year_can_be_explicitly_allowed():
+    candidate = Track("Unknown", "D", None)
+    result = recommend_batch([candidate], [], set(), allow_unknown_year=True)
+    assert [x.track.title for x in result] == ["Unknown"]
 
 
 def test_diversity_avoids_near_duplicates():

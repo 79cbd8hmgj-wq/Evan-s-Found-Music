@@ -119,3 +119,27 @@ def test_favorite_is_stronger_than_star():
     star_score = score_candidate(candidate, [star], Weights()).final_score
     assert favorite_score > star_score
 
+def test_skips_have_meaningful_negative_weight():
+    weights = Weights()
+    assert abs(weights.skipped) >= 0.5
+    assert abs(weights.skipped) < abs(weights.rejected)
+
+
+def test_generic_genre_match_does_not_dominate_similarity():
+    generic_a = Track("A", "Artist A", 2005, ("Hip-Hop/Rap",))
+    generic_b = Track("B", "Artist B", 2005, ("Hip-Hop/Rap",))
+    rich_a = Track("C", "Artist C", 2005, ("Hip-Hop/Rap", "Dirty South"), ("soulful",))
+    rich_b = Track("D", "Artist D", 2005, ("Hip-Hop/Rap", "Dirty South"), ("soulful",))
+    from found_music.scoring import similarity
+    assert similarity(rich_a, rich_b) > similarity(generic_a, generic_b)
+
+
+def test_profile_can_separate_same_broad_genre():
+    history = [
+        RatedTrack(Track("Good", "A", 2003, ("Hip-Hop/Rap", "Dirty South"), ("soulful",)), Feedback.STAR),
+        RatedTrack(Track("Bad", "B", 2003, ("Hip-Hop/Rap", "East Coast Rap"), ("hard",)), Feedback.SKIPPED),
+    ]
+    good = Track("Candidate Good", "C", 2004, ("Hip-Hop/Rap", "Dirty South"), ("soulful",))
+    bad = Track("Candidate Bad", "D", 2004, ("Hip-Hop/Rap", "East Coast Rap"), ("hard",))
+    assert score_candidate(good, history).final_score > score_candidate(bad, history).final_score
+

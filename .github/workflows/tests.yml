@@ -23,3 +23,5 @@ jobs:
         run: python scripts/evaluate_model.py
       - name: Backtest historical rounds
         run: python scripts/backtest_rounds.py
+      - name: Compare scoring v1 vs v2
+        run: python scripts/compare_scoring.py

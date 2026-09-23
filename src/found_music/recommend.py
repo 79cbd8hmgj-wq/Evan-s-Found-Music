@@ -12,10 +12,21 @@ def recommend_batch(
     exploration_fraction: float = 0.20,
     diversity_lambda: float = 0.55,
     weights: Weights = Weights(),
+    min_year: int = 1989,
+    max_year: int = 2016,
+    allow_unknown_year: bool = False,
 ) -> list[ScoredTrack]:
-    """Select a mixed batch: mostly relevance, some exploration, with MMR-style diversity."""
-    eligible = [c for c in candidates if c.key not in library_keys]
-    scored = [score_candidate(c, history, weights) for c in eligible]
+    """Select a mixed, deduplicated batch inside the configured year boundary."""
+
+    def eligible(candidate: Track) -> bool:
+        if candidate.alias_keys & library_keys:
+            return False
+        if candidate.year is None:
+            return allow_unknown_year
+        return min_year <= candidate.year <= max_year
+
+    eligible_candidates = [candidate for candidate in candidates if eligible(candidate)]
+    scored = [score_candidate(candidate, history, weights) for candidate in eligible_candidates]
     if not scored:
         return []
 

@@ -8,17 +8,18 @@ The repository contains multiple screenshot archives of the music library (`Musi
 
 - **42 library screenshots** indexed and transcribed
 - **370 unique known-library tracks** in `data/library.csv`
-- **132 explicit feedback signals** in `data/feedback.csv`
-  - 112 favorites/stars
-  - 11 additions
-  - 9 rejections
+- **139 explicit feedback signals** in `data/feedback.csv`
+  - stars/favorites and additions as positive evidence
+  - explicit rejections as stronger negatives
+  - skipped recommendations as mild negatives
+- **151 verified candidate tracks** in `data/candidates.csv`
 
 Visible Apple Music favorite stars are treated as strong positive taste evidence. Ordinary library membership is used primarily for deduplication and does not automatically receive the same weight.
 
 ## What v1 does
 
 - excludes known library tracks, including common catalog-format variants;
-- learns separately from starred, added and rejected songs;
+- learns separately from starred, added, skipped and rejected songs;
 - scores candidates against multiple individual taste anchors instead of one narrow centroid;
 - reserves room for exploration;
 - diversifies each batch so one sound, artist or lane does not take over;
@@ -49,4 +50,4 @@ title,artist,year,genres,tags
 
 Candidate tracks without a known year are excluded by default so the 1989–2016 boundary cannot be bypassed accidentally. Use `--allow-unknown-year` only for deliberate testing.
 
-See `docs/ALGORITHM.md` and `docs/INGESTION_STATUS.md` for design and data status.
+See `docs/ALGORITHM.md`, `docs/INGESTION_STATUS.md`, and `docs/CANDIDATE_PIPELINE.md` for design and data status.

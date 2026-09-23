@@ -1,0 +1,34 @@
+round_id,title,artist,year,genres,outcome
+targeted_10,So What,Field Mob,2006,Hip-Hop/Rap,star
+targeted_10,Killa,Cherish feat. Yung Joc,2007,Pop|R&B/Soul|Rock,skipped
+targeted_10,Imma Put It on Her,Day26 feat. Diddy & Yung Joc,2009,Pop,skipped
+targeted_10,Back to the Crib,Juelz Santana,2009,Hip-Hop/Rap|Rap,added
+targeted_10,"Bust It Baby, Pt. 2",Plies,2008,Hip-Hop/Rap|Gangsta Rap|Dirty South,star
+targeted_10,Girl Tonite,Twista feat. Trey Songz,2005,Hip-Hop/Rap,skipped
+targeted_10,Help,Lloyd Banks feat. Keri Hilson,2006,Hip-Hop/Rap,skipped
+targeted_10,"Everything, Everyday, Everywhere",Fabolous,2009,Hip-Hop/Rap|East Coast Rap|Gangsta Rap,star
+targeted_10,You Know What,Avant feat. Lil Wayne,2005,R&B/Soul,skipped
+targeted_10,Ride Wit U,Joe feat. G-Unit,2003,R&B/Soul|Hip-Hop/Rap|Pop,skipped
+corrected_8,Rule,Nas,2001,Hip-Hop/Rap,skipped
+corrected_8,Summer With Miami,Jim Jones,2005,Hip-Hop/Rap,skipped
+corrected_8,Get No Better,Cassidy,2004,Hip-Hop/Rap|East Coast Rap,skipped
+corrected_8,Change,Beanie Sigel,2005,Hip-Hop/Rap,skipped
+corrected_8,All My Life,Freeway,2003,Hip-Hop/Rap|East Coast Rap|R&B/Soul,skipped
+corrected_8,Can’t Stop Me,Jadakiss,2009,Hip-Hop/Rap|East Coast Rap|Hardcore Rap,star
+corrected_8,Fly Together,Red Cafe,2012,Hip-Hop/Rap,skipped
+corrected_8,Fly Like Me,Chingy,2007,Hip-Hop/Rap|Dirty South,skipped
+broad_15,Nuttin' But Love,Heavy D & The Boyz,1994,Hip-Hop/Rap|R&B/Soul,skipped
+broad_15,Sugar Hill,AZ,1995,Hip-Hop/Rap|East Coast Rap,star
+broad_15,Vivrant Thing,Q-Tip,1999,Hip-Hop/Rap,skipped
+broad_15,Jazzy Belle,Outkast,1996,Hip-Hop/Rap|Dirty South,skipped
+broad_15,Music,Erick Sermon,2001,Hip-Hop/Rap|East Coast Rap,added
+broad_15,Po' Folks,Nappy Roots,2002,Hip-Hop/Rap|Dirty South,added
+broad_15,The Setup,Obie Trice,2003,Hip-Hop/Rap,star
+broad_15,I Got Love,Nate Dogg,2001,Hip-Hop/Rap|R&B/Soul,added
+broad_15,It's Mine,Mobb Deep feat. Nas,1999,Hip-Hop/Rap|East Coast Rap,skipped
+broad_15,Why You Wanna,T.I.,2006,Hip-Hop/Rap|Dirty South,skipped
+broad_15,"Paris, Tokyo",Lupe Fiasco,2007,Hip-Hop/Rap,skipped
+broad_15,Body 2 Body,Ace Hood feat. Chris Brown,2011,Hip-Hop/Rap|R&B/Soul,skipped
+broad_15,Leave You Alone,Jeezy feat. Ne-Yo,2011,Hip-Hop/Rap|Dirty South,skipped
+broad_15,Break You Off,The Roots feat. Musiq Soulchild,2002,Hip-Hop/Rap|R&B/Soul,skipped
+broad_15,Gotta Man,Eve,1999,Hip-Hop/Rap|East Coast Rap,skipped

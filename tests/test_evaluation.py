@@ -1,3 +1,5 @@
+import pytest
+
 from found_music.evaluation import batch_metrics, feedback_discrimination
 from found_music.models import Feedback, RatedTrack, ScoredTrack, Track
 
@@ -11,7 +13,7 @@ def test_batch_metrics_report_diversity():
     assert metrics.size == 2
     assert metrics.unique_artists == 2
     assert metrics.unique_decades == 2
-    assert metrics.average_exploration == 0.3
+    assert metrics.average_exploration == pytest.approx(0.3)
 
 
 def test_feedback_discrimination_counts_classes():

@@ -1,0 +1,56 @@
+name: Candidate replenishment proposal
+
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: Desired eligible candidate inventory (not a guaranteed yield)
+        required: true
+        default: "1000"
+        type: string
+  schedule:
+    - cron: "30 9 * * 1"
+  pull_request:
+    paths:
+      - "src/found_music/candidate_discovery.py"
+      - "scripts/replenish_candidates.py"
+      - "data/catalog_queries.txt"
+      - ".github/workflows/catalog-candidates.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -e '.[dev]'
+      - name: Catalog proposal
+        env:
+          REQUESTED_TARGET: ${{ inputs.target || '1000' }}
+          EVENT_KIND: ${{ github.event_name }}
+        run: |
+          set -euo pipefail
+          if [[ "$EVENT_KIND" == "pull_request" ]]; then
+            # Fast live-catalog integration smoke, without editing the repository.
+            python scripts/replenish_candidates.py --target 85 --pause 0.7 --report candidate-report.json
+          else
+            if ! [[ "$REQUESTED_TARGET" =~ ^[0-9]+$ ]]; then
+              echo "target must be a positive integer" >&2
+              exit 1
+            fi
+            python scripts/replenish_candidates.py --target "$REQUESTED_TARGET" --pause 0.7 --apply --report candidate-report.json
+            python scripts/validate_data.py
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: found-music-catalog-proposal-${{ github.run_id }}
+          path: |
+            candidate-report.json
+            data/candidates.csv
+          retention-days: 30

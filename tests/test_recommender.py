@@ -143,3 +143,9 @@ def test_profile_can_separate_same_broad_genre():
     bad = Track("Candidate Bad", "D", 2004, ("Hip-Hop/Rap", "East Coast Rap"), ("hard",))
     assert score_candidate(good, history).final_score > score_candidate(bad, history).final_score
 
+
+
+def test_greatest_hits_catalog_version_dedupes_licensed_track():
+    owned = Track("Feel So Good", "Mase", 1997)
+    compilation = Track("Feel So Good (Greatest Hits Version)", "Mase", 1997)
+    assert recommend_batch([compilation], [], library_key_set([owned]), batch_size=1) == []

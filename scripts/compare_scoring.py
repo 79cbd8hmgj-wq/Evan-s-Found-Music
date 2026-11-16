@@ -97,8 +97,6 @@ def evaluate(scorer):
             "precision_at_k": hits / k if k else 0.0,
         })
         # Reveal labels only AFTER scoring all songs in this round.
-        from found_music.backtest import POSITIVE, NEGATIVE
-        from found_music.models import RatedTrack
         history.extend(RatedTrack(row.track, row.outcome) for row in rows)
 
     return {

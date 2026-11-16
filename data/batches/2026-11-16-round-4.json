@@ -1,0 +1,181 @@
+{
+  "batch_id": "2026-11-16-round-4",
+  "generated_at_utc": "2026-11-16T23:27:55.612614+00:00",
+  "model_version": "v2",
+  "requested_size": 20,
+  "source_sha256": {
+    "candidates": "918e150e81f41e5a68676f924dedbdc16059f2fe3c51ac10398db27502ffe004",
+    "feedback": "d8c95831e4aeea1aed0bad1beb5f25c541167d544d28ebfcc1a546ba1d8bd073",
+    "library": "2d096c0af0fd25d00610878b2d1c7e95194b1a55be1c48146ffc0d1eaaa2eafb",
+    "seen": "120739ac460b3882ebff4582e4f5e5ae275744186e1c1ffe4301dd973ec7a6bf"
+  },
+  "parameters": {
+    "min_year": 1989,
+    "max_year": 2016,
+    "exploration_fraction": 0.2,
+    "diversity_lambda": 0.55,
+    "max_per_artist": 1
+  },
+  "tracks": [
+    {
+      "rank": 1,
+      "title": "One Call Away (feat. J/Weav)",
+      "artist": "Chingy",
+      "year": 2003,
+      "score": 0.47067,
+      "exploration": 0.583831
+    },
+    {
+      "rank": 2,
+      "title": "Don't",
+      "artist": "Bryson Tiller",
+      "year": 2015,
+      "score": 0.42022,
+      "exploration": 0.666667
+    },
+    {
+      "rank": 3,
+      "title": "If It's Lovin' That You Want",
+      "artist": "Rihanna",
+      "year": 2005,
+      "score": 0.400455,
+      "exploration": 0.555149
+    },
+    {
+      "rank": 4,
+      "title": "Amen (feat. Drake)",
+      "artist": "Meek Mill",
+      "year": 2012,
+      "score": 0.385606,
+      "exploration": 0.633623
+    },
+    {
+      "rank": 5,
+      "title": "Or Nah (feat. Wiz Khalifa & DJ Mustard)",
+      "artist": "Ty Dolla $ign",
+      "year": 2014,
+      "score": 0.378465,
+      "exploration": 0.491313
+    },
+    {
+      "rank": 6,
+      "title": "Crying Out For Me",
+      "artist": "Mario",
+      "year": 2007,
+      "score": 0.410891,
+      "exploration": 0.714286
+    },
+    {
+      "rank": 7,
+      "title": "Never Should Have",
+      "artist": "Ashanti",
+      "year": 2013,
+      "score": 0.420412,
+      "exploration": 0.515506
+    },
+    {
+      "rank": 8,
+      "title": "Don't Matter (Radio Edit)",
+      "artist": "Akon",
+      "year": 2006,
+      "score": 0.369854,
+      "exploration": 0.714286
+    },
+    {
+      "rank": 9,
+      "title": "Erase Me (feat. Kanye West)",
+      "artist": "Kid Cudi",
+      "year": 2010,
+      "score": 0.355931,
+      "exploration": 0.714286
+    },
+    {
+      "rank": 10,
+      "title": "Player's Ball",
+      "artist": "Outkast",
+      "year": 1993,
+      "score": 0.319876,
+      "exploration": 0.635645
+    },
+    {
+      "rank": 11,
+      "title": "Lookin' At Me (feat. Puff Daddy)",
+      "artist": "Mase",
+      "year": 1997,
+      "score": 0.338719,
+      "exploration": 0.666667
+    },
+    {
+      "rank": 12,
+      "title": "Thinkin Bout You",
+      "artist": "Frank Ocean",
+      "year": 2012,
+      "score": 0.231721,
+      "exploration": 0.720625
+    },
+    {
+      "rank": 13,
+      "title": "The Roots (Reprise)",
+      "artist": "Lostep",
+      "year": 2003,
+      "score": 0.350859,
+      "exploration": 0.527138
+    },
+    {
+      "rank": 14,
+      "title": "Peaches and Cream",
+      "artist": "112",
+      "year": 2001,
+      "score": 0.298191,
+      "exploration": 0.714286
+    },
+    {
+      "rank": 15,
+      "title": "Regulate (feat. Nate Dogg)",
+      "artist": "Warren G",
+      "year": 1994,
+      "score": 0.293996,
+      "exploration": 0.702381
+    },
+    {
+      "rank": 16,
+      "title": "Studio (feat. BJ the Chicago Kid)",
+      "artist": "ScHoolboy Q",
+      "year": 2014,
+      "score": 0.280613,
+      "exploration": 0.661212
+    },
+    {
+      "rank": 17,
+      "title": "Oui",
+      "artist": "Jeremih",
+      "year": 2015,
+      "score": 0.249693,
+      "exploration": 0.714286
+    },
+    {
+      "rank": 18,
+      "title": "Ain't It Funny",
+      "artist": "Jennifer Lopez",
+      "year": 2001,
+      "score": 0.308051,
+      "exploration": 0.442847
+    },
+    {
+      "rank": 19,
+      "title": "Luv",
+      "artist": "Tory Lanez",
+      "year": 2016,
+      "score": 0.244619,
+      "exploration": 0.720625
+    },
+    {
+      "rank": 20,
+      "title": "Dang! (feat. Anderson .Paak)",
+      "artist": "Mac Miller",
+      "year": 2016,
+      "score": 0.239849,
+      "exploration": 0.714286
+    }
+  ]
+}

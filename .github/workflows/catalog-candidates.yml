@@ -40,14 +40,14 @@ jobs:
           set -euo pipefail
           if [[ "$EVENT_KIND" == "pull_request" ]]; then
             # Propose a real replenished candidate inventory on this feature branch.
-            python scripts/replenish_candidates.py --target 1000 --pause 0.7 --apply --report candidate-report.json
+            python scripts/replenish_candidates.py --target 1000 --seed-candidates data/candidates_seed.csv --max-per-query 30 --pause 0.7 --apply --report data/catalog_replenishment_report.json
             python scripts/validate_data.py
           else
             if ! [[ "$REQUESTED_TARGET" =~ ^[0-9]+$ ]]; then
               echo "target must be a positive integer" >&2
               exit 1
             fi
-            python scripts/replenish_candidates.py --target "$REQUESTED_TARGET" --pause 0.7 --apply --report candidate-report.json
+            python scripts/replenish_candidates.py --target "$REQUESTED_TARGET" --max-per-query 30 --pause 0.7 --apply --report data/catalog_replenishment_report.json
             python scripts/validate_data.py
           fi
       - name: Commit candidate proposal to feature branch
@@ -57,7 +57,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/candidates.csv
+          git add data/candidates.csv data/catalog_replenishment_report.json
           if ! git diff --cached --quiet; then
             git commit -m "data: replenish verified eligible catalog candidate inventory"
             git push origin "HEAD:$TARGET_BRANCH"
@@ -66,6 +66,6 @@ jobs:
         with:
           name: found-music-catalog-proposal-${{ github.run_id }}
           path: |
-            candidate-report.json
+            data/catalog_replenishment_report.json
             data/candidates.csv
           retention-days: 30

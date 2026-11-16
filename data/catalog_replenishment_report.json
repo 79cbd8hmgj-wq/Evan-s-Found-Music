@@ -1,0 +1,6504 @@
+{
+  "existing_candidates": 73,
+  "new_candidates": 927,
+  "total_candidates": 1000,
+  "target": 1000,
+  "query_count": 31,
+  "unique_query_sources": 31,
+  "max_per_query": 30,
+  "catalog_results": 6094,
+  "filtered_results": 1932,
+  "source": "Apple iTunes Search API, US storefront, catalog release year",
+  "applied": true,
+  "new_provenance": [
+    {
+      "artist": "Fat Joe",
+      "title": "Lean Back (Remix) [feat. Lil Jon, Eminem, Mase & Remy Martin]",
+      "catalog_id": 68061479,
+      "catalog_year": 2005,
+      "query": "Mase"
+    },
+    {
+      "artist": "Blackstreet, Blinky Blink, Mase & Mýa",
+      "title": "Take Me There",
+      "catalog_id": 1444188614,
+      "catalog_year": 1998,
+      "query": "Mase"
+    },
+    {
+      "artist": "The Notorious B.I.G.",
+      "title": "Mo Money Mo Problems (feat. Ma$e & Puff Daddy) [Amended]",
+      "catalog_id": 906586721,
+      "catalog_year": 1997,
+      "query": "Mase"
+    },
+    {
+      "artist": "The Notorious B.I.G.",
+      "title": "Mo Money Mo Problems (feat. Puff Daddy & Mase) [Radio Mix]",
+      "catalog_id": 908310996,
+      "catalog_year": 1997,
+      "query": "Mase"
+    },
+    {
+      "artist": "Puff Daddy & The Family",
+      "title": "Bad Boy's Been Around the World (Remix) [feat. Mase & Carl Thomas] [2016 Remaster]",
+      "catalog_id": 1131823440,
+      "catalog_year": 2016,
+      "query": "Mase"
+    },
+    {
+      "artist": "Styl-Plus",
+      "title": "Mase (Instrumental)",
+      "catalog_id": 1745345938,
+      "catalog_year": 2006,
+      "query": "Mase"
+    },
+    {
+      "artist": "Styl-Plus",
+      "title": "Mase",
+      "catalog_id": 1893643720,
+      "catalog_year": 2006,
+      "query": "Mase"
+    },
+    {
+      "artist": "Kiros Alemayehu",
+      "title": "Mase",
+      "catalog_id": 573801219,
+      "catalog_year": 2007,
+      "query": "Mase"
+    },
+    {
+      "artist": "112",
+      "title": "Only You (feat. The Notorious B.I.G. & Mase) [Bad Boy Remix] [2016 Remaster]",
+      "catalog_id": 1131825809,
+      "catalog_year": 1996,
+      "query": "Mase"
+    },
+    {
+      "artist": "Cam'ron",
+      "title": "Horse & Carriage",
+      "catalog_id": 171187183,
+      "catalog_year": 1998,
+      "query": "Mase"
+    },
+    {
+      "artist": "Mase",
+      "title": "What You Want (feat. Total) [2016 Remaster]",
+      "catalog_id": 1131821428,
+      "catalog_year": 1997,
+      "query": "Mase"
+    },
+    {
+      "artist": "Lázaro Ros",
+      "title": "Mase",
+      "catalog_id": 259982749,
+      "catalog_year": 1995,
+      "query": "Mase"
+    },
+    {
+      "artist": "DJ Clue",
+      "title": "That's the Way (feat. Fabolous Sport, Foxy Brown & Mase)",
+      "catalog_id": 1445883130,
+      "catalog_year": 1998,
+      "query": "Mase"
+    },
+    {
+      "artist": "P. Diddy & Mase",
+      "title": "I'm No Killa (feat. P. Diddy)",
+      "catalog_id": 80969504,
+      "catalog_year": 2004,
+      "query": "Mase"
+    },
+    {
+      "artist": "Mase",
+      "title": "My Harlem Lullaby",
+      "catalog_id": 78977076,
+      "catalog_year": 2004,
+      "query": "Mase"
+    },
+    {
+      "artist": "Mase",
+      "title": "24 Hrs. To Live (feat. The Lox, Black Rob & DMX)",
+      "catalog_id": 587084078,
+      "catalog_year": 1997,
+      "query": "Mase"
+    },
+    {
+      "artist": "The Notorious B.I.G.",
+      "title": "Mo Money Mo Problems (feat. Puff Daddy & Mase) [Radio Mix] [2014 Remaster]",
+      "catalog_id": 1627155419,
+      "catalog_year": 1997,
+      "query": "Mase"
+    },
+    {
+      "artist": "McGruff",
+      "title": "Danger Zone (feat. Big L & Mase)",
+      "catalog_id": 1442271896,
+      "catalog_year": 1998,
+      "query": "Mase"
+    },
+    {
+      "artist": "The Notorious B.I.G.",
+      "title": "Mo Money Mo Problems (feat. Mase & Puff Daddy) [2016 Remaster]",
+      "catalog_id": 1145520763,
+      "catalog_year": 1997,
+      "query": "Mase"
+    },
+    {
+      "artist": "Mase",
+      "title": "Lookin' At Me (feat. Puff Daddy)",
+      "catalog_id": 587084048,
+      "catalog_year": 1997,
+      "query": "Mase"
+    },
+    {
+      "artist": "Mase",
+      "title": "Gotta Survive",
+      "catalog_id": 78977086,
+      "catalog_year": 2004,
+      "query": "Mase"
+    },
+    {
+      "artist": "Mase",
+      "title": "The Love You Need (Featuring Rashad)",
+      "catalog_id": 78977090,
+      "catalog_year": 2004,
+      "query": "Mase"
+    },
+    {
+      "artist": "Mase",
+      "title": "Money Comes and Goes",
+      "catalog_id": 78977099,
+      "catalog_year": 2004,
+      "query": "Mase"
+    },
+    {
+      "artist": "The-Dream, Pusha T, Mase & Cocaine 80s",
+      "title": "Higher",
+      "catalog_id": 1443478992,
+      "catalog_year": 2012,
+      "query": "Mase"
+    },
+    {
+      "artist": "Mase",
+      "title": "Wasting My Time",
+      "catalog_id": 78977084,
+      "catalog_year": 2004,
+      "query": "Mase"
+    },
+    {
+      "artist": "Puff Daddy & The Family",
+      "title": "Can't Nobody Hold Me Down (feat. Mase) [2016 Remaster]",
+      "catalog_id": 1145520767,
+      "catalog_year": 1997,
+      "query": "Mase"
+    },
+    {
+      "artist": "Mase",
+      "title": "I Owe",
+      "catalog_id": 78977080,
+      "catalog_year": 2004,
+      "query": "Mase"
+    },
+    {
+      "artist": "Mase",
+      "title": "Feel So Good (Greatest Hits Version)",
+      "catalog_id": 96119300,
+      "catalog_year": 1997,
+      "query": "Mase"
+    },
+    {
+      "artist": "Mase",
+      "title": "Do You Remember (Featuring Cardan)",
+      "catalog_id": 78977114,
+      "catalog_year": 2004,
+      "query": "Mase"
+    },
+    {
+      "artist": "Mase",
+      "title": "The Player Way (feat. 8Ball & MJG)",
+      "catalog_id": 587084071,
+      "catalog_year": 1997,
+      "query": "Mase"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "Halfcrazy",
+      "catalog_id": 1440927693,
+      "catalog_year": 2002,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "Teachme",
+      "catalog_id": 303289598,
+      "catalog_year": 2006,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "So Beautiful",
+      "catalog_id": 298144089,
+      "catalog_year": 2008,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "Dontchange",
+      "catalog_id": 1440927943,
+      "catalog_year": 2002,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "Love",
+      "catalog_id": 1442765749,
+      "catalog_year": 2000,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "B.U.D.D.Y.",
+      "catalog_id": 303289584,
+      "catalog_year": 2007,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "If U Leave (feat. Mary J. Blige)",
+      "catalog_id": 298144075,
+      "catalog_year": 2008,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "Whoknows",
+      "catalog_id": 1443163245,
+      "catalog_year": 2003,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "I Do",
+      "catalog_id": 1092199812,
+      "catalog_year": 2016,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "Girl Next Door (feat. Ayana)",
+      "catalog_id": 1440921037,
+      "catalog_year": 2000,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "Musiq Soulchild (Interlude)",
+      "catalog_id": 1440921205,
+      "catalog_year": 2000,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "Mary Go Round (feat. Osunlade)",
+      "catalog_id": 1440921195,
+      "catalog_year": 2000,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "Deserve You More",
+      "catalog_id": 298144076,
+      "catalog_year": 2008,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Robert Glasper Experiment",
+      "title": "Ah Yeah (feat. Musiq Soulchild & Chrisette Michele)",
+      "catalog_id": 716753715,
+      "catalog_year": 2011,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "Yes",
+      "catalog_id": 432804644,
+      "catalog_year": 2011,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "Previouscats",
+      "catalog_id": 1440927861,
+      "catalog_year": 2002,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "India.Arie",
+      "title": "Chocolate High (feat. Musiq Soulchild)",
+      "catalog_id": 1440754498,
+      "catalog_year": 2009,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "Forthenight (feat. Aaries)",
+      "catalog_id": 1443163241,
+      "catalog_year": 2003,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "You and Me",
+      "catalog_id": 1440921039,
+      "catalog_year": 2000,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "Bestfriend",
+      "catalog_id": 1440927942,
+      "catalog_year": 2002,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "Takeyouthere",
+      "catalog_id": 303289683,
+      "catalog_year": 2007,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "143",
+      "catalog_id": 1440921198,
+      "catalog_year": 2000,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "Greatestlove",
+      "catalog_id": 303289694,
+      "catalog_year": 2007,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "Lullaby",
+      "catalog_id": 303289684,
+      "catalog_year": 2007,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "My Girl",
+      "catalog_id": 1440921203,
+      "catalog_year": 2000,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Anthony Hamilton, Jaheim & Musiq Soulchild",
+      "title": "Struggle No More (Main Event)",
+      "catalog_id": 211113918,
+      "catalog_year": 2007,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "Today",
+      "catalog_id": 303289628,
+      "catalog_year": 2007,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "Newness",
+      "catalog_id": 1440927679,
+      "catalog_year": 2002,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "Settle for My Love (feat. Aaries)",
+      "catalog_id": 1440921218,
+      "catalog_year": 2000,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Musiq Soulchild",
+      "title": "Someone",
+      "catalog_id": 298144083,
+      "catalog_year": 2008,
+      "query": "Musiq Soulchild"
+    },
+    {
+      "artist": "Unk featuring OutKast & Jim Jones",
+      "title": "Walk It Out (Remix) [feat. OutKast & Jim Jones]",
+      "catalog_id": 212848086,
+      "catalog_year": 2007,
+      "query": "Outkast"
+    },
+    {
+      "artist": "Outkast",
+      "title": "GhettoMusick (Radio Mix)",
+      "catalog_id": 1774798885,
+      "catalog_year": 2003,
+      "query": "Outkast"
+    },
+    {
+      "artist": "Outkast",
+      "title": "Hold On Be Strong",
+      "catalog_id": 266365277,
+      "catalog_year": 1998,
+      "query": "Outkast"
+    },
+    {
+      "artist": "Outkast",
+      "title": "Funky Ride",
+      "catalog_id": 266365468,
+      "catalog_year": 1994,
+      "query": "Outkast"
+    },
+    {
+      "artist": "Outkast",
+      "title": "Pink & Blue",
+      "catalog_id": 1774797013,
+      "catalog_year": 2003,
+      "query": "Outkast"
+    },
+    {
+      "artist": "P.O.D.",
+      "title": "Outkast (Live - Clean)",
+      "catalog_id": 193033034,
+      "catalog_year": 2001,
+      "query": "Outkast"
+    },
+    {
+      "artist": "Outkast",
+      "title": "Prototype",
+      "catalog_id": 1774799815,
+      "catalog_year": 2003,
+      "query": "Outkast"
+    },
+    {
+      "artist": "Outkast",
+      "title": "The Love Below (Intro)",
+      "catalog_id": 1774796863,
+      "catalog_year": 2003,
+      "query": "Outkast"
+    },
+    {
+      "artist": "Outkast",
+      "title": "Hey Ya!",
+      "catalog_id": 1774799818,
+      "catalog_year": 2003,
+      "query": "Outkast"
+    },
+    {
+      "artist": "Outkast",
+      "title": "The Way You Move (feat. Sleepy Brown) [Radio Mix]",
+      "catalog_id": 1774798905,
+      "catalog_year": 2003,
+      "query": "Outkast"
+    },
+    {
+      "artist": "Outkast",
+      "title": "Ms. Jackson (Radio Mix)",
+      "catalog_id": 1536684150,
+      "catalog_year": 2000,
+      "query": "Outkast"
+    },
+    {
+      "artist": "P.O.D.",
+      "title": "Outkast (New Version + Hidden Track \"Tambura\")",
+      "catalog_id": 539448608,
+      "catalog_year": 1999,
+      "query": "Outkast"
+    },
+    {
+      "artist": "Belly",
+      "title": "Outkast (feat. Ty Dolla $ign)",
+      "catalog_id": 1443231910,
+      "catalog_year": 2016,
+      "query": "Outkast"
+    },
+    {
+      "artist": "Outkast",
+      "title": "Dracula's Wedding (feat. Kelis)",
+      "catalog_id": 1774799971,
+      "catalog_year": 2003,
+      "query": "Outkast"
+    },
+    {
+      "artist": "Outkast",
+      "title": "You May Die (Intro)",
+      "catalog_id": 263570539,
+      "catalog_year": 1996,
+      "query": "Outkast"
+    },
+    {
+      "artist": "J Doze & Kojo a.",
+      "title": "Outkast",
+      "catalog_id": 1752900778,
+      "catalog_year": 2016,
+      "query": "Outkast"
+    },
+    {
+      "artist": "P.O.D.",
+      "title": "Outkast (Live)",
+      "catalog_id": 192709459,
+      "catalog_year": 2001,
+      "query": "Outkast"
+    },
+    {
+      "artist": "Outkast",
+      "title": "God (Interlude)",
+      "catalog_id": 1774796865,
+      "catalog_year": 2003,
+      "query": "Outkast"
+    },
+    {
+      "artist": "Outkast",
+      "title": "She Lives in My Lap (feat. Rosario Dawson)",
+      "catalog_id": 1774796995,
+      "catalog_year": 2003,
+      "query": "Outkast"
+    },
+    {
+      "artist": "Outkast",
+      "title": "Mighty \"O\"",
+      "catalog_id": 177390151,
+      "catalog_year": 2006,
+      "query": "Outkast"
+    },
+    {
+      "artist": "Outkast",
+      "title": "Player's Ball (Reprise)",
+      "catalog_id": 266365547,
+      "catalog_year": 1994,
+      "query": "Outkast"
+    },
+    {
+      "artist": "Outkast",
+      "title": "The Whole World (feat. Killer Mike)",
+      "catalog_id": 1536682705,
+      "catalog_year": 2001,
+      "query": "Outkast"
+    },
+    {
+      "artist": "Outkast",
+      "title": "So Fresh, So Clean (Radio Mix)",
+      "catalog_id": 1536684147,
+      "catalog_year": 2000,
+      "query": "Outkast"
+    },
+    {
+      "artist": "Outkast",
+      "title": "Stankonia (Stanklove) [feat. Big Rube & Sleepy Brown]",
+      "catalog_id": 255839246,
+      "catalog_year": 2000,
+      "query": "Outkast"
+    },
+    {
+      "artist": "Outkast",
+      "title": "Toilet Tisha",
+      "catalog_id": 255838367,
+      "catalog_year": 2000,
+      "query": "Outkast"
+    },
+    {
+      "artist": "Outkast",
+      "title": "Rosa Parks (Radio Version)",
+      "catalog_id": 1536669653,
+      "catalog_year": 1998,
+      "query": "Outkast"
+    },
+    {
+      "artist": "Monica",
+      "title": "Gone Be Fine (feat. OutKast)",
+      "catalog_id": 258595728,
+      "catalog_year": 1998,
+      "query": "Outkast"
+    },
+    {
+      "artist": "Outkast",
+      "title": "Church",
+      "catalog_id": 1774796731,
+      "catalog_year": 2003,
+      "query": "Outkast"
+    },
+    {
+      "artist": "Outkast",
+      "title": "B.O.B. (Bombs Over Baghdad)",
+      "catalog_id": 1536684348,
+      "catalog_year": 2000,
+      "query": "Outkast"
+    },
+    {
+      "artist": "Outkast",
+      "title": "Elevators (Me & You)",
+      "catalog_id": 298566423,
+      "catalog_year": 1996,
+      "query": "Outkast"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "Family Affair",
+      "catalog_id": 1442964068,
+      "catalog_year": 2001,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "Everything",
+      "catalog_id": 1440818116,
+      "catalog_year": 1997,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "Not Gon' Cry",
+      "catalog_id": 1440818137,
+      "catalog_year": 1995,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "Real Love",
+      "catalog_id": 1440817021,
+      "catalog_year": 1992,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "Be Without You (Kendu Mix)",
+      "catalog_id": 1440827944,
+      "catalog_year": 2005,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "Mr. Wrong (feat. Drake)",
+      "catalog_id": 1442989073,
+      "catalog_year": 2011,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "Just Fine",
+      "catalog_id": 1440828585,
+      "catalog_year": 2007,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "I'm Goin' Down",
+      "catalog_id": 1440836612,
+      "catalog_year": 1994,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "Take Me As I Am",
+      "catalog_id": 1440828379,
+      "catalog_year": 2005,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "Sweet Thing",
+      "catalog_id": 1440817273,
+      "catalog_year": 1992,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "My Life",
+      "catalog_id": 1440838052,
+      "catalog_year": 1994,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "I Can Love You (feat. Lil' Kim)",
+      "catalog_id": 1440817961,
+      "catalog_year": 1997,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "Enough Cryin (feat. Brook Lynn)",
+      "catalog_id": 1440827935,
+      "catalog_year": 2005,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "Share My World",
+      "catalog_id": 1440818034,
+      "catalog_year": 1997,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "Mary Jane (All Night Long)",
+      "catalog_id": 1440837686,
+      "catalog_year": 1994,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "Be Happy",
+      "catalog_id": 1440838496,
+      "catalog_year": 1994,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "Rainy Dayz (feat. Ja Rule)",
+      "catalog_id": 1442964255,
+      "catalog_year": 2001,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "Love a Woman (feat. Beyoncé)",
+      "catalog_id": 1442989077,
+      "catalog_year": 2011,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Case",
+      "title": "Touch Me Tease Me (feat. Foxy Brown & Mary J. Blige)",
+      "catalog_id": 1440817882,
+      "catalog_year": 1996,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "You Gotta Believe",
+      "catalog_id": 1440838058,
+      "catalog_year": 1994,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "Don't Mind",
+      "catalog_id": 1442989070,
+      "catalog_year": 2011,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "Mary's Joint",
+      "catalog_id": 1440838295,
+      "catalog_year": 1994,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "No More Drama",
+      "catalog_id": 1440817934,
+      "catalog_year": 2001,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "Love No Limit",
+      "catalog_id": 1440817275,
+      "catalog_year": 1992,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "Your Child",
+      "catalog_id": 1446021571,
+      "catalog_year": 1999,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "You Remind Me",
+      "catalog_id": 1440817025,
+      "catalog_year": 1992,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Wyclef Jean",
+      "title": "911 (feat. Mary J. Blige)",
+      "catalog_id": 203304384,
+      "catalog_year": 2000,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "Don't Go",
+      "catalog_id": 1440838300,
+      "catalog_year": 1994,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "Be With You",
+      "catalog_id": 1440838291,
+      "catalog_year": 1994,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "I Never Wanna Live Without You",
+      "catalog_id": 1440838273,
+      "catalog_year": 1994,
+      "query": "Mary J. Blige"
+    },
+    {
+      "artist": "2Pac",
+      "title": "Hail Mary",
+      "catalog_id": 1440661820,
+      "catalog_year": 1996,
+      "query": "2Pac"
+    },
+    {
+      "artist": "2Pac",
+      "title": "Dear Mama",
+      "catalog_id": 1440662208,
+      "catalog_year": 1995,
+      "query": "2Pac"
+    },
+    {
+      "artist": "2Pac",
+      "title": "Changes (1998 Greatest Hits) [Edit] [feat. Talent]",
+      "catalog_id": 1440662037,
+      "catalog_year": 1998,
+      "query": "2Pac"
+    },
+    {
+      "artist": "Keyshia Cole",
+      "title": "Playa Cardz Right (feat. 2Pac)",
+      "catalog_id": 1444011080,
+      "catalog_year": 2008,
+      "query": "2Pac"
+    },
+    {
+      "artist": "2Pac",
+      "title": "California Love (feat. Dr. Dre & Roger Troutman) [Remix]",
+      "catalog_id": 1588493576,
+      "catalog_year": 1996,
+      "query": "2Pac"
+    },
+    {
+      "artist": "2Pac",
+      "title": "How Do U Want It (feat. K-Ci & JoJo)",
+      "catalog_id": 1588493349,
+      "catalog_year": 1996,
+      "query": "2Pac"
+    },
+    {
+      "artist": "2Pac",
+      "title": "California Love (feat. Roger Troutman & Dr. Dre)",
+      "catalog_id": 1440662041,
+      "catalog_year": 1995,
+      "query": "2Pac"
+    },
+    {
+      "artist": "2Pac",
+      "title": "Keep Ya Head Up",
+      "catalog_id": 1440661721,
+      "catalog_year": 1993,
+      "query": "2Pac"
+    },
+    {
+      "artist": "2Pac",
+      "title": "Hit 'Em Up",
+      "catalog_id": 1440661926,
+      "catalog_year": 1998,
+      "query": "2Pac"
+    },
+    {
+      "artist": "2Pac",
+      "title": "All About U (feat. Yani Hadati, Snoop Doggy Dogg, Nate Dogg & Fatal)",
+      "catalog_id": 1588493095,
+      "catalog_year": 1996,
+      "query": "2Pac"
+    },
+    {
+      "artist": "2Pac",
+      "title": "How Do U Want It (feat. K-Ci & JoJo) [Edit]",
+      "catalog_id": 1440661834,
+      "catalog_year": 1996,
+      "query": "2Pac"
+    },
+    {
+      "artist": "2Pac",
+      "title": "2 Of Amerikaz Most Wanted (feat. Snoop Dogg)",
+      "catalog_id": 1588493354,
+      "catalog_year": 1996,
+      "query": "2Pac"
+    },
+    {
+      "artist": "2Pac",
+      "title": "Runnin (Dying To Live)",
+      "catalog_id": 1434905437,
+      "catalog_year": 2003,
+      "query": "2Pac"
+    },
+    {
+      "artist": "2Pac",
+      "title": "I Ain't Mad At Cha (feat. Danny Boy)",
+      "catalog_id": 1440662029,
+      "catalog_year": 1998,
+      "query": "2Pac"
+    },
+    {
+      "artist": "2Pac",
+      "title": "Picture Me Rollin' (feat. Danny Boy, Syke & CPO)",
+      "catalog_id": 1440662045,
+      "catalog_year": 1998,
+      "query": "2Pac"
+    },
+    {
+      "artist": "2Pac",
+      "title": "All Eyez On Me (feat. Big Syke)",
+      "catalog_id": 1588494313,
+      "catalog_year": 1996,
+      "query": "2Pac"
+    },
+    {
+      "artist": "2Pac",
+      "title": "Until the End of Time",
+      "catalog_id": 1445734532,
+      "catalog_year": 2001,
+      "query": "2Pac"
+    },
+    {
+      "artist": "2Pac",
+      "title": "Starin' Through My Rear View",
+      "catalog_id": 1434905861,
+      "catalog_year": 2003,
+      "query": "2Pac"
+    },
+    {
+      "artist": "2Pac",
+      "title": "So Many Tears",
+      "catalog_id": 1440661839,
+      "catalog_year": 1995,
+      "query": "2Pac"
+    },
+    {
+      "artist": "Jaysus",
+      "title": "2Pac (Instrumental)",
+      "catalog_id": 1044720198,
+      "catalog_year": 2015,
+      "query": "2Pac"
+    },
+    {
+      "artist": "2Pac",
+      "title": "To Live and Die In L.A.",
+      "catalog_id": 1440662216,
+      "catalog_year": 1998,
+      "query": "2Pac"
+    },
+    {
+      "artist": "Ja Rule",
+      "title": "So Much Pain (feat. 2Pac)",
+      "catalog_id": 1371598172,
+      "catalog_year": 2001,
+      "query": "2Pac"
+    },
+    {
+      "artist": "2Pac",
+      "title": "Temptations",
+      "catalog_id": 1440661748,
+      "catalog_year": 1995,
+      "query": "2Pac"
+    },
+    {
+      "artist": "2Pac",
+      "title": "Troublesome '96 (1998 Greatest Hits) [Edit]",
+      "catalog_id": 1440662023,
+      "catalog_year": 1998,
+      "query": "2Pac"
+    },
+    {
+      "artist": "2Pac",
+      "title": "Only God Can Judge Me (feat. Rappin' 4-Tay)",
+      "catalog_id": 1588493567,
+      "catalog_year": 1996,
+      "query": "2Pac"
+    },
+    {
+      "artist": "2Pac",
+      "title": "Big Syke Interlude",
+      "catalog_id": 1452791316,
+      "catalog_year": 2001,
+      "query": "2Pac"
+    },
+    {
+      "artist": "2Pac",
+      "title": "Unconditional Love (1998 Greatest Hits)",
+      "catalog_id": 1440661905,
+      "catalog_year": 1998,
+      "query": "2Pac"
+    },
+    {
+      "artist": "Jon B.",
+      "title": "Pt. 2 (feat. 2Pac)",
+      "catalog_id": 1436293675,
+      "catalog_year": 2004,
+      "query": "2Pac"
+    },
+    {
+      "artist": "2Pac",
+      "title": "Dear Mama (Remix Version) [feat. Anthony Hamilton]",
+      "catalog_id": 1440649997,
+      "catalog_year": 2006,
+      "query": "2Pac"
+    },
+    {
+      "artist": "2Pac",
+      "title": "Me Against the World",
+      "catalog_id": 1440661829,
+      "catalog_year": 1998,
+      "query": "2Pac"
+    },
+    {
+      "artist": "Aaliyah",
+      "title": "Rock The Boat",
+      "catalog_id": 1816084280,
+      "catalog_year": 2001,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Aaliyah",
+      "title": "At Your Best (You Are Love)",
+      "catalog_id": 254938889,
+      "catalog_year": 1994,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Aaliyah",
+      "title": "4 Page Letter",
+      "catalog_id": 1769721519,
+      "catalog_year": 1996,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Aaliyah",
+      "title": "I Care 4 U",
+      "catalog_id": 1816084536,
+      "catalog_year": 2001,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Aaliyah",
+      "title": "Miss You",
+      "catalog_id": 1816085114,
+      "catalog_year": 2002,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Aaliyah",
+      "title": "Come Over (feat. Tank)",
+      "catalog_id": 1816085282,
+      "catalog_year": 2002,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Aaliyah",
+      "title": "If Your Girl Only Knew",
+      "catalog_id": 1769721515,
+      "catalog_year": 1996,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Aaliyah",
+      "title": "Try Again",
+      "catalog_id": 1816084755,
+      "catalog_year": 2000,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Aaliyah",
+      "title": "More Than A Woman",
+      "catalog_id": 1816084283,
+      "catalog_year": 2001,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Aaliyah",
+      "title": "Back & Forth",
+      "catalog_id": 254938753,
+      "catalog_year": 1994,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Aaliyah",
+      "title": "The One I Gave My Heart To",
+      "catalog_id": 1769721681,
+      "catalog_year": 1996,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Chris Brown",
+      "title": "Don't Think They Know (feat. Aaliyah)",
+      "catalog_id": 920686029,
+      "catalog_year": 2013,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Aaliyah",
+      "title": "We Need A Resolution (feat. Timbaland)",
+      "catalog_id": 1816084275,
+      "catalog_year": 2001,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Aaliyah",
+      "title": "Age Ain't Nothing But a Number",
+      "catalog_id": 254938802,
+      "catalog_year": 1994,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Aaliyah",
+      "title": "Choosey Lover (Old School / New School)",
+      "catalog_id": 1769721516,
+      "catalog_year": 1996,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Aaliyah",
+      "title": "I'm So Into You",
+      "catalog_id": 254939258,
+      "catalog_year": 1994,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Katy B",
+      "title": "Aaliyah (feat. Jessie Ware)",
+      "catalog_id": 771706099,
+      "catalog_year": 2014,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "Final Warning (feat. Aaliyah)",
+      "catalog_id": 190423997,
+      "catalog_year": 1999,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Missy Elliott",
+      "title": "Best Friends (feat. Aaliyah)",
+      "catalog_id": 302943641,
+      "catalog_year": 1997,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Aaliyah",
+      "title": "At Your Best (You Are Love) [Gangstar Child Remix]",
+      "catalog_id": 1197452122,
+      "catalog_year": 1994,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Aaliyah",
+      "title": "Street Thing",
+      "catalog_id": 254939312,
+      "catalog_year": 1994,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Lorik",
+      "title": "Aaliyah",
+      "catalog_id": 1668260618,
+      "catalog_year": 2016,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Aaliyah",
+      "title": "Hot Like Fire",
+      "catalog_id": 1769721512,
+      "catalog_year": 1996,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Sophia Eris",
+      "title": "Aaliyah",
+      "catalog_id": 1142149446,
+      "catalog_year": 2016,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Aaliyah",
+      "title": "I Don't Wanna",
+      "catalog_id": 1816083961,
+      "catalog_year": 2000,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Aaliyah",
+      "title": "It's Whatever",
+      "catalog_id": 1816084743,
+      "catalog_year": 2001,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Aaliyah",
+      "title": "Hot Like Fire (Timbaland's Groove Mix) [feat. Missy Elliott & Timbaland] [Bonus]",
+      "catalog_id": 1769721683,
+      "catalog_year": 1996,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Aaliyah",
+      "title": "Down With the Clique",
+      "catalog_id": 254938858,
+      "catalog_year": 1994,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Aaliyah",
+      "title": "A Girl Like You (feat. Treach)",
+      "catalog_id": 1769721514,
+      "catalog_year": 1996,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "Aaliyah",
+      "title": "I'm Down",
+      "catalog_id": 254939756,
+      "catalog_year": 1994,
+      "query": "Aaliyah"
+    },
+    {
+      "artist": "USHER",
+      "title": "Throwback (feat. Jadakiss)",
+      "catalog_id": 386153543,
+      "catalog_year": 2004,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "Mýa",
+      "title": "Best Of Me (feat. Jadakiss) [lp]",
+      "catalog_id": 1443750526,
+      "catalog_year": 2000,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "Ryan Leslie",
+      "title": "How It Was Supposed to Be (feat. Jadakiss) [Remix]",
+      "catalog_id": 1443494615,
+      "catalog_year": 2009,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "Styles P",
+      "title": "Problem Child (feat. Jadakiss)",
+      "catalog_id": 261369985,
+      "catalog_year": 2007,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "Teedra Moses",
+      "title": "You'll Never Find (a Better Woman) [feat. Jadakiss]",
+      "catalog_id": 1480258056,
+      "catalog_year": 2004,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "Jadakiss",
+      "title": "Hold You Down (feat. Emanny)",
+      "catalog_id": 1442920828,
+      "catalog_year": 2011,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "Mario",
+      "title": "Let Me Love You (Remix) [feat. Jadakiss & T.I.]",
+      "catalog_id": 257524671,
+      "catalog_year": 2004,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "Mariah Carey",
+      "title": "We Belong Together (feat. Jadakiss & Styles P) [Remix]",
+      "catalog_id": 1549739607,
+      "catalog_year": 2005,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "Clipse",
+      "title": "I'm Not You (feat. Jadakiss, Styles P & Rosco P. Coldchain)",
+      "catalog_id": 309071829,
+      "catalog_year": 2002,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "Jennifer Lopez",
+      "title": "Jenny from the Block (feat. Jadakiss & Styles P) [Track Masters Remix]",
+      "catalog_id": 190849540,
+      "catalog_year": 2002,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "DJ Khaled",
+      "title": "Don't Ever Play Yourself (feat. Jadakiss, Fabolous, Fat Joe, Busta Rhymes & Kent Jones)",
+      "catalog_id": 1127957622,
+      "catalog_year": 2016,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "Ruff Ryders",
+      "title": "WW III (feat. Snoop Dogg, Scarface, Jadakiss & Yung Wun)",
+      "catalog_id": 1442873477,
+      "catalog_year": 2000,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "Mýa",
+      "title": "Best of Me (feat. Jadakiss)",
+      "catalog_id": 1507274480,
+      "catalog_year": 2000,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "Jadakiss",
+      "title": "By My Side (feat. Ne-Yo)",
+      "catalog_id": 1443493569,
+      "catalog_year": 2009,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "Bilal",
+      "title": "Fast Lane (feat. Jadakiss & Dr. Dre) [Dr. Dre & Jadakiss Remix]",
+      "catalog_id": 1440902172,
+      "catalog_year": 2001,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "Styles P",
+      "title": "Ms. Jackson (feat. Jadakiss)",
+      "catalog_id": 261368984,
+      "catalog_year": 2007,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "Jadakiss",
+      "title": "We Gonna Make It (feat. Styles of the Lox)",
+      "catalog_id": 1452803541,
+      "catalog_year": 2001,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "Sexy (feat. Jadakiss)",
+      "catalog_id": 1446021248,
+      "catalog_year": 1999,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "Ruff Ryders",
+      "title": "Kiss of Death (feat. Jadakiss)",
+      "catalog_id": 1443595673,
+      "catalog_year": 1999,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "DJ Clue",
+      "title": "Ruff Ryders Anthem (feat. DMX, Jadakiss, Styles, Styles P, Ebony Vibe Everlasting & Drag-On) [Remix]",
+      "catalog_id": 1445883101,
+      "catalog_year": 1998,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "DJ Hotday",
+      "title": "Blockwork (feat. Jadakiss & Styles P)",
+      "catalog_id": 1070970397,
+      "catalog_year": 2015,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "ScHoolboy Q",
+      "title": "Groovy Tony / Eddie Kane (feat. Jadakiss)",
+      "catalog_id": 1442872518,
+      "catalog_year": 2016,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "DJ Khaled",
+      "title": "All I Do Is Win (Remix) [feat. T-Pain, Diddy, Nicki Minaj, Rick Ross, Busta Rhymes, Fabolous, Jadakiss, Fat Joe, Swizz Beatz]",
+      "catalog_id": 377100239,
+      "catalog_year": 2010,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "Mariah Carey",
+      "title": "Miss You (feat. Jadakiss)",
+      "catalog_id": 186216533,
+      "catalog_year": 2001,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "Uncle Murda",
+      "title": "Right Now (Remix) [feat. Future, Fabolous & Jadakiss]",
+      "catalog_id": 1103869133,
+      "catalog_year": 2016,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "Hurricane Chris",
+      "title": "A Bay Bay (The Ratchet Remix) [Radio Edit] [feat. The Game, Lil Boosie, Baby, E-40, Angie Locc & Jadakiss]",
+      "catalog_id": 262915871,
+      "catalog_year": 2007,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "Jadakiss",
+      "title": "How I Feel",
+      "catalog_id": 1442920833,
+      "catalog_year": 2011,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "Styles P",
+      "title": "Shots Fired (feat. Jadakiss)",
+      "catalog_id": 261368306,
+      "catalog_year": 2007,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "Rick Ross",
+      "title": "Maybach Music III (feat. T.I., Jadakiss & Erykah Badu)",
+      "catalog_id": 1445837652,
+      "catalog_year": 2010,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "Kanye West, Chief Keef, Pusha T, Big Sean & Jadakiss",
+      "title": "Don't Like",
+      "catalog_id": 1443479015,
+      "catalog_year": 2012,
+      "query": "Jadakiss"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "Where I Wanna Be",
+      "catalog_id": 283566853,
+      "catalog_year": 1999,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "This Luv",
+      "catalog_id": 283566855,
+      "catalog_year": 1999,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "Have You Seen Her",
+      "catalog_id": 283566854,
+      "catalog_year": 1999,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "I Hope It's You",
+      "catalog_id": 286588766,
+      "catalog_year": 2002,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "Natural Thang",
+      "catalog_id": 287018843,
+      "catalog_year": 1996,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "I Wanna Luv U",
+      "catalog_id": 283566863,
+      "catalog_year": 1999,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "Knocks Me Off My Feet",
+      "catalog_id": 263114229,
+      "catalog_year": 1996,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "Do U Wanna",
+      "catalog_id": 286588640,
+      "catalog_year": 2002,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "You Know That I Love You",
+      "catalog_id": 286588613,
+      "catalog_year": 2002,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "My Apology",
+      "catalog_id": 163996885,
+      "catalog_year": 2006,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "All Her Love",
+      "catalog_id": 283566857,
+      "catalog_year": 1999,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "Think About It (Don't Call My Crib)",
+      "catalog_id": 283566860,
+      "catalog_year": 1999,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "In the Hood (Remix Version With Rap)",
+      "catalog_id": 287018848,
+      "catalog_year": 1996,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "He Won't Hurt You",
+      "catalog_id": 283566861,
+      "catalog_year": 1999,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "Life Goes On",
+      "catalog_id": 286588679,
+      "catalog_year": 2002,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "It's Alright",
+      "catalog_id": 283566858,
+      "catalog_year": 1999,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "No Interruptions",
+      "catalog_id": 287018763,
+      "catalog_year": 1996,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "I'll Go",
+      "catalog_id": 1065277841,
+      "catalog_year": 2000,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "Guilty By Suspicion",
+      "catalog_id": 286588712,
+      "catalog_year": 2002,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "Love Like This",
+      "catalog_id": 391142902,
+      "catalog_year": 2010,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "In the Hood (Playas Version)",
+      "catalog_id": 287018760,
+      "catalog_year": 1996,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "Yearnin'",
+      "catalog_id": 287018833,
+      "catalog_year": 1996,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "Better Start Talking (feat. Jermaine Dupri)",
+      "catalog_id": 400820836,
+      "catalog_year": 2005,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "Freakin' U",
+      "catalog_id": 286588683,
+      "catalog_year": 2002,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "Special Girl",
+      "catalog_id": 163996711,
+      "catalog_year": 2006,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "Don't Leave",
+      "catalog_id": 286588733,
+      "catalog_year": 2002,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Big Punisher featuring Donell Jones",
+      "title": "It's So Hard (feat. Donell Jones)",
+      "catalog_id": 194380335,
+      "catalog_year": 2000,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "Pushin'",
+      "catalog_id": 283566862,
+      "catalog_year": 1999,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "Forever",
+      "catalog_id": 663432271,
+      "catalog_year": 2013,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Donell Jones",
+      "title": "Put Me Down",
+      "catalog_id": 286588610,
+      "catalog_year": 2002,
+      "query": "Donell Jones"
+    },
+    {
+      "artist": "Katy Perry",
+      "title": "California Gurls (feat. Snoop Dogg)",
+      "catalog_id": 716192621,
+      "catalog_year": 2010,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "Snoop Dogg",
+      "title": "Sensual Seduction",
+      "catalog_id": 1442952035,
+      "catalog_year": 2007,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "Snoop Dogg",
+      "title": "Drop It Like It's Hot (feat. Pharrell Williams)",
+      "catalog_id": 1443396469,
+      "catalog_year": 2004,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "The Pussycat Dolls",
+      "title": "Buttons (feat. Snoop Dogg)",
+      "catalog_id": 1894116306,
+      "catalog_year": 2005,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "DJ Khaled",
+      "title": "All I Do Is Win (feat. T-Pain, Ludacris, Snoop Dogg & Rick Ross)",
+      "catalog_id": 353859978,
+      "catalog_year": 2010,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "Snoop Dogg & Tha Eastsidaz",
+      "title": "G'd Up",
+      "catalog_id": 258231571,
+      "catalog_year": 1999,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "Jason Derulo",
+      "title": "Wiggle (feat. Snoop Dogg)",
+      "catalog_id": 840381891,
+      "catalog_year": 2013,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "Lucy Pearl",
+      "title": "You (feat. Snoop Dogg & Q-TIp)",
+      "catalog_id": 324204919,
+      "catalog_year": 2000,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "Dr. Dre",
+      "title": "Still D.R.E. (feat. Snoop Dogg)",
+      "catalog_id": 1444156738,
+      "catalog_year": 1999,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "Snoop Dogg",
+      "title": "Snoop Dogg (What's My Name, Pt. 2)",
+      "catalog_id": 713295841,
+      "catalog_year": 2005,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "Dr. Dre",
+      "title": "The Next Episode (feat. Snoop Dogg)",
+      "catalog_id": 1444157225,
+      "catalog_year": 1999,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "Snoop Dogg",
+      "title": "Peaches N Cream (feat. Charlie Wilson)",
+      "catalog_id": 961256309,
+      "catalog_year": 2015,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "Pharrell Williams & Snoop Dogg",
+      "title": "Drop It Like It's Hot (Radio Edit)",
+      "catalog_id": 1445287607,
+      "catalog_year": 2004,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "Mariah Carey",
+      "title": "Say Somethin' (feat. Snoop Dogg)",
+      "catalog_id": 1476731900,
+      "catalog_year": 2005,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "Akon featuring Snoop Dogg",
+      "title": "I Wanna Love You (feat. Snoop Dogg)",
+      "catalog_id": 1444055865,
+      "catalog_year": 2006,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "Bow Wow",
+      "title": "Bow Wow (That's My Name) [feat. Snoop Dogg]",
+      "catalog_id": 315027773,
+      "catalog_year": 2000,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "Willie Nelson, Snoop Dogg, Kris Kristofferson & Jamey Johnson",
+      "title": "Roll Me Up",
+      "catalog_id": 515411672,
+      "catalog_year": 2012,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "Snoop Dogg",
+      "title": "Riders On the Storm (feat. The Doors) [Fredwreck Remix]",
+      "catalog_id": 1444616251,
+      "catalog_year": 2007,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "Snoop Dogg & Wiz Khalifa",
+      "title": "Young, Wild & Free (feat. Bruno Mars)",
+      "catalog_id": 480436529,
+      "catalog_year": 2011,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "Dr. Dre",
+      "title": "Nuthin' but a \"G\" Thang (feat. Snoop Dogg)",
+      "catalog_id": 1440836236,
+      "catalog_year": 2016,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "Prince Royce",
+      "title": "Stuck On a Feeling (feat. Snoop Dogg)",
+      "catalog_id": 1012472803,
+      "catalog_year": 2014,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "Snoop Dogg & Anna Kendrick",
+      "title": "Winter Wonderland / Here Comes Santa Claus (From \"Pitch Perfect 2\" Soundtrack)",
+      "catalog_id": 1440661622,
+      "catalog_year": 2015,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "Snoop Dogg",
+      "title": "Sensual Seduction (feat. Robyn) [Fyre Dept. Remix]",
+      "catalog_id": 1444305804,
+      "catalog_year": 2007,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "Gorillaz",
+      "title": "Welcome To the World of the Plastic Beach (feat. Snoop Dogg and Hypnotic Brass Ensemble)",
+      "catalog_id": 859844931,
+      "catalog_year": 2010,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "John Legend",
+      "title": "I Can Change (feat. Snoop Dogg)",
+      "catalog_id": 1451363344,
+      "catalog_year": 2004,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "Snoop Dogg & David Guetta",
+      "title": "Sweat (Snoop Dogg vs. David Guetta) [Remix]",
+      "catalog_id": 715950128,
+      "catalog_year": 2010,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "Snoop Dogg",
+      "title": "California Roll (feat. Stevie Wonder)",
+      "catalog_id": 961256304,
+      "catalog_year": 2015,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "Keith Sweat",
+      "title": "Come and Get With Me (feat. Snoop Dogg)",
+      "catalog_id": 266126880,
+      "catalog_year": 1998,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "Snoop Dogg & Tha Eastsidaz",
+      "title": "Dogghouse",
+      "catalog_id": 258231141,
+      "catalog_year": 2000,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "50 Cent",
+      "title": "P.I.M.P. (feat. Snoop Dogg) [Snoop Dog Remix (Edited)]",
+      "catalog_id": 6811474808,
+      "catalog_year": 2003,
+      "query": "Snoop Dogg"
+    },
+    {
+      "artist": "Brandy",
+      "title": "I Wanna Be Down",
+      "catalog_id": 321974628,
+      "catalog_year": 1994,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Brandy & Monica",
+      "title": "The Boy Is Mine",
+      "catalog_id": 20913041,
+      "catalog_year": 1998,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Brandy",
+      "title": "Have You Ever",
+      "catalog_id": 20913108,
+      "catalog_year": 1998,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Brandy",
+      "title": "Sittin' Up In My Room (from Waiting to Exhale - Original Soundtrack)",
+      "catalog_id": 216125113,
+      "catalog_year": 1995,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Brandy",
+      "title": "Almost Doesn't Count",
+      "catalog_id": 20913093,
+      "catalog_year": 1998,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Brandy",
+      "title": "Best Friend",
+      "catalog_id": 321974627,
+      "catalog_year": 1994,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Brandy",
+      "title": "Angel in Disguise",
+      "catalog_id": 20913022,
+      "catalog_year": 1998,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Brandy, Tamia, Gladys Knight & Chaka Khan",
+      "title": "Missing You",
+      "catalog_id": 322837609,
+      "catalog_year": 1996,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Brandy",
+      "title": "Put It Down (feat. Chris Brown)",
+      "catalog_id": 523226147,
+      "catalog_year": 2012,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Brandy",
+      "title": "Brokenhearted (feat. Wanya Morris) [Single Version]",
+      "catalog_id": 1068719381,
+      "catalog_year": 1995,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Looking Glass",
+      "title": "Brandy (You're a Fine Girl) [Rerecorded Version]",
+      "catalog_id": 15146984,
+      "catalog_year": 2003,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Brandy",
+      "title": "Baby",
+      "catalog_id": 321974626,
+      "catalog_year": 1994,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Looking Glass",
+      "title": "Brandy (You're a Fine Girl) [Re-Recorded]",
+      "catalog_id": 281522283,
+      "catalog_year": 2003,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Brandy",
+      "title": "Full Moon",
+      "catalog_id": 21002447,
+      "catalog_year": 2002,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Looking Glass",
+      "title": "Brandy (You're a Fine Girl)",
+      "catalog_id": 400072065,
+      "catalog_year": 2000,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Brandy",
+      "title": "When You Touch Me",
+      "catalog_id": 21002460,
+      "catalog_year": 2002,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Brandy",
+      "title": "I Wanna Be Down (feat. Queen Latifah, Yo-Yo & MC Lyte) [Remix]",
+      "catalog_id": 1068719479,
+      "catalog_year": 1994,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Brandy",
+      "title": "Right Here (Departed)",
+      "catalog_id": 297747065,
+      "catalog_year": 2008,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Brandy",
+      "title": "Put That on Everything",
+      "catalog_id": 20913111,
+      "catalog_year": 1998,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Brandy",
+      "title": "What About Us?",
+      "catalog_id": 21002491,
+      "catalog_year": 2002,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Looking Glass",
+      "title": "Brandy (You're a Fine Girl) [Rerecorded]",
+      "catalog_id": 985430965,
+      "catalog_year": 2003,
+      "query": "Brandy"
+    },
+    {
+      "artist": "The O'Jays",
+      "title": "Brandy",
+      "catalog_id": 1052185254,
+      "catalog_year": 2015,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Brandy featuring Kanye West",
+      "title": "Talk About Our Love",
+      "catalog_id": 16232551,
+      "catalog_year": 2004,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Brandy",
+      "title": "Sittin' Up In My Room",
+      "catalog_id": 1068719484,
+      "catalog_year": 1995,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Johnny Croot and Friends",
+      "title": "Brandy [ Your a Fine Girl]",
+      "catalog_id": 524223637,
+      "catalog_year": 2012,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Brandy",
+      "title": "Brokenhearted",
+      "catalog_id": 321974641,
+      "catalog_year": 1994,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Looking Glass",
+      "title": "Brandy (You're a Fine Girl) [Re-recorded Version]",
+      "catalog_id": 282995234,
+      "catalog_year": 2003,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Tunde Adebimpe",
+      "title": "Brandy",
+      "catalog_id": 1092799817,
+      "catalog_year": 2016,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Look Mexico",
+      "title": "Brandy (You're a Fine Girl)",
+      "catalog_id": 303059669,
+      "catalog_year": 2009,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Scott English",
+      "title": "Brandy (Rerecorded 1972)",
+      "catalog_id": 1854703811,
+      "catalog_year": 2008,
+      "query": "Brandy"
+    },
+    {
+      "artist": "Erykah Badu",
+      "title": "Love of My Life (An Ode to Hip Hop) [Longer Version] [feat. Common]",
+      "catalog_id": 1443067263,
+      "catalog_year": 2002,
+      "query": "Common"
+    },
+    {
+      "artist": "Erykah Badu",
+      "title": "Love of My Life (An Ode to Hip Hop) [feat. Common]",
+      "catalog_id": 1443076789,
+      "catalog_year": 2002,
+      "query": "Common"
+    },
+    {
+      "artist": "Jhené Aiko",
+      "title": "Pretty Bird (Freestyle) [feat. Common]",
+      "catalog_id": 1440813608,
+      "catalog_year": 2014,
+      "query": "Common"
+    },
+    {
+      "artist": "Rap Beats",
+      "title": "Common",
+      "catalog_id": 274961937,
+      "catalog_year": 2008,
+      "query": "Common"
+    },
+    {
+      "artist": "Alicia Keys",
+      "title": "In Common",
+      "catalog_id": 1108696969,
+      "catalog_year": 2016,
+      "query": "Common"
+    },
+    {
+      "artist": "Jamie Foxx",
+      "title": "U Still Got It (feat. Common)",
+      "catalog_id": 297325939,
+      "catalog_year": 2005,
+      "query": "Common"
+    },
+    {
+      "artist": "Common Kings",
+      "title": "Wade in Your Water",
+      "catalog_id": 1194248556,
+      "catalog_year": 2013,
+      "query": "Common"
+    },
+    {
+      "artist": "Floetry",
+      "title": "SupaStar (feat. Common) [Featuring Common]",
+      "catalog_id": 1444213050,
+      "catalog_year": 2005,
+      "query": "Common"
+    },
+    {
+      "artist": "Boredline",
+      "title": "Common",
+      "catalog_id": 1770309975,
+      "catalog_year": 1999,
+      "query": "Common"
+    },
+    {
+      "artist": "John Legend & The Roots",
+      "title": "Wake Up Everybody (feat. Common & Melanie Fiona)",
+      "catalog_id": 385274768,
+      "catalog_year": 2010,
+      "query": "Common"
+    },
+    {
+      "artist": "Common Kings",
+      "title": "No Other Love (feat. J Boog & Fiji)",
+      "catalog_id": 988165039,
+      "catalog_year": 2012,
+      "query": "Common"
+    },
+    {
+      "artist": "Pabla Tevo",
+      "title": "Common",
+      "catalog_id": 1202831965,
+      "catalog_year": 2015,
+      "query": "Common"
+    },
+    {
+      "artist": "Robert Glasper Experiment",
+      "title": "I Stand Alone (feat. Common & Patrick Stump)",
+      "catalog_id": 1440813819,
+      "catalog_year": 2013,
+      "query": "Common"
+    },
+    {
+      "artist": "Common Kings",
+      "title": "Alcoholic",
+      "catalog_id": 1194249338,
+      "catalog_year": 2011,
+      "query": "Common"
+    },
+    {
+      "artist": "Common",
+      "title": "I Want You",
+      "catalog_id": 1443274184,
+      "catalog_year": 2007,
+      "query": "Common"
+    },
+    {
+      "artist": "Kanye West",
+      "title": "My Way Home (feat. Common)",
+      "catalog_id": 1440763840,
+      "catalog_year": 2005,
+      "query": "Common"
+    },
+    {
+      "artist": "John Conlee",
+      "title": "Common Man",
+      "catalog_id": 1027521437,
+      "catalog_year": 2003,
+      "query": "Common"
+    },
+    {
+      "artist": "Common",
+      "title": "Funky For You",
+      "catalog_id": 1443734446,
+      "catalog_year": 2000,
+      "query": "Common"
+    },
+    {
+      "artist": "Kid Cudi",
+      "title": "Make Her Say (feat. Kanye West & Common)",
+      "catalog_id": 1443484145,
+      "catalog_year": 2009,
+      "query": "Common"
+    },
+    {
+      "artist": "Kanye West",
+      "title": "Get Em High (feat. Talib Kweli & Common)",
+      "catalog_id": 1437467886,
+      "catalog_year": 2004,
+      "query": "Common"
+    },
+    {
+      "artist": "Common",
+      "title": "Blue Sky",
+      "catalog_id": 484275420,
+      "catalog_year": 2011,
+      "query": "Common"
+    },
+    {
+      "artist": "Heisenberg’s Montage",
+      "title": "Common",
+      "catalog_id": 952723159,
+      "catalog_year": 2014,
+      "query": "Common"
+    },
+    {
+      "artist": "Justin Bieber",
+      "title": "Common Denominator  [Bonus Track]",
+      "catalog_id": 1440616479,
+      "catalog_year": 2009,
+      "query": "Common"
+    },
+    {
+      "artist": "Common",
+      "title": "Nag Champa (Afrodisiac For The World)",
+      "catalog_id": 1443734453,
+      "catalog_year": 2000,
+      "query": "Common"
+    },
+    {
+      "artist": "Common Kings",
+      "title": "24/7",
+      "catalog_id": 1194248954,
+      "catalog_year": 2013,
+      "query": "Common"
+    },
+    {
+      "artist": "Common Kings",
+      "title": "Before You Go",
+      "catalog_id": 1197856139,
+      "catalog_year": 2015,
+      "query": "Common"
+    },
+    {
+      "artist": "Common",
+      "title": "Drivin' Me Wild (feat. Lily Allen)",
+      "catalog_id": 1443274182,
+      "catalog_year": 2007,
+      "query": "Common"
+    },
+    {
+      "artist": "Whitney Houston & Bobby Brown",
+      "title": "Something in Common",
+      "catalog_id": 1423320314,
+      "catalog_year": 1992,
+      "query": "Common"
+    },
+    {
+      "artist": "Beat Brokers",
+      "title": "Common'",
+      "catalog_id": 1655374410,
+      "catalog_year": 2002,
+      "query": "Common"
+    },
+    {
+      "artist": "Common & D'Angelo",
+      "title": "So Far to Go (feat. D'Angelo)",
+      "catalog_id": 1443274192,
+      "catalog_year": 2007,
+      "query": "Common"
+    },
+    {
+      "artist": "T-Pain",
+      "title": "Buy U A Drank (Shawty Snappin') [feat. Kanye West] [Remix]",
+      "catalog_id": 1556724238,
+      "catalog_year": 2007,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "T-Pain",
+      "title": "Buy U a Drank (Shawty Snappin') [feat. Yung Joc]",
+      "catalog_id": 1556724067,
+      "catalog_year": 2007,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "T-Pain",
+      "title": "Booty Wurk (One Cheek At a Time) [feat. Joey Galaxy]",
+      "catalog_id": 926946233,
+      "catalog_year": 2011,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "T-Pain",
+      "title": "Chopped N Skrewed (feat. Ludacris)",
+      "catalog_id": 1558216591,
+      "catalog_year": 2008,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "Flo Rida",
+      "title": "Low (feat. T-Pain)",
+      "catalog_id": 275496141,
+      "catalog_year": 2007,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "Bow Wow",
+      "title": "Outta My System (feat. T-Pain & Johntá Austin)",
+      "catalog_id": 208141476,
+      "catalog_year": 2006,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "T-Pain",
+      "title": "Best Love Song (feat. Chris Brown)",
+      "catalog_id": 1559298082,
+      "catalog_year": 2011,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "R. Kelly",
+      "title": "I'm a Flirt (Remix) [feat. T.I. & T-Pain]",
+      "catalog_id": 255093411,
+      "catalog_year": 2007,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "Pitbull",
+      "title": "Hey Baby (Drop It to the Floor) [feat. T-Pain]",
+      "catalog_id": 440733039,
+      "catalog_year": 2010,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "Pitbull",
+      "title": "Shake Senora (feat. T-Pain & Sean Paul)",
+      "catalog_id": 440733042,
+      "catalog_year": 2011,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "Wisin & Yandel",
+      "title": "Algo Me Gusta De Ti (feat. Chris Brown & T-Pain)",
+      "catalog_id": 1443650469,
+      "catalog_year": 2012,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "T-Pain",
+      "title": "Studio Luv",
+      "catalog_id": 1555749938,
+      "catalog_year": 2005,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "Kanye West",
+      "title": "Good Life (feat. T-Pain)",
+      "catalog_id": 1442846347,
+      "catalog_year": 2007,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "Jesse McCartney",
+      "title": "Body Language (feat. T-Pain)",
+      "catalog_id": 1444887562,
+      "catalog_year": 2009,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "T-Pain",
+      "title": "Freeze (feat. Chris Brown)",
+      "catalog_id": 292777550,
+      "catalog_year": 2008,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "T-Pain",
+      "title": "Drankin' Patna",
+      "catalog_id": 926946201,
+      "catalog_year": 2014,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "T-Pain",
+      "title": "Up Down (Do This All Day) [feat. B.o.B]",
+      "catalog_id": 926945768,
+      "catalog_year": 2013,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "T-Pain",
+      "title": "I'm Sprung (feat. Dizzee Rascal) [UK Remix]",
+      "catalog_id": 1555751077,
+      "catalog_year": 2005,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "Lil Wayne",
+      "title": "Got Money (feat. T-Pain)",
+      "catalog_id": 1440738496,
+      "catalog_year": 2008,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "6LACK",
+      "title": "One Way (feat. T-Pain) [Bonus]",
+      "catalog_id": 1443075868,
+      "catalog_year": 2016,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "Akon",
+      "title": "Holla Holla (feat. T-Pain)",
+      "catalog_id": 1440742416,
+      "catalog_year": 2008,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "Pitbull",
+      "title": "Shake Senora Remix (feat. T-Pain, Sean Paul & Ludacris)",
+      "catalog_id": 440733061,
+      "catalog_year": 2011,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "Lil Mama",
+      "title": "Shawty Get Loose (feat. T-Pain & Chris Brown)",
+      "catalog_id": 273628601,
+      "catalog_year": 2008,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "Nelly, Akon & T-Pain",
+      "title": "Move That Body (feat. Akon & T-Pain)",
+      "catalog_id": 1443133781,
+      "catalog_year": 2010,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "E-40",
+      "title": "U and Dat (feat. T. Pain & Kandi Girl)",
+      "catalog_id": 129021442,
+      "catalog_year": 2006,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "T-Pain",
+      "title": "Blow Ya Mind",
+      "catalog_id": 1555750173,
+      "catalog_year": 2005,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "Elle Varner",
+      "title": "Refill (feat. Kirko Bangz & T-Pain) [Remix]",
+      "catalog_id": 530233321,
+      "catalog_year": 2012,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "Wisin & Yandel",
+      "title": "No Dejemos Que Se Apague (feat. 50 Cent & T-Pain)",
+      "catalog_id": 1445837199,
+      "catalog_year": 2010,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "Jamie Foxx",
+      "title": "Blame It (feat. T-Pain)",
+      "catalog_id": 298377495,
+      "catalog_year": 2008,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "T-Pain",
+      "title": "I'm N Luv (Wit a Dancer) [feat. Mike Jones]",
+      "catalog_id": 1555750929,
+      "catalog_year": 2005,
+      "query": "T-Pain"
+    },
+    {
+      "artist": "Nas",
+      "title": "I Can",
+      "catalog_id": 162508312,
+      "catalog_year": 2002,
+      "query": "Nas"
+    },
+    {
+      "artist": "Damian \"Jr. Gong\" Marley",
+      "title": "Road to Zion (feat. Nas)",
+      "catalog_id": 1440766533,
+      "catalog_year": 2005,
+      "query": "Nas"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "Love Is All We Need (feat. Nas)",
+      "catalog_id": 1440817962,
+      "catalog_year": 1997,
+      "query": "Nas"
+    },
+    {
+      "artist": "Nas & Damian \"Jr. Gong\" Marley",
+      "title": "Patience",
+      "catalog_id": 1442839552,
+      "catalog_year": 2010,
+      "query": "Nas"
+    },
+    {
+      "artist": "Young Jeezy",
+      "title": "My President (feat. Nas)",
+      "catalog_id": 1442209191,
+      "catalog_year": 2008,
+      "query": "Nas"
+    },
+    {
+      "artist": "Justin Bieber",
+      "title": "We Are (feat. Nas) [Bonus Track]",
+      "catalog_id": 1440829778,
+      "catalog_year": 2015,
+      "query": "Nas"
+    },
+    {
+      "artist": "Mariah Carey",
+      "title": "Thank God I Found You (feat. Joe & Nas) [Make It Last Remix Edit]",
+      "catalog_id": 303183623,
+      "catalog_year": 2000,
+      "query": "Nas"
+    },
+    {
+      "artist": "Mariah Carey",
+      "title": "Thank God I Found You (feat. Joe & Nas) [Make It Last Remix]",
+      "catalog_id": 1534179106,
+      "catalog_year": 1995,
+      "query": "Nas"
+    },
+    {
+      "artist": "DJ Khaled",
+      "title": "Nas Album Done (feat. Nas)",
+      "catalog_id": 1127957584,
+      "catalog_year": 2016,
+      "query": "Nas"
+    },
+    {
+      "artist": "Fatih Çollak",
+      "title": "Nas",
+      "catalog_id": 643450363,
+      "catalog_year": 2010,
+      "query": "Nas"
+    },
+    {
+      "artist": "Nas & Damian \"Jr. Gong\" Marley",
+      "title": "Nah Mean",
+      "catalog_id": 1442839542,
+      "catalog_year": 2010,
+      "query": "Nas"
+    },
+    {
+      "artist": "Nas feat. Puff Daddy",
+      "title": "Hate Me Now (feat. Puff Daddy)",
+      "catalog_id": 216999880,
+      "catalog_year": 1999,
+      "query": "Nas"
+    },
+    {
+      "artist": "Kanye West",
+      "title": "We Major (feat. Nas & Really Doe)",
+      "catalog_id": 1440764098,
+      "catalog_year": 2005,
+      "query": "Nas"
+    },
+    {
+      "artist": "Nas",
+      "title": "Street Dreams (feat. R. Kelly) [Remix]",
+      "catalog_id": 391724146,
+      "catalog_year": 1996,
+      "query": "Nas"
+    },
+    {
+      "artist": "Damian \"Jr. Gong\" Marley & Nas",
+      "title": "Strong Will Continue",
+      "catalog_id": 1442839022,
+      "catalog_year": 2010,
+      "query": "Nas"
+    },
+    {
+      "artist": "Nas & Damian \"Jr. Gong\" Marley",
+      "title": "Africa Must Wake Up (feat. K'naan)",
+      "catalog_id": 1442839755,
+      "catalog_year": 2010,
+      "query": "Nas"
+    },
+    {
+      "artist": "Damian \"Jr. Gong\" Marley & Nas",
+      "title": "As We Enter",
+      "catalog_id": 1442838868,
+      "catalog_year": 2010,
+      "query": "Nas"
+    },
+    {
+      "artist": "Nas",
+      "title": "Hip Hop Is Dead (feat. will.i.am)",
+      "catalog_id": 1436742002,
+      "catalog_year": 2006,
+      "query": "Nas"
+    },
+    {
+      "artist": "Nas",
+      "title": "The World Is Yours",
+      "catalog_id": 856131734,
+      "catalog_year": 1994,
+      "query": "Nas"
+    },
+    {
+      "artist": "Damian \"Jr. Gong\" Marley & Nas",
+      "title": "Count Your Blessings",
+      "catalog_id": 1442839204,
+      "catalog_year": 2010,
+      "query": "Nas"
+    },
+    {
+      "artist": "Nas & Damian \"Jr. Gong\" Marley",
+      "title": "Land of Promise (feat. Dennis Brown)",
+      "catalog_id": 1442839350,
+      "catalog_year": 2010,
+      "query": "Nas"
+    },
+    {
+      "artist": "Nas & Damian \"Jr. Gong\" Marley",
+      "title": "Leaders (feat. Stephen Marley)",
+      "catalog_id": 1442839181,
+      "catalog_year": 2010,
+      "query": "Nas"
+    },
+    {
+      "artist": "Nas",
+      "title": "Surviving the Times",
+      "catalog_id": 391724119,
+      "catalog_year": 2007,
+      "query": "Nas"
+    },
+    {
+      "artist": "Nas & Damian \"Jr. Gong\" Marley",
+      "title": "Tribes At War (feat. K'naan)",
+      "catalog_id": 1442839015,
+      "catalog_year": 2010,
+      "query": "Nas"
+    },
+    {
+      "artist": "Nas",
+      "title": "Oochie Wally (feat. Bravehearts) [Remix]",
+      "catalog_id": 858268375,
+      "catalog_year": 2001,
+      "query": "Nas"
+    },
+    {
+      "artist": "Melanie Fiona",
+      "title": "Running (feat. Nas)",
+      "catalog_id": 1446023061,
+      "catalog_year": 2012,
+      "query": "Nas"
+    },
+    {
+      "artist": "Nas",
+      "title": "It Ain't Hard to Tell",
+      "catalog_id": 856131740,
+      "catalog_year": 1994,
+      "query": "Nas"
+    },
+    {
+      "artist": "Damian \"Jr. Gong\" Marley & Nas",
+      "title": "My Generation (feat. Lil Wayne & Joss Stone)",
+      "catalog_id": 1442839563,
+      "catalog_year": 2010,
+      "query": "Nas"
+    },
+    {
+      "artist": "Nas",
+      "title": "Nas Is Like",
+      "catalog_id": 217000135,
+      "catalog_year": 1999,
+      "query": "Nas"
+    },
+    {
+      "artist": "AZ",
+      "title": "The Essence (feat. Nas)",
+      "catalog_id": 1443003694,
+      "catalog_year": 2002,
+      "query": "Nas"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "That's the Way Love Goes",
+      "catalog_id": 1388413850,
+      "catalog_year": 1993,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "All For You",
+      "catalog_id": 724885384,
+      "catalog_year": 2001,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "Any Time, Any Place",
+      "catalog_id": 1692903342,
+      "catalog_year": 1993,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "Someone To Call My Lover",
+      "catalog_id": 724885760,
+      "catalog_year": 2001,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "Escapade",
+      "catalog_id": 1440839534,
+      "catalog_year": 1989,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "Again",
+      "catalog_id": 1388414162,
+      "catalog_year": 1993,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "I Get Lonely",
+      "catalog_id": 1646563792,
+      "catalog_year": 1997,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "Come Back to Me",
+      "catalog_id": 1440839622,
+      "catalog_year": 1989,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "If",
+      "catalog_id": 1388413854,
+      "catalog_year": 1993,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "Miss You Much",
+      "catalog_id": 1440839158,
+      "catalog_year": 1989,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "Doesn't Really Matter",
+      "catalog_id": 724885790,
+      "catalog_year": 2001,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "Rhythm Nation",
+      "catalog_id": 1440838749,
+      "catalog_year": 1989,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "Together Again",
+      "catalog_id": 1646557678,
+      "catalog_year": 1997,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "Love Will Never Do (Without You)",
+      "catalog_id": 1440839205,
+      "catalog_year": 1989,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson & Nelly",
+      "title": "Call On Me",
+      "catalog_id": 724640553,
+      "catalog_year": 2006,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "Runaway",
+      "catalog_id": 1413925676,
+      "catalog_year": 1995,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "Black Cat",
+      "catalog_id": 1440839549,
+      "catalog_year": 1989,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "Alright",
+      "catalog_id": 1440839355,
+      "catalog_year": 1989,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "You Want This",
+      "catalog_id": 1388413852,
+      "catalog_year": 1993,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "I Get Lonely (Jam & Lewis Feel My Bass Mix)",
+      "catalog_id": 1646557933,
+      "catalog_year": 1997,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "Go Deep",
+      "catalog_id": 1646557536,
+      "catalog_year": 1997,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson & Khia",
+      "title": "So Excited (Feat. Khia)",
+      "catalog_id": 724640425,
+      "catalog_year": 2006,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "BURNITUP! (feat. Missy Elliott)",
+      "catalog_id": 1703832184,
+      "catalog_year": 2015,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "Feels So Right",
+      "catalog_id": 724885777,
+      "catalog_year": 2001,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "Feedback",
+      "catalog_id": 1472490530,
+      "catalog_year": 2007,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "No Sleeep (feat. J. Cole)",
+      "catalog_id": 1703832191,
+      "catalog_year": 2015,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "No Sleeep (feat. J. Cole) [AFSHeeN Remix]",
+      "catalog_id": 1703832202,
+      "catalog_year": 2015,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "Because of Love",
+      "catalog_id": 1388414154,
+      "catalog_year": 1993,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Miss Tony aka Big Tony",
+      "title": "Janet Jackson",
+      "catalog_id": 287220454,
+      "catalog_year": 2008,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Janet Jackson",
+      "title": "Dammn Baby",
+      "catalog_id": 1703832185,
+      "catalog_year": 2015,
+      "query": "Janet Jackson"
+    },
+    {
+      "artist": "Jimmy Fallon & The Roots",
+      "title": "You'll Be Back",
+      "catalog_id": 1171297677,
+      "catalog_year": 2016,
+      "query": "The Roots"
+    },
+    {
+      "artist": "The Roots",
+      "title": "Break You Off (Radio Edit)",
+      "catalog_id": 1445303521,
+      "catalog_year": 2002,
+      "query": "The Roots"
+    },
+    {
+      "artist": "The Roots",
+      "title": "The Fire (feat. John Legend)",
+      "catalog_id": 1443257917,
+      "catalog_year": 2010,
+      "query": "The Roots"
+    },
+    {
+      "artist": "Long Arm",
+      "title": "The Roots",
+      "catalog_id": 1675636040,
+      "catalog_year": 2012,
+      "query": "The Roots"
+    },
+    {
+      "artist": "The Roots",
+      "title": "My Shot (feat. Busta Rhymes, Joell Ortiz & Nate Ruess) [Rise Up Remix]",
+      "catalog_id": 1171297661,
+      "catalog_year": 2016,
+      "query": "The Roots"
+    },
+    {
+      "artist": "Jill Scott",
+      "title": "The Roots (Interlude)",
+      "catalog_id": 1416161253,
+      "catalog_year": 2000,
+      "query": "The Roots"
+    },
+    {
+      "artist": "Jill Scott",
+      "title": "The Roots (Interlude / Remastered)",
+      "catalog_id": 1525410683,
+      "catalog_year": 2000,
+      "query": "The Roots"
+    },
+    {
+      "artist": "The Roots",
+      "title": "No John Trumbull (Intro)",
+      "catalog_id": 1171297570,
+      "catalog_year": 2016,
+      "query": "The Roots"
+    },
+    {
+      "artist": "Lostep",
+      "title": "The Roots (Reprise)",
+      "catalog_id": 1168810536,
+      "catalog_year": 2003,
+      "query": "The Roots"
+    },
+    {
+      "artist": "The Roots & Black Thought",
+      "title": "Burnin' and Lootin' (feat. The Roots & Black Thought)",
+      "catalog_id": 1440926099,
+      "catalog_year": 1999,
+      "query": "The Roots"
+    },
+    {
+      "artist": "SHXCXCHCXSH",
+      "title": "The Roots",
+      "catalog_id": 1718224681,
+      "catalog_year": 2014,
+      "query": "The Roots"
+    },
+    {
+      "artist": "The Roots",
+      "title": "Make My (feat. Big K.R.I.T. & Dice Raw)",
+      "catalog_id": 1443476041,
+      "catalog_year": 2011,
+      "query": "The Roots"
+    },
+    {
+      "artist": "The Roots",
+      "title": "Guns Are Drawn",
+      "catalog_id": 1442786795,
+      "catalog_year": 2004,
+      "query": "The Roots"
+    },
+    {
+      "artist": "The Roots",
+      "title": "Dear God 2.0 (feat. Monsters of Folk)",
+      "catalog_id": 1443257903,
+      "catalog_year": 2010,
+      "query": "The Roots"
+    },
+    {
+      "artist": "The Roots",
+      "title": "Champion",
+      "catalog_id": 1118004127,
+      "catalog_year": 2016,
+      "query": "The Roots"
+    },
+    {
+      "artist": "The Roots",
+      "title": "Walk Alone (feat. Truck North, Porn & Dice Raw)",
+      "catalog_id": 1443257902,
+      "catalog_year": 2010,
+      "query": "The Roots"
+    },
+    {
+      "artist": "Alpha & Omega",
+      "title": "The Roots",
+      "catalog_id": 383499054,
+      "catalog_year": 1992,
+      "query": "The Roots"
+    },
+    {
+      "artist": "Long Arm",
+      "title": "The Roots (40 Winks Remix)",
+      "catalog_id": 1675636063,
+      "catalog_year": 2012,
+      "query": "The Roots"
+    },
+    {
+      "artist": "The Roots",
+      "title": "The Day (feat. Blu, Phonte & Patty Crash)",
+      "catalog_id": 1443257910,
+      "catalog_year": 2010,
+      "query": "The Roots"
+    },
+    {
+      "artist": "The Roots",
+      "title": "A Peace of Light (feat. Amber Coffman, Angel Deradoorian & Haley Dekle)",
+      "catalog_id": 1443257900,
+      "catalog_year": 2010,
+      "query": "The Roots"
+    },
+    {
+      "artist": "The Roots",
+      "title": "? vs. Scratch (The Token DJ Cut)",
+      "catalog_id": 1440646918,
+      "catalog_year": 1996,
+      "query": "The Roots"
+    },
+    {
+      "artist": "The Roots",
+      "title": "One Shine",
+      "catalog_id": 1440647361,
+      "catalog_year": 1996,
+      "query": "The Roots"
+    },
+    {
+      "artist": "The Roots",
+      "title": "The Lesson, Pt. 3 (It's Over Now) [Live] [feat. Jaguar]",
+      "catalog_id": 1444073624,
+      "catalog_year": 1999,
+      "query": "The Roots"
+    },
+    {
+      "artist": "John Legend & The Roots",
+      "title": "Hang On In There",
+      "catalog_id": 385274790,
+      "catalog_year": 2010,
+      "query": "The Roots"
+    },
+    {
+      "artist": "John Legend & The Roots",
+      "title": "Hard Times (feat. Black Thought)",
+      "catalog_id": 385274754,
+      "catalog_year": 2010,
+      "query": "The Roots"
+    },
+    {
+      "artist": "The Roots",
+      "title": "Tomorrow (feat. Raheem DeVaughn)",
+      "catalog_id": 1443189724,
+      "catalog_year": 2014,
+      "query": "The Roots"
+    },
+    {
+      "artist": "The Roots",
+      "title": "Sleep",
+      "catalog_id": 1443476037,
+      "catalog_year": 2011,
+      "query": "The Roots"
+    },
+    {
+      "artist": "Betty Wright & The Roots",
+      "title": "Old Songs",
+      "catalog_id": 1740561069,
+      "catalog_year": 2011,
+      "query": "The Roots"
+    },
+    {
+      "artist": "John Legend & The Roots",
+      "title": "Humanity (Love the Way It Should Be)",
+      "catalog_id": 385274828,
+      "catalog_year": 2010,
+      "query": "The Roots"
+    },
+    {
+      "artist": "John Legend & The Roots",
+      "title": "Compared to What",
+      "catalog_id": 385274763,
+      "catalog_year": 2010,
+      "query": "The Roots"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "So Anxious",
+      "catalog_id": 190423084,
+      "catalog_year": 1999,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "Differences",
+      "catalog_id": 204952431,
+      "catalog_year": 2001,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "None of Ur Friends Business",
+      "catalog_id": 190423250,
+      "catalog_year": 1999,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "Stingy",
+      "catalog_id": 204952443,
+      "catalog_year": 2003,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "Tell Me Do U Wanna",
+      "catalog_id": 157465482,
+      "catalog_year": 1996,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "Love You More",
+      "catalog_id": 192976330,
+      "catalog_year": 2003,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "Same Ol' G",
+      "catalog_id": 190424193,
+      "catalog_year": 1998,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "There It Is",
+      "catalog_id": 204952432,
+      "catalog_year": 2001,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "Only When ur Lonely",
+      "catalog_id": 157465532,
+      "catalog_year": 1996,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "When We Make Love",
+      "catalog_id": 299213352,
+      "catalog_year": 2005,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "P. Diddy",
+      "title": "I Need a Girl (Pt. 2) [feat. Loon, Ginuwine, Mario Winans]",
+      "catalog_id": 80969167,
+      "catalog_year": 2002,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "Wait a Minute",
+      "catalog_id": 190423344,
+      "catalog_year": 1999,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "I'll Do Anything/I'm Sorry",
+      "catalog_id": 157465538,
+      "catalog_year": 1996,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Ginuwine, RL, Tyrese & Case",
+      "title": "The Best Man I Can Be",
+      "catalog_id": 265136381,
+      "catalog_year": 1999,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "Role Play",
+      "catalog_id": 190429477,
+      "catalog_year": 2001,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "Pony (Extended Mix)",
+      "catalog_id": 204952403,
+      "catalog_year": 1996,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "I'm In Love",
+      "catalog_id": 204952437,
+      "catalog_year": 2005,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "All Nite All Day",
+      "catalog_id": 190424344,
+      "catalog_year": 1999,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Diddy",
+      "title": "I Need a Girl (Pt. 2) [feat. Ginuwine, Loon, Mario Winans & Tammy Ruggieri] [2016 Remaster]",
+      "catalog_id": 1145520605,
+      "catalog_year": 2002,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "Differences (Radio Edit)",
+      "catalog_id": 1404503792,
+      "catalog_year": 2001,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "Do You Remember",
+      "catalog_id": 190423475,
+      "catalog_year": 1999,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "On My Way",
+      "catalog_id": 192976389,
+      "catalog_year": 2003,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Missy Elliott",
+      "title": "Take Away (featuring Ginuwine) (Amended LP Version)",
+      "catalog_id": 83134415,
+      "catalog_year": 2001,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "None of Ur Friends Business (Radio Edit)",
+      "catalog_id": 204952433,
+      "catalog_year": 1999,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "How Deep Is Your Love",
+      "catalog_id": 190429125,
+      "catalog_year": 2001,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "In Those Jeans (Radio Edit)",
+      "catalog_id": 204952427,
+      "catalog_year": 2003,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "Superhuman",
+      "catalog_id": 190429702,
+      "catalog_year": 2001,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "There It Is / Interlude",
+      "catalog_id": 190428087,
+      "catalog_year": 2001,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "Lonely Daze",
+      "catalog_id": 157465516,
+      "catalog_year": 1996,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Ginuwine",
+      "title": "I'm Crying Out",
+      "catalog_id": 190424107,
+      "catalog_year": 1999,
+      "query": "Ginuwine"
+    },
+    {
+      "artist": "Jeremih",
+      "title": "Down On Me (feat. 50 Cent)",
+      "catalog_id": 1440769834,
+      "catalog_year": 2010,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "The Game",
+      "title": "Hate It or Love It (feat. 50 Cent)",
+      "catalog_id": 1443202892,
+      "catalog_year": 2005,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "50 Cent",
+      "title": "21 Questions (feat. Nate Dogg)",
+      "catalog_id": 1440907566,
+      "catalog_year": 2003,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "50 Cent",
+      "title": "Disco Inferno",
+      "catalog_id": 1444007314,
+      "catalog_year": 2004,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "Wisin & Yandel & 50 Cent",
+      "title": "Mujeres In the Club",
+      "catalog_id": 1469556652,
+      "catalog_year": 2009,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "50 Cent",
+      "title": "In da Club",
+      "catalog_id": 1440907550,
+      "catalog_year": 2003,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "50 Cent",
+      "title": "Candy Shop (feat. Olivia)",
+      "catalog_id": 1444007299,
+      "catalog_year": 2005,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "title": "MJB Da MVP (feat. 50 Cent)",
+      "catalog_id": 1440828399,
+      "catalog_year": 2005,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "50 Cent",
+      "title": "P.I.M.P.",
+      "catalog_id": 1440907563,
+      "catalog_year": 2003,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "The Game",
+      "title": "How We Do (feat. 50 Cent)",
+      "catalog_id": 1443202897,
+      "catalog_year": 2004,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "50 Cent",
+      "title": "If I Can't",
+      "catalog_id": 1440907557,
+      "catalog_year": 2003,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "50 Cent",
+      "title": "Patiently Waiting (feat. Eminem)",
+      "catalog_id": 1440907546,
+      "catalog_year": 2003,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "50 Cent",
+      "title": "I'm the Man (feat. Sonny Digital)",
+      "catalog_id": 1445152952,
+      "catalog_year": 2015,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "50 Cent",
+      "title": "Hate It or Love It (G-Unit Remix) [feat. The Game, Tony Yayo, Young Buck & Lloyd Banks]",
+      "catalog_id": 1444007499,
+      "catalog_year": 2005,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "50 Cent",
+      "title": "If I Can't (Edited)",
+      "catalog_id": 6811474794,
+      "catalog_year": 2003,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "50 Cent",
+      "title": "Back Down",
+      "catalog_id": 1440907561,
+      "catalog_year": 2003,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "50 Cent",
+      "title": "Ayo Technology (feat. Justin Timberlake)",
+      "catalog_id": 1443746388,
+      "catalog_year": 2007,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "Missy Elliott",
+      "title": "Work It (feat. 50 Cent) [Remix]",
+      "catalog_id": 1264576,
+      "catalog_year": 2002,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "Chief Keef",
+      "title": "Hate Bein' Sober (feat. 50 Cent & Wiz Khalifa)",
+      "catalog_id": 1444005849,
+      "catalog_year": 2012,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "50 Cent",
+      "title": "I Get Money",
+      "catalog_id": 1443746386,
+      "catalog_year": 2007,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "50 Cent",
+      "title": "Don't Push Me (feat. Lloyd Banks & Eminem)",
+      "catalog_id": 1440907569,
+      "catalog_year": 2003,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "50 Cent",
+      "title": "Best Friend",
+      "catalog_id": 1442210528,
+      "catalog_year": 2005,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "LoveRance",
+      "title": "Up! (feat. 50 Cent)",
+      "catalog_id": 1444278783,
+      "catalog_year": 2011,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "50 Cent",
+      "title": "Wanksta (Soundtrack Version)",
+      "catalog_id": 1440907666,
+      "catalog_year": 2002,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "50 Cent",
+      "title": "Blood Hound (feat. Young Buck)",
+      "catalog_id": 1440907560,
+      "catalog_year": 2003,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "Nicole Scherzinger",
+      "title": "Right There (feat. 50 Cent)",
+      "catalog_id": 1442611099,
+      "catalog_year": 2011,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "Justin Timberlake",
+      "title": "Sexy Ladies (feat. 50 Cent) [Remix]",
+      "catalog_id": 400946544,
+      "catalog_year": 2007,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "50 Cent & G-Unit",
+      "title": "The World (feat. Governor)",
+      "catalog_id": 379891974,
+      "catalog_year": 2002,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "50 Cent",
+      "title": "Wanksta (From \"8 Mile\" Soundtrack)",
+      "catalog_id": 6811474805,
+      "catalog_year": 2002,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "Eminem",
+      "title": "Encore (feat. Dr. Dre & 50 Cent)",
+      "catalog_id": 1425131559,
+      "catalog_year": 2004,
+      "query": "50 Cent"
+    },
+    {
+      "artist": "TLC",
+      "title": "Waterfalls",
+      "catalog_id": 270246724,
+      "catalog_year": 1994,
+      "query": "TLC"
+    },
+    {
+      "artist": "TLC",
+      "title": "Red Light Special",
+      "catalog_id": 270246722,
+      "catalog_year": 1994,
+      "query": "TLC"
+    },
+    {
+      "artist": "TLC",
+      "title": "Unpretty",
+      "catalog_id": 309067021,
+      "catalog_year": 1999,
+      "query": "TLC"
+    },
+    {
+      "artist": "TLC",
+      "title": "Baby-Baby-Baby",
+      "catalog_id": 258597575,
+      "catalog_year": 1992,
+      "query": "TLC"
+    },
+    {
+      "artist": "TLC",
+      "title": "Diggin' On You",
+      "catalog_id": 270246717,
+      "catalog_year": 1994,
+      "query": "TLC"
+    },
+    {
+      "artist": "TLC",
+      "title": "What About Your Friends",
+      "catalog_id": 258595869,
+      "catalog_year": 1992,
+      "query": "TLC"
+    },
+    {
+      "artist": "TLC",
+      "title": "Ain't 2 Proud 2 Beg",
+      "catalog_id": 258594687,
+      "catalog_year": 1991,
+      "query": "TLC"
+    },
+    {
+      "artist": "TLC",
+      "title": "If I Was Your Girlfriend",
+      "catalog_id": 270246749,
+      "catalog_year": 1994,
+      "query": "TLC"
+    },
+    {
+      "artist": "TLC",
+      "title": "Kick Your Game",
+      "catalog_id": 270246714,
+      "catalog_year": 1994,
+      "query": "TLC"
+    },
+    {
+      "artist": "Sy Ari Da Kid",
+      "title": "Tlc",
+      "catalog_id": 1458074373,
+      "catalog_year": 2016,
+      "query": "TLC"
+    },
+    {
+      "artist": "TLC",
+      "title": "Silly Ho",
+      "catalog_id": 309066861,
+      "catalog_year": 1999,
+      "query": "TLC"
+    },
+    {
+      "artist": "TLC",
+      "title": "Meant To Be",
+      "catalog_id": 721770653,
+      "catalog_year": 2013,
+      "query": "TLC"
+    },
+    {
+      "artist": "Natasha Leggero",
+      "title": "TLC",
+      "catalog_id": 1815623933,
+      "catalog_year": 2015,
+      "query": "TLC"
+    },
+    {
+      "artist": "TLC",
+      "title": "Sleigh Ride",
+      "catalog_id": 268840981,
+      "catalog_year": 1992,
+      "query": "TLC"
+    },
+    {
+      "artist": "J. Cole",
+      "title": "Crooked Smile (feat. TLC)",
+      "catalog_id": 1529504549,
+      "catalog_year": 2013,
+      "query": "TLC"
+    },
+    {
+      "artist": "TLC",
+      "title": "No Scrubs (With Rap)",
+      "catalog_id": 281752468,
+      "catalog_year": 1999,
+      "query": "TLC"
+    },
+    {
+      "artist": "TLC",
+      "title": "Let's Do It Again",
+      "catalog_id": 270246728,
+      "catalog_year": 1994,
+      "query": "TLC"
+    },
+    {
+      "artist": "TLC",
+      "title": "Dear Lie",
+      "catalog_id": 309067324,
+      "catalog_year": 1999,
+      "query": "TLC"
+    },
+    {
+      "artist": "Vesta Williams",
+      "title": "Tlc",
+      "catalog_id": 1443932553,
+      "catalog_year": 1991,
+      "query": "TLC"
+    },
+    {
+      "artist": "TLC",
+      "title": "Take Our Time",
+      "catalog_id": 270246766,
+      "catalog_year": 1994,
+      "query": "TLC"
+    },
+    {
+      "artist": "TLC",
+      "title": "Hat 2 da Back",
+      "catalog_id": 258595061,
+      "catalog_year": 1992,
+      "query": "TLC"
+    },
+    {
+      "artist": "Marcus Anderson & Matt Marshak",
+      "title": "TLC (feat. Matt Marshak)",
+      "catalog_id": 489232139,
+      "catalog_year": 2011,
+      "query": "TLC"
+    },
+    {
+      "artist": "TLC",
+      "title": "Sumthin' Wicked This Way Comes",
+      "catalog_id": 270246783,
+      "catalog_year": 1994,
+      "query": "TLC"
+    },
+    {
+      "artist": "TLC",
+      "title": "Case of the Fake People",
+      "catalog_id": 270246719,
+      "catalog_year": 1994,
+      "query": "TLC"
+    },
+    {
+      "artist": "TLC",
+      "title": "Switch",
+      "catalog_id": 270246779,
+      "catalog_year": 1994,
+      "query": "TLC"
+    },
+    {
+      "artist": "TLC",
+      "title": "Girl Talk (Radio Mix)",
+      "catalog_id": 268962264,
+      "catalog_year": 2002,
+      "query": "TLC"
+    },
+    {
+      "artist": "V Don",
+      "title": "TLC (Instrumental)",
+      "catalog_id": 1290574625,
+      "catalog_year": 2015,
+      "query": "TLC"
+    },
+    {
+      "artist": "TLC",
+      "title": "FanMail",
+      "catalog_id": 298575244,
+      "catalog_year": 1999,
+      "query": "TLC"
+    },
+    {
+      "artist": "TLC",
+      "title": "Ain't 2 Proud 2 Beg (Single Edit)",
+      "catalog_id": 721770624,
+      "catalog_year": 1991,
+      "query": "TLC"
+    },
+    {
+      "artist": "TLC",
+      "title": "CrazySexyCool (Interlude)",
+      "catalog_id": 270246720,
+      "catalog_year": 1994,
+      "query": "TLC"
+    },
+    {
+      "artist": "USHER",
+      "title": "Yeah! (feat. Lil Jon & Ludacris)",
+      "catalog_id": 386153478,
+      "catalog_year": 2004,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "Justin Bieber",
+      "title": "Baby (feat. Ludacris)",
+      "catalog_id": 1440661545,
+      "catalog_year": 2010,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "Chris Brown",
+      "title": "Wet the Bed (feat. Ludacris)",
+      "catalog_id": 422045131,
+      "catalog_year": 2011,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "Jamie Foxx",
+      "title": "Unpredictable (feat. Ludacris)",
+      "catalog_id": 297325925,
+      "catalog_year": 2005,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "Jeremih",
+      "title": "I Like (feat. Ludacris)",
+      "catalog_id": 1440769896,
+      "catalog_year": 2010,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "R. Kelly",
+      "title": "Legs Shakin' (feat. Ludacris)",
+      "catalog_id": 742664046,
+      "catalog_year": 2013,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "Taio Cruz",
+      "title": "Break Your Heart (feat. Ludacris)",
+      "catalog_id": 1443147099,
+      "catalog_year": 2009,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "Jason Aldean",
+      "title": "Dirt Road Anthem (Remix) [feat. Ludacris]",
+      "catalog_id": 1685912198,
+      "catalog_year": 2011,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "Ciara",
+      "title": "Ride (feat. Ludacris)",
+      "catalog_id": 404239960,
+      "catalog_year": 2010,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "My Darkest Days",
+      "title": "Porn Star Dancing (feat. Ludacris, Chad Kroeger & Zakk Wylde)",
+      "catalog_id": 1591133624,
+      "catalog_year": 2010,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "Justin Bieber",
+      "title": "All Around the World (feat. Ludacris)",
+      "catalog_id": 1440650855,
+      "catalog_year": 2012,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "Monica",
+      "title": "Still Standing (feat. Ludacris)",
+      "catalog_id": 358633019,
+      "catalog_year": 2010,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "Ludacris",
+      "title": "Rollout (My Business)",
+      "catalog_id": 1456413820,
+      "catalog_year": 2001,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "Missy Elliott",
+      "title": "Gossip Folks (feat. Ludacris)",
+      "catalog_id": 1264511,
+      "catalog_year": 2002,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "Fergie",
+      "title": "Glamorous (feat. Ludacris)",
+      "catalog_id": 1619001760,
+      "catalog_year": 2006,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "Aventura",
+      "title": "Spanish Fly (feat. Ludacris, Wyclef Jean)",
+      "catalog_id": 314891190,
+      "catalog_year": 2009,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "Disturbing tha Peace",
+      "title": "Move B***h (feat. Ludacris, Mystikal & I-20)",
+      "catalog_id": 1456413831,
+      "catalog_year": 2001,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "Ludacris",
+      "title": "Area Codes (feat. Nate Dogg)",
+      "catalog_id": 1456413826,
+      "catalog_year": 2001,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "John Legend",
+      "title": "Tonight (Best You Ever Had) [feat. Ludacris]",
+      "catalog_id": 514929034,
+      "catalog_year": 2012,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "Jesse McCartney & Ludacris",
+      "title": "How Do You Sleep? (Radio Edit Remix) [feat. Ludacris] {Bonus Track}",
+      "catalog_id": 1440631900,
+      "catalog_year": 2008,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "Enrique Iglesias",
+      "title": "Tonight (I'm Lovin' You) [feat. Ludacris & DJ Frank E]",
+      "catalog_id": 1443752176,
+      "catalog_year": 2010,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "Ludacris",
+      "title": "Rest of My Life (feat. Usher & David Guetta)",
+      "catalog_id": 1445301340,
+      "catalog_year": 2012,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "Bobby V",
+      "title": "Rearview (Ridin') [feat. Ludacris]",
+      "catalog_id": 1444186397,
+      "catalog_year": 2007,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "Chingy",
+      "title": "Holidae In (feat. Ludacris & Snoop Dogg)",
+      "catalog_id": 1648826357,
+      "catalog_year": 2003,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "Ludacris",
+      "title": "How Low",
+      "catalog_id": 1446010785,
+      "catalog_year": 2009,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "Missy Elliott",
+      "title": "One Minute Man (featuring Ludacris) (Amended LP Version)",
+      "catalog_id": 83134362,
+      "catalog_year": 2001,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "Bobby V",
+      "title": "Give Me A Chance (feat. Ludacris)",
+      "catalog_id": 1444195859,
+      "catalog_year": 2005,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "USHER",
+      "title": "She Don't Know (feat. Ludacris)",
+      "catalog_id": 923691590,
+      "catalog_year": 2010,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "Raheem DeVaughn",
+      "title": "Bulletproof (feat. Ludacris)",
+      "catalog_id": 353288294,
+      "catalog_year": 2009,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "Ludacris",
+      "title": "My Chick Bad (feat. Nicki Minaj)",
+      "catalog_id": 1446010786,
+      "catalog_year": 2010,
+      "query": "Ludacris"
+    },
+    {
+      "artist": "Lauryn Hill",
+      "title": "Ex-Factor",
+      "catalog_id": 1276760746,
+      "catalog_year": 1998,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Lauryn Hill",
+      "title": "Doo Wop (That Thing)",
+      "catalog_id": 1276760748,
+      "catalog_year": 1998,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Lauryn Hill",
+      "title": "Can't Take My Eyes Off of You (I Love You Baby)",
+      "catalog_id": 1276760758,
+      "catalog_year": 1998,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Lauryn Hill",
+      "title": "Nothing Even Matters (feat. D'Angelo)",
+      "catalog_id": 1276760755,
+      "catalog_year": 1998,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Lauryn Hill",
+      "title": "Tell Him",
+      "catalog_id": 1276760759,
+      "catalog_year": 1998,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Lauryn Hill",
+      "title": "To Zion (feat. Carlos Santana)",
+      "catalog_id": 1276760747,
+      "catalog_year": 1998,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Lauryn Hill",
+      "title": "Everything Is Everything",
+      "catalog_id": 1276760756,
+      "catalog_year": 1998,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Lauryn Hill",
+      "title": "I Gotta Find Peace of Mind",
+      "catalog_id": 192492922,
+      "catalog_year": 2002,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Lauryn Hill & Bob Marley",
+      "title": "Turn Your Lights Down Low (feat. Lauryn Hill) [Interpolation of \"Lovin You\"]",
+      "catalog_id": 1440925846,
+      "catalog_year": 1999,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Refugee Camp All-Stars",
+      "title": "The Sweetest Thing (feat. Lauryn Hill)",
+      "catalog_id": 267157834,
+      "catalog_year": 1997,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Lauryn Hill",
+      "title": "When It Hurts so Bad",
+      "catalog_id": 1276760751,
+      "catalog_year": 1998,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Lauryn Hill",
+      "title": "Lost Ones",
+      "catalog_id": 1276760745,
+      "catalog_year": 1998,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Lauryn Hill",
+      "title": "I Used to Love Him (feat. Mary J. Blige)",
+      "catalog_id": 1276760752,
+      "catalog_year": 1998,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Lauryn Hill",
+      "title": "Superstar",
+      "catalog_id": 1276760749,
+      "catalog_year": 1998,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Lauryn Hill",
+      "title": "Forgive Them Father",
+      "catalog_id": 1276760753,
+      "catalog_year": 1998,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Lauryn Hill",
+      "title": "Every Ghetto, Every City",
+      "catalog_id": 1276760754,
+      "catalog_year": 1998,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Lauryn Hill",
+      "title": "The Miseducation of Lauryn Hill",
+      "catalog_id": 1276760757,
+      "catalog_year": 1998,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Mary J. Blige & Lauryn Hill",
+      "title": "All That I Can Say",
+      "catalog_id": 1443060300,
+      "catalog_year": 1999,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Lauryn Hill",
+      "title": "Intro",
+      "catalog_id": 1276760744,
+      "catalog_year": 1998,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Lauryn Hill",
+      "title": "Final Hour",
+      "catalog_id": 1276760750,
+      "catalog_year": 1998,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "John Legend",
+      "title": "So High (feat. Lauryn Hill) [Cloud 9 Remix]",
+      "catalog_id": 1451363360,
+      "catalog_year": 2004,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Refugee Camp All-Stars",
+      "title": "The Sweetest Thing (feat. Lauryn Hill) [From the New Line Cinema film \"Love Jones\"]",
+      "catalog_id": 162251485,
+      "catalog_year": 1997,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Lauryn Hill",
+      "title": "Just Like Water",
+      "catalog_id": 192492758,
+      "catalog_year": 2002,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Lauryn Hill",
+      "title": "Mystery of Iniquity",
+      "catalog_id": 192492981,
+      "catalog_year": 2002,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Lauryn Hill",
+      "title": "I Get Out",
+      "catalog_id": 192492995,
+      "catalog_year": 2002,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Lauryn Hill",
+      "title": "Adam Lives In Theory",
+      "catalog_id": 192492473,
+      "catalog_year": 2002,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Santana",
+      "title": "Do You Like the Way (feat. Lauryn Hill & Cee-Lo)",
+      "catalog_id": 354579341,
+      "catalog_year": 1999,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Lauryn Hill",
+      "title": "Mr. Intentional",
+      "catalog_id": 192492448,
+      "catalog_year": 2002,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Lauryn Hill",
+      "title": "I Find It Hard to Say (Rebel)",
+      "catalog_id": 192492692,
+      "catalog_year": 2002,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Wyclef Jean",
+      "title": "Guantanamera (feat. Lauryn Hill, Celia Cruz & Jeni Fujita)",
+      "catalog_id": 267126208,
+      "catalog_year": 1997,
+      "query": "Lauryn Hill"
+    },
+    {
+      "artist": "Ne-Yo",
+      "title": "She Got Her Own (feat. Jamie Foxx & Fabolous) [Bonus Track]",
+      "catalog_id": 1445834425,
+      "catalog_year": 2008,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "Fabolous",
+      "title": "Breathe",
+      "catalog_id": 28583397,
+      "catalog_year": 2004,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "Christina Milian",
+      "title": "Dip It Low (feat. Fabolous)",
+      "catalog_id": 1443904180,
+      "catalog_year": 2004,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "Christina Milian",
+      "title": "Dip It Low (feat. Fabolous) [Remix]",
+      "catalog_id": 1450415658,
+      "catalog_year": 2004,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "The-Dream & Fabolous",
+      "title": "Shawty Is da Sh*! (feat. Fabolous)",
+      "catalog_id": 1443658437,
+      "catalog_year": 2007,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "Lil' Mo",
+      "title": "4 Ever (feat. Fabolous)",
+      "catalog_id": 298804047,
+      "catalog_year": 2003,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "Ryan Leslie",
+      "title": "Addiction (feat. Cassie & Fabolous)",
+      "catalog_id": 1443494178,
+      "catalog_year": 2008,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "Bow Wow",
+      "title": "Basketball (feat. Jermaine Dupri, Fabolous & Fundisha)",
+      "catalog_id": 192676048,
+      "catalog_year": 2002,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "Lumidee",
+      "title": "Uh Ooh (Remix) [feat. Busta Rhymes & Fabolous]",
+      "catalog_id": 1442879344,
+      "catalog_year": 2003,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "Ne-Yo",
+      "title": "Crazy Love (feat. Fabolous)",
+      "catalog_id": 1445878910,
+      "catalog_year": 2010,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "Ne-Yo",
+      "title": "Should Be You (feat. Fabolous & Diddy)",
+      "catalog_id": 1443808981,
+      "catalog_year": 2012,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "Fabolous",
+      "title": "Make Me Better (feat. Ne-Yo)",
+      "catalog_id": 1443627678,
+      "catalog_year": 2007,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "Jennifer Lopez",
+      "title": "Get Right (feat. Fabolous)",
+      "catalog_id": 538940218,
+      "catalog_year": 2005,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "Joe",
+      "title": "If I Was Your Man",
+      "catalog_id": 250692761,
+      "catalog_year": 2007,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "Fabolous",
+      "title": "Throw It In the Bag (Remix) [feat. Drake & The-Dream]",
+      "catalog_id": 1445147265,
+      "catalog_year": 2009,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "Brutha",
+      "title": "I Can't Hear the Music (feat. Fabolous) [Main]",
+      "catalog_id": 1443745751,
+      "catalog_year": 2008,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "Fabolous",
+      "title": "She Wildin' (feat. Chris Brown)",
+      "catalog_id": 1443135186,
+      "catalog_year": 2014,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "Joe",
+      "title": "My Love",
+      "catalog_id": 250693106,
+      "catalog_year": 2007,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "Slim",
+      "title": "Good Lovin' (feat. Fabolous & Ryan Leslie)",
+      "catalog_id": 295694569,
+      "catalog_year": 2008,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "Richgirl",
+      "title": "Swagger Right (feat. Fabolous & Rick Ross)",
+      "catalog_id": 392795089,
+      "catalog_year": 2010,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "The-Dream",
+      "title": "Rockin' That Thang (Rap Remix) [Bonus Track] [feat. Fabolous, Juelz Santana, Rick Ross & Ludacris]",
+      "catalog_id": 1443535565,
+      "catalog_year": 2009,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "B2K",
+      "title": "Badaboom",
+      "catalog_id": 198106952,
+      "catalog_year": 2003,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "Fabolous",
+      "title": "Into You (feat. Tamia) [Early Fade Main Mix Amended]",
+      "catalog_id": 989522708,
+      "catalog_year": 2003,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "Sean Kingston",
+      "title": "Beautiful Girls Remix (feat. Fabolous & Lil Boosie)",
+      "catalog_id": 1402273343,
+      "catalog_year": 2007,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "Teyana Taylor",
+      "title": "Broken Hearted Girl (feat. Fabolous)",
+      "catalog_id": 1443198803,
+      "catalog_year": 2014,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "Lil Wayne",
+      "title": "You Ain't Got Nuthin (feat. Juelz Santana & Fabolous)",
+      "catalog_id": 1440738668,
+      "catalog_year": 2008,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "Amerie & Fabolous",
+      "title": "More Than Love",
+      "catalog_id": 1445743489,
+      "catalog_year": 2009,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "Fabolous",
+      "title": "You Be Killin' Em",
+      "catalog_id": 1443522853,
+      "catalog_year": 2010,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "August Alsina",
+      "title": "Grind & Pray/Get Ya Money (feat. Fabolous)",
+      "catalog_id": 1443278501,
+      "catalog_year": 2014,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "Fabolous",
+      "title": "Ball Drop (feat. French Montana)",
+      "catalog_id": 1443135189,
+      "catalog_year": 2014,
+      "query": "Fabolous"
+    },
+    {
+      "artist": "USHER",
+      "title": "Love In This Club (feat. Young Jeezy)",
+      "catalog_id": 281698335,
+      "catalog_year": 2008,
+      "query": "Usher"
+    },
+    {
+      "artist": "USHER",
+      "title": "U Got It Bad",
+      "catalog_id": 268532564,
+      "catalog_year": 2001,
+      "query": "Usher"
+    },
+    {
+      "artist": "USHER",
+      "title": "Nice & Slow",
+      "catalog_id": 278845479,
+      "catalog_year": 1997,
+      "query": "Usher"
+    },
+    {
+      "artist": "Alicia Keys & USHER",
+      "title": "My Boo",
+      "catalog_id": 386153729,
+      "catalog_year": 2004,
+      "query": "Usher"
+    },
+    {
+      "artist": "USHER",
+      "title": "Climax",
+      "catalog_id": 1448420465,
+      "catalog_year": 2012,
+      "query": "Usher"
+    },
+    {
+      "artist": "USHER",
+      "title": "Burn (Confessions Special Edition Version)",
+      "catalog_id": 386153641,
+      "catalog_year": 2004,
+      "query": "Usher"
+    },
+    {
+      "artist": "USHER",
+      "title": "U Remind Me",
+      "catalog_id": 268532453,
+      "catalog_year": 2001,
+      "query": "Usher"
+    },
+    {
+      "artist": "USHER",
+      "title": "There Goes My Baby",
+      "catalog_id": 923691588,
+      "catalog_year": 2010,
+      "query": "Usher"
+    },
+    {
+      "artist": "USHER",
+      "title": "Confessions, Pt. II (Confessions Special Edition Version)",
+      "catalog_id": 386153613,
+      "catalog_year": 2004,
+      "query": "Usher"
+    },
+    {
+      "artist": "USHER",
+      "title": "Omg (feat. will.i.am)",
+      "catalog_id": 923691591,
+      "catalog_year": 2010,
+      "query": "Usher"
+    },
+    {
+      "artist": "USHER",
+      "title": "Trading Places",
+      "catalog_id": 281698339,
+      "catalog_year": 2008,
+      "query": "Usher"
+    },
+    {
+      "artist": "USHER",
+      "title": "You Make Me Wanna...",
+      "catalog_id": 278845473,
+      "catalog_year": 1997,
+      "query": "Usher"
+    },
+    {
+      "artist": "USHER",
+      "title": "Hey Daddy (Daddy's Home) [feat. Plies]",
+      "catalog_id": 344673600,
+      "catalog_year": 2009,
+      "query": "Usher"
+    },
+    {
+      "artist": "USHER",
+      "title": "Superstar (Confessions Special Edition Version)",
+      "catalog_id": 386153689,
+      "catalog_year": 2004,
+      "query": "Usher"
+    },
+    {
+      "artist": "USHER",
+      "title": "DJ Got Us Fallin' in Love (feat. Pitbull)",
+      "catalog_id": 923691611,
+      "catalog_year": 2010,
+      "query": "Usher"
+    },
+    {
+      "artist": "USHER",
+      "title": "Love In This Club, Pt. II (feat. Beyoncé & Lil Wayne)",
+      "catalog_id": 281698363,
+      "catalog_year": 2008,
+      "query": "Usher"
+    },
+    {
+      "artist": "USHER",
+      "title": "Can U Handle It? (Confessions Special Edition Version)",
+      "catalog_id": 386153700,
+      "catalog_year": 2004,
+      "query": "Usher"
+    },
+    {
+      "artist": "USHER",
+      "title": "Caught Up",
+      "catalog_id": 386153687,
+      "catalog_year": 2004,
+      "query": "Usher"
+    },
+    {
+      "artist": "David Guetta",
+      "title": "Without You (feat. Usher)",
+      "catalog_id": 693226002,
+      "catalog_year": 2011,
+      "query": "Usher"
+    },
+    {
+      "artist": "USHER",
+      "title": "Bad Girl",
+      "catalog_id": 386153692,
+      "catalog_year": 2004,
+      "query": "Usher"
+    },
+    {
+      "artist": "USHER",
+      "title": "Papers",
+      "catalog_id": 923691596,
+      "catalog_year": 2009,
+      "query": "Usher"
+    },
+    {
+      "artist": "USHER",
+      "title": "Lemme See (feat. Rick Ross)",
+      "catalog_id": 1448420592,
+      "catalog_year": 2012,
+      "query": "Usher"
+    },
+    {
+      "artist": "Romeo Santos",
+      "title": "Promise (feat. Usher)",
+      "catalog_id": 471342532,
+      "catalog_year": 2011,
+      "query": "Usher"
+    },
+    {
+      "artist": "USHER",
+      "title": "Confessions",
+      "catalog_id": 386153610,
+      "catalog_year": 2004,
+      "query": "Usher"
+    },
+    {
+      "artist": "USHER",
+      "title": "My Way",
+      "catalog_id": 278845490,
+      "catalog_year": 1997,
+      "query": "Usher"
+    },
+    {
+      "artist": "USHER",
+      "title": "That's What It's Made For",
+      "catalog_id": 386153699,
+      "catalog_year": 2004,
+      "query": "Usher"
+    },
+    {
+      "artist": "Yuna",
+      "title": "Crush (feat. Usher)",
+      "catalog_id": 1440842581,
+      "catalog_year": 2016,
+      "query": "Usher"
+    },
+    {
+      "artist": "USHER",
+      "title": "Moving Mountains",
+      "catalog_id": 281698340,
+      "catalog_year": 2008,
+      "query": "Usher"
+    },
+    {
+      "artist": "Justin Bieber",
+      "title": "Somebody to Love (Remix) [feat. Usher]",
+      "catalog_id": 1440745086,
+      "catalog_year": 2010,
+      "query": "Usher"
+    },
+    {
+      "artist": "USHER",
+      "title": "Lil Freak (feat. Nicki Minaj)",
+      "catalog_id": 923691589,
+      "catalog_year": 2010,
+      "query": "Usher"
+    },
+    {
+      "artist": "GRiZ",
+      "title": "For The Love (feat. Talib Kweli)",
+      "catalog_id": 1803842105,
+      "catalog_year": 2015,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "Stephen",
+      "title": "Crossfire, Part II (Feat. Talib Kweli & KillaGraham)",
+      "catalog_id": 1215048221,
+      "catalog_year": 2016,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "Anderson .Paak",
+      "title": "The Dreamer (feat. Talib Kweli & Timan Family Choir)",
+      "catalog_id": 1074099207,
+      "catalog_year": 2016,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "Black Eyed Peas",
+      "title": "Like That (feat. John Legend, Q-Tip, Talib Kweli & CeeLo Green)",
+      "catalog_id": 1440632598,
+      "catalog_year": 2005,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "Talib Kweli",
+      "title": "Come Here (feat. Miguel)",
+      "catalog_id": 714560243,
+      "catalog_year": 2013,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "Talib Kweli",
+      "title": "Everything Man",
+      "catalog_id": 261634398,
+      "catalog_year": 2007,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "Pretty Lights",
+      "title": "Around the Block (feat. Talib Kweli)",
+      "catalog_id": 658111710,
+      "catalog_year": 2013,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "DANGERDOOM, MF DOOM & Danger Mouse",
+      "title": "Old School Rules (feat. Talib Kweli)",
+      "catalog_id": 1829744979,
+      "catalog_year": 2005,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "Talib Kweli",
+      "title": "Soon the New Day (feat. Norah Jones)",
+      "catalog_id": 261634559,
+      "catalog_year": 2007,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "Stephen",
+      "title": "Crossfire, Pt. II (feat. Talib Kweli & KillaGraham)",
+      "catalog_id": 1153081044,
+      "catalog_year": 2016,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "GRiZ & Talib Kweli",
+      "title": "For The Love (Big Wild Remix)",
+      "catalog_id": 1803844074,
+      "catalog_year": 2015,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "9th Wonder",
+      "title": "Never Stop Loving You (feat. Terrace Martin & Talib Kweli)",
+      "catalog_id": 6792005767,
+      "catalog_year": 2011,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "Talib Kweli",
+      "title": "Black Girl Pain",
+      "catalog_id": 1443881969,
+      "catalog_year": 2004,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "Talib Kweli",
+      "title": "Stay Around",
+      "catalog_id": 261634637,
+      "catalog_year": 2007,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "Talib Kweli",
+      "title": "Never Been In Love",
+      "catalog_id": 1443881975,
+      "catalog_year": 2004,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "Talib Kweli",
+      "title": "Give 'Em Hell (feat. Coi Mattison & Lyfe Jennings)",
+      "catalog_id": 261634609,
+      "catalog_year": 2007,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "Bewhy & Talib Kweli",
+      "title": "International Wave",
+      "catalog_id": 1733591223,
+      "catalog_year": 2016,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "Talib Kweli",
+      "title": "Hot Thing (Radio Edit)",
+      "catalog_id": 258415768,
+      "catalog_year": 2007,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "Chrisette Michele, Talib Kweli & Black Thought",
+      "title": "Let Freedom Reign (feat. Talib Kweli & Black Thought)",
+      "catalog_id": 1446733646,
+      "catalog_year": 2010,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "Nelly, Talib Kweli & Ali",
+      "title": "Go (feat. Talib Kweli & Ali)",
+      "catalog_id": 1440749280,
+      "catalog_year": 2010,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "Bun B & Cory Mo",
+      "title": "Hesitate (feat. Talib Kweli, David Banner & Tobe Nwigwe)",
+      "catalog_id": 1613632002,
+      "catalog_year": 2005,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "Common, Questlove, Talib Kweli & Zap Mama",
+      "title": "Yelling Away (Featuring Common, Talib Kweli and Ahmir \"?uestlove\" Thompson)",
+      "catalog_id": 23203654,
+      "catalog_year": 2003,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "Talib Kweli",
+      "title": "Space Fruit (Interlude)",
+      "catalog_id": 261634945,
+      "catalog_year": 2007,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "DANGERDOOM, MF DOOM & Danger Mouse",
+      "title": "Old School (feat. Talib Kweli)",
+      "catalog_id": 1829723216,
+      "catalog_year": 2005,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "Pretty Lights",
+      "title": "Around the Block (Datsik Remix) [feat. Talib Kweli]",
+      "catalog_id": 739033801,
+      "catalog_year": 2013,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "Karma Fields",
+      "title": "Greatness (feat. Talib Kweli)",
+      "catalog_id": 1090722467,
+      "catalog_year": 2016,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "Brian McKnight",
+      "title": "She (feat. Talib Kweli)",
+      "catalog_id": 1399715252,
+      "catalog_year": 2005,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "Talib Kweli",
+      "title": "I Try (feat. Mary J. Blige)",
+      "catalog_id": 1443881778,
+      "catalog_year": 2004,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "The Procussions",
+      "title": "Miss January (feat. Talib Kweli)",
+      "catalog_id": 1498058571,
+      "catalog_year": 2006,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "Talib Kweli",
+      "title": "Love Language (feat. Les Nubians)",
+      "catalog_id": 573193541,
+      "catalog_year": 2000,
+      "query": "Talib Kweli"
+    },
+    {
+      "artist": "Monica",
+      "title": "Why I Love You So Much",
+      "catalog_id": 298426087,
+      "catalog_year": 1995,
+      "query": "Monica"
+    },
+    {
+      "artist": "Monica",
+      "title": "Love All Over Me",
+      "catalog_id": 358633232,
+      "catalog_year": 2010,
+      "query": "Monica"
+    },
+    {
+      "artist": "Monica",
+      "title": "U Should've Known Better",
+      "catalog_id": 298399754,
+      "catalog_year": 2003,
+      "query": "Monica"
+    },
+    {
+      "artist": "Monica",
+      "title": "Before You Walk Out of My Life",
+      "catalog_id": 298426082,
+      "catalog_year": 1995,
+      "query": "Monica"
+    },
+    {
+      "artist": "Monica",
+      "title": "For You I Will",
+      "catalog_id": 258597158,
+      "catalog_year": 1998,
+      "query": "Monica"
+    },
+    {
+      "artist": "Monica",
+      "title": "Without You",
+      "catalog_id": 510442927,
+      "catalog_year": 2012,
+      "query": "Monica"
+    },
+    {
+      "artist": "Monica",
+      "title": "Everything to Me",
+      "catalog_id": 358633069,
+      "catalog_year": 2010,
+      "query": "Monica"
+    },
+    {
+      "artist": "Keyshia Cole",
+      "title": "Trust (feat. Monica)",
+      "catalog_id": 1440749747,
+      "catalog_year": 2008,
+      "query": "Monica"
+    },
+    {
+      "artist": "Monica",
+      "title": "With You",
+      "catalog_id": 298426057,
+      "catalog_year": 1995,
+      "query": "Monica"
+    },
+    {
+      "artist": "Monica",
+      "title": "Why Her?",
+      "catalog_id": 303194471,
+      "catalog_year": 2006,
+      "query": "Monica"
+    },
+    {
+      "artist": "Monica",
+      "title": "Hurts the Most",
+      "catalog_id": 298399836,
+      "catalog_year": 2003,
+      "query": "Monica"
+    },
+    {
+      "artist": "Monica",
+      "title": "One In a Lifetime",
+      "catalog_id": 358633045,
+      "catalog_year": 2010,
+      "query": "Monica"
+    },
+    {
+      "artist": "Monica",
+      "title": "Superman",
+      "catalog_id": 358633189,
+      "catalog_year": 2010,
+      "query": "Monica"
+    },
+    {
+      "artist": "Monica",
+      "title": "Don't Take It Personal (Just One of Dem Days)",
+      "catalog_id": 298426043,
+      "catalog_year": 1995,
+      "query": "Monica"
+    },
+    {
+      "artist": "USHER",
+      "title": "Slow Jam (feat. Monica)",
+      "catalog_id": 278845484,
+      "catalog_year": 1997,
+      "query": "Monica"
+    },
+    {
+      "artist": "Monica",
+      "title": "Angel of Mine (Radio Mix)",
+      "catalog_id": 258595466,
+      "catalog_year": 1997,
+      "query": "Monica"
+    },
+    {
+      "artist": "Trina",
+      "title": "Always (feat. Monica)",
+      "catalog_id": 716168773,
+      "catalog_year": 2010,
+      "query": "Monica"
+    },
+    {
+      "artist": "Monica",
+      "title": "My Everything",
+      "catalog_id": 303194477,
+      "catalog_year": 2006,
+      "query": "Monica"
+    },
+    {
+      "artist": "Monica",
+      "title": "Hell No (Leave Home) [feat. Twista]",
+      "catalog_id": 303194474,
+      "catalog_year": 2006,
+      "query": "Monica"
+    },
+    {
+      "artist": "Monica",
+      "title": "Until It's Gone",
+      "catalog_id": 510442934,
+      "catalog_year": 2011,
+      "query": "Monica"
+    },
+    {
+      "artist": "Monica",
+      "title": "The First Night",
+      "catalog_id": 258595039,
+      "catalog_year": 1998,
+      "query": "Monica"
+    },
+    {
+      "artist": "Before Dark",
+      "title": "Monica",
+      "catalog_id": 298506173,
+      "catalog_year": 2000,
+      "query": "Monica"
+    },
+    {
+      "artist": "Fattburger",
+      "title": "Monica",
+      "catalog_id": 724932318,
+      "catalog_year": 1992,
+      "query": "Monica"
+    },
+    {
+      "artist": "José-Luis Orozco",
+      "title": "Mónica (Spanish)",
+      "catalog_id": 477905993,
+      "catalog_year": 2010,
+      "query": "Monica"
+    },
+    {
+      "artist": "Tortoise",
+      "title": "Monica",
+      "catalog_id": 308752705,
+      "catalog_year": 2001,
+      "query": "Monica"
+    },
+    {
+      "artist": "Fito Olivares",
+      "title": "Monica",
+      "catalog_id": 724421935,
+      "catalog_year": 1998,
+      "query": "Monica"
+    },
+    {
+      "artist": "Banda Ibanez",
+      "title": "Monica",
+      "catalog_id": 512142389,
+      "catalog_year": 2012,
+      "query": "Monica"
+    },
+    {
+      "artist": "José-Luis Orozco",
+      "title": "Monica (English)",
+      "catalog_id": 477905992,
+      "catalog_year": 2010,
+      "query": "Monica"
+    },
+    {
+      "artist": "Monica",
+      "title": "Knock Knock",
+      "catalog_id": 298399761,
+      "catalog_year": 2003,
+      "query": "Monica"
+    },
+    {
+      "artist": "Grupo Ébano",
+      "title": "Mónica",
+      "catalog_id": 1559027374,
+      "catalog_year": 1997,
+      "query": "Monica"
+    },
+    {
+      "artist": "Houston, Nate Dogg, I-20 & Chingy",
+      "title": "I Like That",
+      "catalog_id": 724833114,
+      "catalog_year": 2003,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "E-40",
+      "title": "Nah, Nah... (feat. Nate Dogg)",
+      "catalog_id": 310324566,
+      "catalog_year": 2000,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "Eminem",
+      "title": "'Till I Collapse (feat. Nate Dogg)",
+      "catalog_id": 1440810680,
+      "catalog_year": 2002,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "Dr. Dre",
+      "title": "Xxplosive (feat. Hittman, Six-Two, Nate Dogg & Kurupt)",
+      "catalog_id": 1444156946,
+      "catalog_year": 1999,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "Shade Sheist featuring Nate Dogg & Kurupt",
+      "title": "Where I Wanna Be",
+      "catalog_id": 213981301,
+      "catalog_year": 2000,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "Snoop Dogg & Tha Eastsidaz",
+      "title": "Ghetto",
+      "catalog_id": 258232229,
+      "catalog_year": 2000,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "Warren G",
+      "title": "Keep on Hustlin' (feat. Young Jeezy, Bun B, Nate Dogg)",
+      "catalog_id": 1020512636,
+      "catalog_year": 1994,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "Nate Dogg",
+      "title": "Get Up",
+      "catalog_id": 304071061,
+      "catalog_year": 2002,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "Eminem",
+      "title": "Never Enough (feat. 50 Cent & Nate Dogg)",
+      "catalog_id": 1425130502,
+      "catalog_year": 2004,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "Warren G",
+      "title": "My House (feat. Nate Dogg)",
+      "catalog_id": 1020512634,
+      "catalog_year": 1994,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "2Pac",
+      "title": "Skandalouz (feat. Nate Dogg)",
+      "catalog_id": 1588493098,
+      "catalog_year": 1996,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "Warren G, Nate Dogg & Snoop Dogg",
+      "title": "Game Don't Wait",
+      "catalog_id": 162561900,
+      "catalog_year": 1999,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "Snoop Dogg featuring Nate Dogg",
+      "title": "Boss' Life (feat. Nate Dogg) [Edited Version]",
+      "catalog_id": 1445290460,
+      "catalog_year": 2006,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "2Pac",
+      "title": "How Long Will They Mourn Me? (feat. Nate Dogg)",
+      "catalog_id": 1440662050,
+      "catalog_year": 1998,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "Warren G",
+      "title": "Saturday (feat. E-40, Too $hort, Nate Dogg)",
+      "catalog_id": 1020512635,
+      "catalog_year": 1994,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "Mariah Carey",
+      "title": "If We (feat. Nate Dogg & Ja Rule)",
+      "catalog_id": 6801312494,
+      "catalog_year": 2001,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "Snoop Dogg",
+      "title": "Lay Low (feat. Master P, Nate Dogg, Butch Cassidy & Tha Eastsidaz)",
+      "catalog_id": 723748808,
+      "catalog_year": 2005,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "Big Chief",
+      "title": "Nate Dogg (Mr. Lee Reprise Remix)",
+      "catalog_id": 581004147,
+      "catalog_year": 2012,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "Nate Dogg",
+      "title": "Scared of Love (feat. Danny \"Butch\" Means)",
+      "catalog_id": 986808397,
+      "catalog_year": 1998,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "Warren G, Nate Dogg & The Game",
+      "title": "Party We Will Throw Now!",
+      "catalog_id": 524812180,
+      "catalog_year": 2012,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "Nate Dogg",
+      "title": "Crazy, Dangerous",
+      "catalog_id": 986807787,
+      "catalog_year": 1999,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "Nate Dogg",
+      "title": "Nobody Does It Better (feat. Warren G) [Radio Edit]",
+      "catalog_id": 350387940,
+      "catalog_year": 1999,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "Nate Dogg",
+      "title": "Friends",
+      "catalog_id": 442918699,
+      "catalog_year": 2000,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "Nate Dogg",
+      "title": "Where Are You Going? (feat. Pamela Hale)",
+      "catalog_id": 986808409,
+      "catalog_year": 2005,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "Mark Ronson, Ghostface Killah, Nate Dogg, Trife & Saigon",
+      "title": "Ooh Wee (feat. Ghostface Killah, Nate Dogg, Trife & Saigon)",
+      "catalog_id": 2356575,
+      "catalog_year": 2003,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "Warren G",
+      "title": "Regulate (feat. Nate Dogg) [Le Boeuf Remix]",
+      "catalog_id": 1444108758,
+      "catalog_year": 2016,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "Warren G",
+      "title": "Dead Wrong (feat. Nate Dogg)",
+      "catalog_id": 1020512637,
+      "catalog_year": 1994,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "Kurupt",
+      "title": "Girls All Pause (feat. Nate Dogg & Roscoe)",
+      "catalog_id": 573270135,
+      "catalog_year": 1999,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "50 Cent, Mobb Deep & Nate Dogg",
+      "title": "Have a Party",
+      "catalog_id": 1442210503,
+      "catalog_year": 2005,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "WC",
+      "title": "The Streets (feat. Snoop Dogg & Nate Dogg) [Retwist]",
+      "catalog_id": 1446730310,
+      "catalog_year": 2002,
+      "query": "Nate Dogg"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "Dance For You",
+      "catalog_id": 626205222,
+      "catalog_year": 2011,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "Best Thing I Never Had",
+      "catalog_id": 626205875,
+      "catalog_year": 2011,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "1+1",
+      "catalog_id": 626205872,
+      "catalog_year": 2011,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "Love On Top",
+      "catalog_id": 626205216,
+      "catalog_year": 2011,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "Halo",
+      "catalog_id": 295784003,
+      "catalog_year": 2008,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "Irreplaceable",
+      "catalog_id": 296790943,
+      "catalog_year": 2006,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "If I Were a Boy",
+      "catalog_id": 296016892,
+      "catalog_year": 2008,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "Me, Myself and I",
+      "catalog_id": 201275913,
+      "catalog_year": 2003,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Justin Timberlake",
+      "title": "Until The End Of Time (with Beyoncé)",
+      "catalog_id": 400946531,
+      "catalog_year": 2007,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "Upgrade U (feat. JAŸ-Z)",
+      "catalog_id": 261707129,
+      "catalog_year": 2006,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "Sweet Dreams",
+      "catalog_id": 296016902,
+      "catalog_year": 2008,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "Get Me Bodied (Extended Mix)",
+      "catalog_id": 261707183,
+      "catalog_year": 2007,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "Crazy in Love (feat. JAŸ-Z)",
+      "catalog_id": 201274644,
+      "catalog_year": 2003,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "Drunk In Love (feat. JAŸ-Z)",
+      "catalog_id": 780519961,
+      "catalog_year": 2013,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "Diva",
+      "catalog_id": 296016901,
+      "catalog_year": 2008,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "7/11",
+      "catalog_id": 939779732,
+      "catalog_year": 2014,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "I'd Rather Go Blind",
+      "catalog_id": 297019141,
+      "catalog_year": 2008,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "Run the World (Girls)",
+      "catalog_id": 626205874,
+      "catalog_year": 2011,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "Countdown",
+      "catalog_id": 626205219,
+      "catalog_year": 2011,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "Dangerously in Love 2",
+      "catalog_id": 201277862,
+      "catalog_year": 2003,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "Single Ladies (Put a Ring on It)",
+      "catalog_id": 295784137,
+      "catalog_year": 2008,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "Baby Boy (feat. Sean Paul)",
+      "catalog_id": 201274944,
+      "catalog_year": 2003,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "Speechless",
+      "catalog_id": 201277089,
+      "catalog_year": 2003,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "Xo",
+      "catalog_id": 780519977,
+      "catalog_year": 2013,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "Naughty Girl",
+      "catalog_id": 201274830,
+      "catalog_year": 2003,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "Deja Vu (feat. JAŸ-Z)",
+      "catalog_id": 261707248,
+      "catalog_year": 2006,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Lady Gaga",
+      "title": "Telephone (feat. Beyoncé)",
+      "catalog_id": 1476727675,
+      "catalog_year": 2009,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "I Care",
+      "catalog_id": 626205224,
+      "catalog_year": 2011,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Luther Vandross",
+      "title": "The Closer I Get to You (with Beyoncé)",
+      "catalog_id": 201277681,
+      "catalog_year": 2003,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "Be With You",
+      "catalog_id": 201275394,
+      "catalog_year": 2003,
+      "query": "Beyoncé"
+    },
+    {
+      "artist": "Freddie Gibbs & Madlib",
+      "title": "Scarface",
+      "catalog_id": 1705348430,
+      "catalog_year": 2014,
+      "query": "Scarface"
+    },
+    {
+      "artist": "Desmond Williams & Midnite",
+      "title": "Scarface",
+      "catalog_id": 278498030,
+      "catalog_year": 2008,
+      "query": "Scarface"
+    },
+    {
+      "artist": "Nephew Tommy",
+      "title": "Scarface",
+      "catalog_id": 1008386439,
+      "catalog_year": 2015,
+      "query": "Scarface"
+    },
+    {
+      "artist": "Freddie Gibbs & Madlib",
+      "title": "Scarface (Instrumental)",
+      "catalog_id": 1658905970,
+      "catalog_year": 2014,
+      "query": "Scarface"
+    },
+    {
+      "artist": "La Edicion De Culiacan",
+      "title": "Scarface",
+      "catalog_id": 1440233027,
+      "catalog_year": 2016,
+      "query": "Scarface"
+    },
+    {
+      "artist": "Freddie Gibbs, Madlib & Alex Goose",
+      "title": "Scarface (Alex Goose Instrumental Remix)",
+      "catalog_id": 1658907636,
+      "catalog_year": 2014,
+      "query": "Scarface"
+    },
+    {
+      "artist": "SHINHWA",
+      "title": "Scarface",
+      "catalog_id": 1264567518,
+      "catalog_year": 2013,
+      "query": "Scarface"
+    },
+    {
+      "artist": "South Central Skankers",
+      "title": "Scarface",
+      "catalog_id": 1453913420,
+      "catalog_year": 2015,
+      "query": "Scarface"
+    },
+    {
+      "artist": "Capone-N-Noreaga",
+      "title": "Scarface",
+      "catalog_id": 721221774,
+      "catalog_year": 2010,
+      "query": "Scarface"
+    },
+    {
+      "artist": "Ananda Shake",
+      "title": "Scarface",
+      "catalog_id": 377901613,
+      "catalog_year": 2010,
+      "query": "Scarface"
+    },
+    {
+      "artist": "Crystal Design",
+      "title": "Scarface (Radio Edit)",
+      "catalog_id": 699840679,
+      "catalog_year": 2013,
+      "query": "Scarface"
+    },
+    {
+      "artist": "Jorge Santacruz Y Su Grupo Quinto Elemento",
+      "title": "Scarface Renacido",
+      "catalog_id": 1157756471,
+      "catalog_year": 2011,
+      "query": "Scarface"
+    },
+    {
+      "artist": "PelleK",
+      "title": "Scarface (Push It to the Limit)",
+      "catalog_id": 1005474180,
+      "catalog_year": 2015,
+      "query": "Scarface"
+    },
+    {
+      "artist": "Alfie Rhodes",
+      "title": "Scarface",
+      "catalog_id": 918822171,
+      "catalog_year": 2014,
+      "query": "Scarface"
+    },
+    {
+      "artist": "JAŸ-Z & Beanie Sigel",
+      "title": "This Can't Be Life (feat. Scarface)",
+      "catalog_id": 1443262225,
+      "catalog_year": 2000,
+      "query": "Scarface"
+    },
+    {
+      "artist": "Bunny Lee Allstars",
+      "title": "Scarface",
+      "catalog_id": 933340417,
+      "catalog_year": 2004,
+      "query": "Scarface"
+    },
+    {
+      "artist": "Ry Legit",
+      "title": "Scarface",
+      "catalog_id": 1058071106,
+      "catalog_year": 2015,
+      "query": "Scarface"
+    },
+    {
+      "artist": "Scarface",
+      "title": "On My Block",
+      "catalog_id": 1452863323,
+      "catalog_year": 2002,
+      "query": "Scarface"
+    },
+    {
+      "artist": "Brian \"Hacksaw\" Williams",
+      "title": "Push It to the Limit (From the Motion Picture \"Scarface\")",
+      "catalog_id": 517900010,
+      "catalog_year": 2010,
+      "query": "Scarface"
+    },
+    {
+      "artist": "EACH OF THE DAYS",
+      "title": "Scarface",
+      "catalog_id": 456839728,
+      "catalog_year": 2011,
+      "query": "Scarface"
+    },
+    {
+      "artist": "Cadallaca",
+      "title": "Scarface",
+      "catalog_id": 314031986,
+      "catalog_year": 2000,
+      "query": "Scarface"
+    },
+    {
+      "artist": "Jon B.",
+      "title": "Through the Fire (feat. Scarface)",
+      "catalog_id": 1436293680,
+      "catalog_year": 2004,
+      "query": "Scarface"
+    },
+    {
+      "artist": "JAŸ-Z",
+      "title": "Some How Some Way (feat. Beanie Sigel & Scarface)",
+      "catalog_id": 1440935207,
+      "catalog_year": 2002,
+      "query": "Scarface"
+    },
+    {
+      "artist": "Soraya Hama",
+      "title": "Scarface",
+      "catalog_id": 1760217863,
+      "catalog_year": 2012,
+      "query": "Scarface"
+    },
+    {
+      "artist": "Scarface",
+      "title": "Guess Who's Back (feat. JAY-Z & Beanie Sigel)",
+      "catalog_id": 1452863310,
+      "catalog_year": 2002,
+      "query": "Scarface"
+    },
+    {
+      "artist": "Rick Ross",
+      "title": "Blessing In Disguise (feat. Scarface & Z-Ro)",
+      "catalog_id": 1443079675,
+      "catalog_year": 2014,
+      "query": "Scarface"
+    },
+    {
+      "artist": "Anno Domini Beats",
+      "title": "Scarface (Instrumental)",
+      "catalog_id": 620119807,
+      "catalog_year": 2013,
+      "query": "Scarface"
+    },
+    {
+      "artist": "Rico Rodrigues & The All Stars",
+      "title": "Scarface",
+      "catalog_id": 489838220,
+      "catalog_year": 2004,
+      "query": "Scarface"
+    },
+    {
+      "artist": "Rico and His All Stars",
+      "title": "Scarface - Original",
+      "catalog_id": 443903150,
+      "catalog_year": 2004,
+      "query": "Scarface"
+    },
+    {
+      "artist": "Zygnema",
+      "title": "Scarface",
+      "catalog_id": 529564157,
+      "catalog_year": 2010,
+      "query": "Scarface"
+    },
+    {
+      "artist": "Ashanti",
+      "title": "Rain On Me",
+      "catalog_id": 1440661043,
+      "catalog_year": 2003,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Ashanti",
+      "title": "The Way That I Love You",
+      "catalog_id": 1442221907,
+      "catalog_year": 2008,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Nelly",
+      "title": "Body On Me (feat. Akon & Ashanti)",
+      "catalog_id": 1445127367,
+      "catalog_year": 2008,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Jagged Edge",
+      "title": "Put a Little Umph In It (feat. Ashanti)",
+      "catalog_id": 1445276515,
+      "catalog_year": 2007,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Keyshia Cole",
+      "title": "Woman to Woman (feat. Ashanti)",
+      "catalog_id": 1443213658,
+      "catalog_year": 2012,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Ashanti",
+      "title": "Breakup 2 Makeup",
+      "catalog_id": 1440661041,
+      "catalog_year": 2003,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Ashanti",
+      "title": "Don't Let Them",
+      "catalog_id": 1443617204,
+      "catalog_year": 2004,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Ashanti",
+      "title": "Rock Wit U (Awww Baby) [Remix]",
+      "catalog_id": 1444018639,
+      "catalog_year": 2005,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Ja Rule",
+      "title": "Always On Time (feat. Ashanti)",
+      "catalog_id": 1371597594,
+      "catalog_year": 2001,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Fat Joe",
+      "title": "What's Luv? (feat. Ashanti)",
+      "catalog_id": 298829909,
+      "catalog_year": 2002,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Ashanti",
+      "title": "Mother",
+      "catalog_id": 1442222126,
+      "catalog_year": 2008,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Ashanti",
+      "title": "Foolish",
+      "catalog_id": 1444119831,
+      "catalog_year": 2002,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Ashanti",
+      "title": "Helpless (feat. Ja Rule)",
+      "catalog_id": 1171297678,
+      "catalog_year": 2016,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Beyoncé, Mary J. Blige, Rihanna, Fergie, Sheryl Crow, Melissa Etheridge, Natasha Bedingfield, Miley Cyrus, Leona Lewis, Carrie Underwood, Keyshia Cole, LeAnn Rimes, Ashanti, Ciara & Mariah Carey",
+      "title": "Just Stand Up!",
+      "catalog_id": 1445131720,
+      "catalog_year": 2008,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Ashanti",
+      "title": "Christmas Time Again",
+      "catalog_id": 1445667024,
+      "catalog_year": 2003,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Ashanti",
+      "title": "Baby",
+      "catalog_id": 1444119977,
+      "catalog_year": 2002,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Big Punisher",
+      "title": "How We Roll (feat. Ashanti) [Explicit]",
+      "catalog_id": 324742886,
+      "catalog_year": 2001,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Ashanti",
+      "title": "Where I Stand",
+      "catalog_id": 292839693,
+      "catalog_year": 2008,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Ashanti",
+      "title": "Never Should Have",
+      "catalog_id": 818938307,
+      "catalog_year": 2013,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Ashanti",
+      "title": "Happy",
+      "catalog_id": 1444119835,
+      "catalog_year": 2002,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Ashanti",
+      "title": "Good Good",
+      "catalog_id": 1442222121,
+      "catalog_year": 2008,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "7 Aurelis & Ashanti",
+      "title": "Don't Leave Me Alone",
+      "catalog_id": 1443617220,
+      "catalog_year": 2004,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Ashanti",
+      "title": "Unfoolish",
+      "catalog_id": 1444119993,
+      "catalog_year": 2002,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Ashanti",
+      "title": "Love Games (feat. Jeremih)",
+      "catalog_id": 818938305,
+      "catalog_year": 2014,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Ashanti",
+      "title": "I Found Lovin'",
+      "catalog_id": 1440661042,
+      "catalog_year": 2003,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Ashanti",
+      "title": "Ohhh Ahhh",
+      "catalog_id": 1440661052,
+      "catalog_year": 2003,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Ashanti & Ja Rule",
+      "title": "Wonderful (Remix)",
+      "catalog_id": 1443617227,
+      "catalog_year": 2004,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Ashanti",
+      "title": "I Don't Mind",
+      "catalog_id": 1440661056,
+      "catalog_year": 2003,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Ashanti & Lloyd",
+      "title": "Take Me Tonight",
+      "catalog_id": 1443617207,
+      "catalog_year": 2004,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Ashanti",
+      "title": "Sweet Baby",
+      "catalog_id": 1440661054,
+      "catalog_year": 2003,
+      "query": "Ashanti"
+    },
+    {
+      "artist": "Stephen Marley featuring Mos Def",
+      "title": "Hey Baby (feat. Mos Def)",
+      "catalog_id": 1440769945,
+      "catalog_year": 2007,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "DJ Shadow",
+      "title": "Six Days (feat. Mos Def) [Remix]",
+      "catalog_id": 1434529344,
+      "catalog_year": 2003,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "Kanye West",
+      "title": "Drunk and Hot Girls (feat. Mos Def)",
+      "catalog_id": 1442846484,
+      "catalog_year": 2007,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "Mos Def",
+      "title": "The Panties",
+      "catalog_id": 1444013696,
+      "catalog_year": 2004,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "Kanye West, Mos Def & Al Be Back",
+      "title": "Good Night",
+      "catalog_id": 1442846867,
+      "catalog_year": 2007,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "Massive Attack & Mos Def",
+      "title": "I Against I",
+      "catalog_id": 724340420,
+      "catalog_year": 2002,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "Kanye West",
+      "title": "Two Words (feat. Mos Def, Freeway & The Boys Choir of Harlem)",
+      "catalog_id": 1437467901,
+      "catalog_year": 2004,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "Gorillaz",
+      "title": "Stylo (feat. Mos Def and Bobby Womack)",
+      "catalog_id": 850569467,
+      "catalog_year": 2010,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "Mos Def & Jill Scott",
+      "title": "Love Rain (Head Nod Mix)",
+      "catalog_id": 1416162999,
+      "catalog_year": 2000,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "A Tribe Called Quest",
+      "title": "Rock Rock Y'all (feat. Punchline, Wordsworth, Jane Doe & Mos Def)",
+      "catalog_id": 254661314,
+      "catalog_year": 1998,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "Gorillaz",
+      "title": "Stylo (Radio Edit) [feat. Mos Def and Bobby Womack]",
+      "catalog_id": 850583629,
+      "catalog_year": 2011,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "Mos Def",
+      "title": "Crime & Medicine",
+      "catalog_id": 1443203253,
+      "catalog_year": 2006,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "Mos Def",
+      "title": "The Beggar",
+      "catalog_id": 1444014225,
+      "catalog_year": 2004,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "Gorillaz",
+      "title": "Sweepstakes (feat. Mos Def and Hypnotic Brass Ensemble)",
+      "catalog_id": 850569483,
+      "catalog_year": 2010,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "DJ Honda featuring Mos Def",
+      "title": "Travellin' Man (feat. Mos Def)",
+      "catalog_id": 78790218,
+      "catalog_year": 1998,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "De La Soul",
+      "title": "Big Brother Beat (feat. Mos Def)",
+      "catalog_id": 1664601178,
+      "catalog_year": 1996,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "Alicia Keys",
+      "title": "Love It or Leave It Alone / Welcome to Jamrock (feat. Damien Marley, Mos Def & Common) [Live]",
+      "catalog_id": 267954858,
+      "catalog_year": 2005,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "A$AP Rocky",
+      "title": "Back Home (feat. Mos Def x Acyde)",
+      "catalog_id": 994721776,
+      "catalog_year": 2015,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "Mos Def",
+      "title": "There Is a Way",
+      "catalog_id": 1443203424,
+      "catalog_year": 2006,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "Mos Def",
+      "title": "Lifetime",
+      "catalog_id": 1443203606,
+      "catalog_year": 2006,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "DJ KRUSH",
+      "title": "Shinjiro (feat. Mos Def)",
+      "catalog_id": 1443773601,
+      "catalog_year": 1997,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "Mos Def",
+      "title": "Blue Black Jack",
+      "catalog_id": 1444013561,
+      "catalog_year": 2004,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "Mos Def",
+      "title": "Fake Bonanza",
+      "catalog_id": 1443203591,
+      "catalog_year": 2006,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "Mos Def",
+      "title": "Bedstuy Parade & Funeral March",
+      "catalog_id": 1444013576,
+      "catalog_year": 2004,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "Mos Def",
+      "title": "True Magic",
+      "catalog_id": 1443202925,
+      "catalog_year": 2006,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "Mos Def",
+      "title": "Sunshine",
+      "catalog_id": 1444013684,
+      "catalog_year": 2004,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "Floetry",
+      "title": "Wanna B Where U R (thisizzaluvsong) [feat. Mos Def]",
+      "catalog_id": 1443566461,
+      "catalog_year": 2003,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "Mos Def",
+      "title": "No Particular Place to Go",
+      "catalog_id": 297019124,
+      "catalog_year": 2008,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "Mos Def",
+      "title": "Sun, Moon, Stars",
+      "catalog_id": 1443203430,
+      "catalog_year": 2006,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "Macy Gray featuring Angie Stone & Mos Def",
+      "title": "My Nutmeg Phantasy (Featuring Angie Stone & Mos Def)",
+      "catalog_id": 190627146,
+      "catalog_year": 2001,
+      "query": "Mos Def"
+    },
+    {
+      "artist": "D'Angelo",
+      "title": "Untitled (How Does It Feel)",
+      "catalog_id": 1440841917,
+      "catalog_year": 2000,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "D'Angelo",
+      "title": "Lady",
+      "catalog_id": 1440842313,
+      "catalog_year": 1995,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "D'Angelo",
+      "title": "Cruisin'",
+      "catalog_id": 1440842311,
+      "catalog_year": 1995,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "D'Angelo",
+      "title": "Send It On",
+      "catalog_id": 1440841746,
+      "catalog_year": 2000,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "D'Angelo",
+      "title": "When We Get By",
+      "catalog_id": 1440842312,
+      "catalog_year": 1995,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "D'Angelo",
+      "title": "I Found My Smile Again (Radio Edit)",
+      "catalog_id": 291970549,
+      "catalog_year": 2008,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "D'Angelo",
+      "title": "Me and Those Dreamin' Eyes of Mine",
+      "catalog_id": 1440842307,
+      "catalog_year": 1995,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "D’Angelo and The Vanguard",
+      "title": "Really Love",
+      "catalog_id": 950764325,
+      "catalog_year": 2014,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "D'Angelo",
+      "title": "Feel Like Makin' Love",
+      "catalog_id": 1440841913,
+      "catalog_year": 2000,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "D'Angelo",
+      "title": "Higher",
+      "catalog_id": 1440842315,
+      "catalog_year": 1995,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "D'Angelo",
+      "title": "One Mo'Gin",
+      "catalog_id": 1440841904,
+      "catalog_year": 2000,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "Raphael Saadiq",
+      "title": "Be Here (feat. D'Angelo)",
+      "catalog_id": 1440658453,
+      "catalog_year": 2002,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "D'Angelo",
+      "title": "Alright",
+      "catalog_id": 1440842305,
+      "catalog_year": 1995,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "D'Angelo",
+      "title": "Spanish Joint",
+      "catalog_id": 1440841910,
+      "catalog_year": 2000,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "D'Angelo",
+      "title": "The Root",
+      "catalog_id": 1440841906,
+      "catalog_year": 2000,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "Diablo Swing Orchestra",
+      "title": "D'Angelo",
+      "catalog_id": 1659204292,
+      "catalog_year": 2006,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "D'Angelo",
+      "title": "Africa",
+      "catalog_id": 1440841920,
+      "catalog_year": 2000,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "D'Angelo",
+      "title": "Smooth",
+      "catalog_id": 1440842310,
+      "catalog_year": 1995,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "D'Angelo",
+      "title": "Chicken Grease",
+      "catalog_id": 1440841902,
+      "catalog_year": 2000,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "D'Angelo",
+      "title": "Jonz in My Bonz",
+      "catalog_id": 1440842306,
+      "catalog_year": 1995,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "D'Angelo",
+      "title": "The Line",
+      "catalog_id": 1440841741,
+      "catalog_year": 2000,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "D'Angelo",
+      "title": "Heaven Must Be Like This",
+      "catalog_id": 1442844493,
+      "catalog_year": 2004,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "D'Angelo",
+      "title": "Medley: Greatdayndamornin' / Booty",
+      "catalog_id": 1440841915,
+      "catalog_year": 2000,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "Zeds Dead",
+      "title": "Lost You (feat. Twin Shadow & D'Angelo Lacy)",
+      "catalog_id": 1874629679,
+      "catalog_year": 2014,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "D'Angelo",
+      "title": "Devil's Pie",
+      "catalog_id": 1443830286,
+      "catalog_year": 2000,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "D’Angelo and The Vanguard",
+      "title": "Another Life",
+      "catalog_id": 950764333,
+      "catalog_year": 2014,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "D'Angelo",
+      "title": "Brown Sugar",
+      "catalog_id": 1444063071,
+      "catalog_year": 1995,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "D’Angelo and The Vanguard",
+      "title": "Sugah Daddy",
+      "catalog_id": 950764324,
+      "catalog_year": 2014,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "D’Angelo and The Vanguard",
+      "title": "Ain't That Easy",
+      "catalog_id": 950764321,
+      "catalog_year": 2014,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "D’Angelo and The Vanguard",
+      "title": "Betray My Heart",
+      "catalog_id": 950764330,
+      "catalog_year": 2014,
+      "query": "D'Angelo"
+    },
+    {
+      "artist": "Ja Rule",
+      "title": "Between Me & You (feat. Christina Milian)",
+      "catalog_id": 1440921939,
+      "catalog_year": 2000,
+      "query": "Ja Rule"
+    },
+    {
+      "artist": "Ja Rule",
+      "title": "Livin' It Up (feat. Case)",
+      "catalog_id": 1450652998,
+      "catalog_year": 2001,
+      "query": "Ja Rule"
+    },
+    {
+      "artist": "Jennifer Lopez",
+      "title": "Ain't It Funny (feat. Ja Rule & Cadillac Tah) [Murder Remix]",
+      "catalog_id": 1448327732,
+      "catalog_year": 2002,
+      "query": "Ja Rule"
+    },
+    {
+      "artist": "Ja Rule",
+      "title": "I'm Real (feat. Jennifer Lopez) [Murder Remix]",
+      "catalog_id": 1371597941,
+      "catalog_year": 2001,
+      "query": "Ja Rule"
+    },
+    {
+      "artist": "R. Kelly",
+      "title": "Been Around the World (feat. Ja Rule)",
+      "catalog_id": 283567741,
+      "catalog_year": 2003,
+      "query": "Ja Rule"
+    },
+    {
+      "artist": "Ja Rule",
+      "title": "Down a** B**ch (feat. Chuck)",
+      "catalog_id": 1371597671,
+      "catalog_year": 2001,
+      "query": "Ja Rule"
+    },
+    {
+      "artist": "JAŸ-Z",
+      "title": "Can I Get A... (feat. Amil & Ja Rule) [Soundtrack Version]",
+      "catalog_id": 1440913653,
+      "catalog_year": 1998,
+      "query": "Ja Rule"
+    },
+    {
+      "artist": "Jagged Edge",
+      "title": "Girl Is Mine (feat. Ja Rule)",
+      "catalog_id": 157517068,
+      "catalog_year": 2000,
+      "query": "Ja Rule"
+    },
+    {
+      "artist": "Wisin & Yandel",
+      "title": "Rakata (feat. Ja Rule) [Remix]",
+      "catalog_id": 1488850781,
+      "catalog_year": 2005,
+      "query": "Ja Rule"
+    },
+    {
+      "artist": "Ja Rule",
+      "title": "Between Me and You (feat. Christina Milian)",
+      "catalog_id": 1467916990,
+      "catalog_year": 2000,
+      "query": "Ja Rule"
+    },
+    {
+      "artist": "Ja Rule",
+      "title": "Put It on Me (feat. Vita)",
+      "catalog_id": 1467917097,
+      "catalog_year": 2000,
+      "query": "Ja Rule"
+    },
+    {
+      "artist": "Wisin Y Yandel & Ja Rule",
+      "title": "Rakata (Remix Featuring Ja Rule)",
+      "catalog_id": 1467933681,
+      "catalog_year": 2005,
+      "query": "Ja Rule"
+    },
+    {
+      "artist": "Baba Stiltz",
+      "title": "Ja Rule",
+      "catalog_id": 1723345618,
+      "catalog_year": 2014,
+      "query": "Ja Rule"
+    },
+    {
+      "artist": "Jennifer Lopez",
+      "title": "Ain't It Funny (feat. Ja Rule & Cadillac Tah) [Remix]",
+      "catalog_id": 538940366,
+      "catalog_year": 2001,
+      "query": "Ja Rule"
+    },
+    {
+      "artist": "Ja Rule",
+      "title": "Furious (feat. 01 & Vita)",
+      "catalog_id": 1434544038,
+      "catalog_year": 2001,
+      "query": "Ja Rule"
+    },
+    {
+      "artist": "Ja Rule",
+      "title": "Never Again",
+      "catalog_id": 1371597678,
+      "catalog_year": 2001,
+      "query": "Ja Rule"
+    },
+    {
+      "artist": "Dru Hill",
+      "title": "You Are Everything (Remix Radio Edit) [feat. Ja Rule]",
+      "catalog_id": 1445141952,
+      "catalog_year": 1999,
+      "query": "Ja Rule"
+    },
+    {
+      "artist": "So Plush & Ja Rule",
+      "title": "Damn (Should've Treated U Right)",
+      "catalog_id": 186324969,
+      "catalog_year": 1999,
+      "query": "Ja Rule"
+    },
+    {
+      "artist": "Ja Rule",
+      "title": "Holla Holla",
+      "catalog_id": 1443135504,
+      "catalog_year": 1999,
+      "query": "Ja Rule"
+    },
+    {
+      "artist": "Fat Joe, Ja Rule & Jadakiss",
+      "title": "New York",
+      "catalog_id": 1443470806,
+      "catalog_year": 2004,
+      "query": "Ja Rule"
+    },
+    {
+      "artist": "Alvin Joiner, Juvenile, Nature, Ja Rule & Reptile",
+      "title": "25 to Life (Soundtrack Version)",
+      "catalog_id": 1443857522,
+      "catalog_year": 1999,
+      "query": "Ja Rule"
+    },
+    {
+      "artist": "Sisqó & Dru Hill",
+      "title": "You Are Everything (feat. Ja Rule) [Remix Version]",
+      "catalog_id": 1443906326,
+      "catalog_year": 1999,
+      "query": "Ja Rule"
+    },
+    {
+      "artist": "Ashanti & Ja Rule",
+      "title": "Turn It Up",
+      "catalog_id": 1443617214,
+      "catalog_year": 2004,
+      "query": "Ja Rule"
+    },
+    {
+      "artist": "Ja Rule",
+      "title": "I Cry (feat. Lil' Mo)",
+      "catalog_id": 1467917598,
+      "catalog_year": 2000,
+      "query": "Ja Rule"
+    },
+    {
+      "artist": "Ja Rule",
+      "title": "The Crown (feat. Sizzla)",
+      "catalog_id": 1444217989,
+      "catalog_year": 2003,
+      "query": "Ja Rule"
+    },
+    {
+      "artist": "Ja Rule",
+      "title": "It's M***a (feat. JAŸ-Z & DMX)",
+      "catalog_id": 1443135643,
+      "catalog_year": 1999,
+      "query": "Ja Rule"
+    },
+    {
+      "artist": "Ja Rule",
+      "title": "Clap Back",
+      "catalog_id": 1444217982,
+      "catalog_year": 2003,
+      "query": "Ja Rule"
+    }
+  ]
+}

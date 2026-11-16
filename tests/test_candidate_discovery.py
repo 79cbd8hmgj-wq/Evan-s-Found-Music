@@ -75,3 +75,25 @@ def test_replenish_does_not_modify_candidates_when_source_fails(tmp_path):
 
 def test_query_seed_loader_deduplicates_and_ignores_comments():
     assert search_terms("Mase\n# note\nMase\nNas\n") == ["Mase", "Nas"]
+
+
+def test_replenishment_limits_each_query_to_preserve_discovery_breadth(tmp_path):
+    paths = []
+    for name, header in [
+        ("candidates.csv", "title,artist,year,genres,tags\\n"),
+        ("library.csv", "title,artist,year,genres,tags\\n"),
+        ("feedback.csv", "title,artist,year,genres,tags,feedback\\n"),
+        ("seen.csv", "title,artist,year,genres,tags,batch_id\\n"),
+    ]:
+        p = tmp_path / name
+        p.write_text(header.replace("\\\\n", "\\n"), encoding="utf-8")
+        paths.append(p)
+
+    def fetch(term):
+        return {"results": [song(f"{term} Song {i}", term, track_id=1000 + i) for i in range(12)]}
+
+    result = replenish(*paths, terms=["Alpha", "Beta", "Gamma"], fetch=fetch,
+                       target=100, max_per_query=3)
+    assert result["new_candidates"] == 9
+    assert result["query_count"] == 3
+    assert result["unique_query_sources"] == 3

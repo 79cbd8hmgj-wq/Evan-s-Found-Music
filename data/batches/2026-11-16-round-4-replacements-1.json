@@ -1,0 +1,85 @@
+{
+  "batch_id": "2026-11-16-round-4-replacements-1",
+  "generated_at_utc": "2026-11-16T23:40:09.453095+00:00",
+  "model_version": "v2",
+  "requested_size": 8,
+  "source_sha256": {
+    "candidates": "0ef583089770d9d830892a1295a688548cff236aad4fc868a3f62fd7a9c3abe9",
+    "feedback": "d8c95831e4aeea1aed0bad1beb5f25c541167d544d28ebfcc1a546ba1d8bd073",
+    "library": "f586a87f975f65918a0432b1bed1c29086be3e946637925c62ab111c669ef5b3",
+    "seen": "c3c75f12d879cd07cc14b61ca4ed17ab76d087b2a1fa8b421864ace8d926c524"
+  },
+  "parameters": {
+    "min_year": 1989,
+    "max_year": 2016,
+    "exploration_fraction": 0.2,
+    "diversity_lambda": 0.55,
+    "max_per_artist": 1
+  },
+  "tracks": [
+    {
+      "rank": 1,
+      "title": "My Harlem Lullaby",
+      "artist": "Mase",
+      "year": 2004,
+      "score": 0.307743,
+      "exploration": 0.696768
+    },
+    {
+      "rank": 2,
+      "title": "What's My Name? (feat. Drake)",
+      "artist": "Rihanna",
+      "year": 2010,
+      "score": 0.249955,
+      "exploration": 0.574898
+    },
+    {
+      "rank": 3,
+      "title": "Greatness (feat. Talib Kweli)",
+      "artist": "Karma Fields",
+      "year": 2016,
+      "score": 0.304564,
+      "exploration": 0.488095
+    },
+    {
+      "rank": 4,
+      "title": "Often",
+      "artist": "The Weeknd",
+      "year": 2014,
+      "score": 0.184135,
+      "exploration": 0.720625
+    },
+    {
+      "rank": 5,
+      "title": "Is It Good To You",
+      "artist": "Heavy D & The Boyz",
+      "year": 1991,
+      "score": 0.213254,
+      "exploration": 0.735013
+    },
+    {
+      "rank": 6,
+      "title": "Daydreaming (feat. Tiffany)",
+      "artist": "Cam'ron",
+      "year": 2002,
+      "score": 0.228145,
+      "exploration": 0.72612
+    },
+    {
+      "rank": 7,
+      "title": "Show Me (feat. Chris Brown)",
+      "artist": "Kid Ink",
+      "year": 2013,
+      "score": 0.210338,
+      "exploration": 0.657632
+    },
+    {
+      "rank": 8,
+      "title": "U Don't Have to Call",
+      "artist": "USHER",
+      "year": 2001,
+      "score": 0.172076,
+      "exploration": 0.458263
+    }
+  ]
+}

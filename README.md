@@ -62,3 +62,22 @@ The formerly ineligible entries in the candidate pool were moved to `data/candid
 The `found-music` CLI now reads `data/seen_recommendations.csv` automatically; an explicit `--seen` path overrides it. The CLI errors if that ledger is unavailable rather than silently serving repeats. Tracks generated manually outside the CLI are **not** evidence of measured performance of this engine. New recommendation batches must record exposure when issued and collect outcomes afterward.
 
 A number of November screenshot-derived entries lack verified release year and/or genre metadata. Their ownership and feedback status are explicit, but music similarity scores should not be interpreted as fully calibrated until metadata is enriched.
+
+## Issue a reproducible discovery round
+
+For future recommendations that will actually be presented to the listener, use:
+
+```bash
+python scripts/validate_data.py
+python scripts/backtest_rounds.py
+python scripts/compare_scoring.py
+python scripts/serve_batch.py --batch-id 2026-11-round-3 --size 20
+```
+
+The serving command **records** the issued tracks in `data/seen_recommendations.csv` and produces a scored, timestamped manifest at `data/batches/<batch-id>.json`. Commit both files as one change before sharing the batch outside the current working tree. Do not rerun the same batch ID. The CLI's older `found-music` command can inspect rankings but does **not** record them; do not use it to issue live recommendations.
+
+This project distinguishes an *offline ranking comparison* from a *prospective acceptance rate*. Older rounds are backtested in their file order with no presumed pre-existing seed, because the accumulated feedback CSV contains future information. The system cannot claim improving prospective performance until multiple recorded, outcome-complete engine-generated rounds have been evaluated.
+
+Current `data/historical_rounds.csv` includes the fully classified November Round 2. The other recent round contains confirmed additions and ownership duplicates but no explicit ratings for the remaining non-additions, so it is not treated as a fully labelled comparison.
+
+The current candidate inventory is insufficient for sustained twenty-song discovery; vetted catalog expansion and metadata enrichment are still required.

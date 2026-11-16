@@ -1,0 +1,181 @@
+{
+  "batch_id": "2026-11-16-round-3",
+  "generated_at_utc": "2026-11-16T22:44:07.188676+00:00",
+  "model_version": "v2",
+  "requested_size": 20,
+  "source_sha256": {
+    "candidates": "191ca9a0cd58b6c8b6fd3ae9cec474cef04d1e427be5373a4110e3f09f644cca",
+    "feedback": "534428d3628f5ef52a2e39c70529e9b387f7c7e1b09915c134320c44a6920bf6",
+    "library": "e29282d0c1c5ab4a4f0d4c5253dd3464ed37c6dfa5167f394fb504bd9ce1b0fd",
+    "seen": "82ad1dfcde02ddef859e74360cd6ccd52420b8462826f2cd56c530e41a77ca0d"
+  },
+  "parameters": {
+    "min_year": 1989,
+    "max_year": 2016,
+    "exploration_fraction": 0.2,
+    "diversity_lambda": 0.55,
+    "max_per_artist": 1
+  },
+  "tracks": [
+    {
+      "rank": 1,
+      "title": "I Luv This Shit (feat. Trinidad James)",
+      "artist": "August Alsina",
+      "year": 2013,
+      "score": 0.666373,
+      "exploration": 0.377798
+    },
+    {
+      "rank": 2,
+      "title": "Swimming Pools (Drank) [Extended Version]",
+      "artist": "Kendrick Lamar",
+      "year": 2012,
+      "score": 0.527923,
+      "exploration": 0.714286
+    },
+    {
+      "rank": 3,
+      "title": "Nothin' On You (feat. Bruno Mars)",
+      "artist": "B.o.B",
+      "year": 2009,
+      "score": 0.484485,
+      "exploration": 0.562998
+    },
+    {
+      "rank": 4,
+      "title": "Soul Survivor (feat. Akon)",
+      "artist": "Jeezy",
+      "year": 2005,
+      "score": 0.529506,
+      "exploration": 0.540408
+    },
+    {
+      "rank": 5,
+      "title": "Creep",
+      "artist": "TLC",
+      "year": 1994,
+      "score": 0.632306,
+      "exploration": 0.500353
+    },
+    {
+      "rank": 6,
+      "title": "Whatever You Like",
+      "artist": "T.I.",
+      "year": 2008,
+      "score": 0.51587,
+      "exploration": 0.714286
+    },
+    {
+      "rank": 7,
+      "title": "3005",
+      "artist": "Childish Gambino",
+      "year": 2013,
+      "score": 0.51893,
+      "exploration": 0.714286
+    },
+    {
+      "rank": 8,
+      "title": "Under Pressure",
+      "artist": "Logic",
+      "year": 2014,
+      "score": 0.511429,
+      "exploration": 0.714286
+    },
+    {
+      "rank": 9,
+      "title": "Try Me",
+      "artist": "DeJ Loaf",
+      "year": 2014,
+      "score": 0.511429,
+      "exploration": 0.714286
+    },
+    {
+      "rank": 10,
+      "title": "Handsome And Wealthy",
+      "artist": "Migos",
+      "year": 2014,
+      "score": 0.511429,
+      "exploration": 0.714286
+    },
+    {
+      "rank": 11,
+      "title": "In Those Jeans",
+      "artist": "Ginuwine",
+      "year": 2003,
+      "score": 0.416109,
+      "exploration": 0.696768
+    },
+    {
+      "rank": 12,
+      "title": "Sure Thing",
+      "artist": "Miguel",
+      "year": 2010,
+      "score": 0.432193,
+      "exploration": 0.585704
+    },
+    {
+      "rank": 13,
+      "title": "Really Really",
+      "artist": "Kevin Gates",
+      "year": 2015,
+      "score": 0.466392,
+      "exploration": 0.720625
+    },
+    {
+      "rank": 14,
+      "title": "Turn On The Lights",
+      "artist": "Future",
+      "year": 2012,
+      "score": 0.456332,
+      "exploration": 0.714286
+    },
+    {
+      "rank": 15,
+      "title": "ATLiens",
+      "artist": "Outkast",
+      "year": 1996,
+      "score": 0.4495,
+      "exploration": 0.628601
+    },
+    {
+      "rank": 16,
+      "title": "My Last (feat. Chris Brown)",
+      "artist": "Big Sean",
+      "year": 2011,
+      "score": 0.411802,
+      "exploration": 0.631291
+    },
+    {
+      "rank": 17,
+      "title": "I'm N Luv (Wit a Stripper) [feat. Mike Jones]",
+      "artist": "T-Pain",
+      "year": 2005,
+      "score": 0.489511,
+      "exploration": 0.595238
+    },
+    {
+      "rank": 18,
+      "title": "Hold On, We're Going Home (feat. Majid Jordan)",
+      "artist": "Drake",
+      "year": 2013,
+      "score": 0.567495,
+      "exploration": 0.490893
+    },
+    {
+      "rank": 19,
+      "title": "Hey Lover (feat. Boyz II Men)",
+      "artist": "LL COOL J",
+      "year": 1995,
+      "score": 0.392929,
+      "exploration": 0.714286
+    },
+    {
+      "rank": 20,
+      "title": "One In A Million",
+      "artist": "Aaliyah",
+      "year": 1996,
+      "score": 0.386743,
+      "exploration": 0.714286
+    }
+  ]
+}

@@ -9,7 +9,8 @@ def test_cli_uses_default_seen_ledger(tmp_path, monkeypatch, capsys):
     candidates = tmp_path / "candidates.csv"
     feedback = tmp_path / "feedback.csv"
     library = tmp_path / "library.csv"
-    seen = tmp_path / "seen.csv"
+    seen = tmp_path / "data" / "seen_recommendations.csv"
+    seen.parent.mkdir()
     candidates.write_text("title,artist,year,genres,tags\nServed,Artist,2005,,\nFresh,Other,2005,,\n", encoding="utf-8")
     feedback.write_text("title,artist,year,genres,tags,feedback\n", encoding="utf-8")
     library.write_text("title,artist,year,genres,tags\n", encoding="utf-8")

@@ -163,14 +163,18 @@ def replenish(
     target: int = 1000,
     apply: bool = True,
     pause_seconds: float = 0.0,
+    max_per_query: int = 30,
+    seed_candidates_path: str | Path | None = None,
 ) -> dict:
     """Stage all searches before writing; a failed request leaves inputs intact."""
     if target < 1:
         raise ValueError("target must be positive")
+    if max_per_query < 1:
+        raise ValueError("max_per_query must be positive")
     if not terms:
         raise ValueError("At least one catalog search term required")
     candidates_path = Path(candidates_path)
-    previous = read_tracks(candidates_path)
+    previous = read_tracks(seed_candidates_path or candidates_path)
     library = read_tracks(library_path)
     feedback = read_tracks(feedback_path)
     seen = read_tracks(seen_path)
@@ -182,9 +186,11 @@ def replenish(
     retrieved = 0
     dropped = 0
     queries = 0
+    used_sources: set[str] = set()
     for term in terms:
         if len(tracks) >= target:
             break
+        accepted_this_query = 0
         payload = fetch(term)
         songs, rejected = extract_songs(payload)
         retrieved += len(payload["results"])
@@ -199,7 +205,9 @@ def replenish(
             tracks.append(t)
             provenance.append({"artist": song.artist, "title": song.title, "catalog_id": song.catalog_id,
                                "catalog_year": song.year, "query": term})
-            if len(tracks) >= target:
+            accepted_this_query += 1
+            used_sources.add(term)
+            if len(tracks) >= target or accepted_this_query >= max_per_query:
                 break
         if pause_seconds and len(tracks) < target:
             time.sleep(pause_seconds)
@@ -211,6 +219,8 @@ def replenish(
         "total_candidates": len(tracks),
         "target": target,
         "query_count": queries,
+        "unique_query_sources": len(used_sources),
+        "max_per_query": max_per_query,
         "catalog_results": retrieved,
         "filtered_results": dropped,
         "source": "Apple iTunes Search API, US storefront, catalog release year",

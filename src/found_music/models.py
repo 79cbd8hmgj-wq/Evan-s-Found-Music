@@ -87,7 +87,7 @@ def normalize_title(title: str) -> str:
         "",
         value,
     )
-    value = re.sub(r"\s*\(album version\)", "", value)
+    value = re.sub(r"\s*\((?:album version|greatest hits version)\)", "", value)
     value = value.replace(" aka ", " ")
     return _slug(value)
 

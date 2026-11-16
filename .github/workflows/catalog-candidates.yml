@@ -18,7 +18,7 @@ on:
       - ".github/workflows/catalog-candidates.yml"
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   discover:
@@ -38,29 +38,21 @@ jobs:
           EVENT_KIND: ${{ github.event_name }}
         run: |
           set -euo pipefail
+          CURRENT=$(python -c 'import csv; print(sum(1 for _ in csv.DictReader(open("data/candidates.csv", encoding="utf-8"))))')
           if [[ "$EVENT_KIND" == "pull_request" ]]; then
-            # Propose a real replenished candidate inventory on this feature branch.
-            python scripts/replenish_candidates.py --target 1000 --seed-candidates data/candidates_seed.csv --max-per-query 30 --pause 0.7 --apply --report data/catalog_replenishment_report.json
-            python scripts/validate_data.py
+            # Fast real-catalog smoke test; never mutate candidate files.
+            REQUESTED_TARGET=$((CURRENT + 30))
+            python scripts/replenish_candidates.py --target "$REQUESTED_TARGET" --max-per-query 30 --pause 0.7 --report data/catalog_replenishment_report.json
           else
+            if [[ "$EVENT_KIND" == "schedule" ]]; then
+              REQUESTED_TARGET=$((CURRENT + 300))
+            fi
             if ! [[ "$REQUESTED_TARGET" =~ ^[0-9]+$ ]]; then
               echo "target must be a positive integer" >&2
               exit 1
             fi
             python scripts/replenish_candidates.py --target "$REQUESTED_TARGET" --max-per-query 30 --pause 0.7 --apply --report data/catalog_replenishment_report.json
             python scripts/validate_data.py
-          fi
-      - name: Commit candidate proposal to feature branch
-        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
-        env:
-          TARGET_BRANCH: ${{ github.head_ref }}
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/candidates.csv data/catalog_replenishment_report.json
-          if ! git diff --cached --quiet; then
-            git commit -m "data: replenish verified eligible catalog candidate inventory"
-            git push origin "HEAD:$TARGET_BRANCH"
           fi
       - uses: actions/upload-artifact@v4
         with:

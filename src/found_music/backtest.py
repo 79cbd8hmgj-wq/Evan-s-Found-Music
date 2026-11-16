@@ -156,3 +156,53 @@ def result_dict(result: BacktestResult) -> dict:
     payload = asdict(result)
     payload["per_round"] = [asdict(item) for item in result.per_round]
     return payload
+
+
+def walk_forward_backtest(
+    rounds: list[RoundTrack],
+    initial_history: list[RatedTrack] | None = None,
+    weights: Weights = Weights(),
+) -> BacktestResult:
+    """Evaluate successive rounds using only the explicitly supplied prior seed.
+
+    The CSV row order establishes round order; caller must supply genuinely
+    pre-existing seed feedback. Full accumulated feedback is NEVER a safe seed.
+    """
+    history = list(initial_history or [])
+    grouped: dict[str, list[RoundTrack]] = {}
+    current: str | None = None
+    completed: set[str] = set()
+    for row in rounds:
+        if row.round_id != current:
+            if row.round_id in completed:
+                raise ValueError("Historical round rows must be contiguous and chronological")
+            if current is not None:
+                completed.add(current)
+            current = row.round_id
+        grouped.setdefault(row.round_id, []).append(row)
+
+    results: list[RoundResult] = []
+    for round_id, rows in grouped.items():
+        # Always score the entire round before revealing any of its outcomes.
+        results.append(_score_round(round_id, rows, history, weights))
+        round_aliases = {alias for row in rows for alias in row.track.alias_keys}
+        history = [h for h in history if not (h.track.alias_keys & round_aliases)]
+        history.extend(RatedTrack(row.track, row.outcome) for row in rows)
+
+    pair_count = sum(x.positives * x.negatives for x in results)
+    positives = sum(x.positives for x in results)
+    return BacktestResult(
+        rounds=len(results),
+        tracks=sum(x.tracks for x in results),
+        positives=positives,
+        negatives=sum(x.negatives for x in results),
+        pairwise_accuracy=(
+            sum(x.pairwise_accuracy * x.positives * x.negatives for x in results) / pair_count
+            if pair_count else 0.0
+        ),
+        precision_at_k=(
+            sum(x.precision_at_k * x.positives for x in results) / positives
+            if positives else 0.0
+        ),
+        per_round=tuple(results),
+    )

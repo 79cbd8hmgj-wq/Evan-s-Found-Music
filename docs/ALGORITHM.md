@@ -71,3 +71,23 @@ The current ingestion pass has:
 3. Run offline evaluation against historical recommendation outcomes.
 4. Measure hit rate, star rate, duplicate rate, artist diversity and intra-batch similarity.
 5. Tune scoring weights from actual Found Music feedback instead of hand-picked constants.
+
+## Reproducible prospective rounds (November 2026)
+
+A batch intended for listening must be generated through the recorded serving workflow, not merely printed from the scoring CLI:
+
+```bash
+python scripts/serve_batch.py --batch-id 2026-11-round-3 --size 20
+```
+
+The command scores the currently eligible candidate pool, writes a per-batch JSON manifest under `data/batches/`, and appends every selected song to `data/seen_recommendations.csv` before printing the results. Commit **both** manifest and ledger together. The manifest records exact input SHA-256 hashes, model version, ranking, scores, timestamp, and selection parameters. Do not display an unrecorded batch as an actual issued recommendation.
+
+The serving operation is not a remote GitHub transaction: interruption after manifest creation but before ledger update leaves a manifest that deliberately blocks accidental reissuance. Reconcile such cases before retrying with a new ID. Only a committed ledger provides protection across computers/chat sessions. The input hashes help verify which snapshot was used.
+
+### Chronological evaluation
+
+`scripts/backtest_rounds.py` now uses `walk_forward_backtest()`: it scores all songs in a round using only prior rounds, then reveals that round's outcomes for subsequent rounds. Its default seed is empty because `data/feedback.csv` includes future observations. The optional `--seed-feedback` argument should only be used with feedback independently confirmed to predate the earliest evaluated round.
+
+`scripts/compare_scoring.py` compares legacy scoring and v2 under chronological updates rather than using all future feedback. Historical rows are assumed to appear in chronological round order. This ordering remains a provenance assumption for older batches without reliable dates; benchmarks are diagnostic and do not establish a randomized or controlled comparison.
+
+The fully classified `2026-11-discovery-2` round is included. The earlier November discovery round has partially unclassified non-additions and is excluded from positive-vs-negative ranking evaluation. Incomplete genre/year metadata on recent events can weaken historical discrimination measurements.

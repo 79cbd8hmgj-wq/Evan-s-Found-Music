@@ -6,13 +6,13 @@ The repository contains multiple screenshot archives of the music library (`Musi
 
 ## Current data
 
-- **42 library screenshots** indexed and transcribed
-- **370 unique known-library tracks** in `data/library.csv`
-- **139 explicit feedback signals** in `data/feedback.csv`
+- **42 original library screenshots** indexed and transcribed, plus the November 2026 listening screenshots and round outcomes reconciled into CSV data
+- **426 library rows** in `data/library.csv`
+- **228 feedback rows** in `data/feedback.csv`
   - stars/favorites and additions as positive evidence
   - explicit rejections as stronger negatives
   - skipped recommendations as mild negatives
-- **151 verified candidate tracks** in `data/candidates.csv`
+- **73 currently eligible candidate records** in `data/candidates.csv`
 
 Visible Apple Music favorite stars are treated as strong positive taste evidence. Ordinary library membership is used primarily for deduplication and does not automatically receive the same weight.
 
@@ -39,6 +39,7 @@ found-music \
   --candidates data/candidates.csv \
   --feedback data/feedback.csv \
   --library data/library.csv \
+  --seen data/seen_recommendations.csv \
   --size 15
 ```
 
@@ -51,3 +52,32 @@ title,artist,year,genres,tags
 Candidate tracks without a known year are excluded by default so the 1989–2016 boundary cannot be bypassed accidentally. Use `--allow-unknown-year` only for deliberate testing.
 
 See `docs/ALGORITHM.md`, `docs/INGESTION_STATUS.md`, and `docs/CANDIDATE_PIPELINE.md` for design and data status.
+
+## November 2026 P1 reconciliation
+
+The current dataset includes 44 user-confirmed latest library additions (19 starred), plus two 20-song discovery rounds. Round 1 recorded 6 adds including 2 stars and 4 confirmed already-owned recommendations; its other 10 outcomes are not assumed to be explicit skips. Round 2 recorded 8 adds including 3 stars and 12 explicit skips. Where an item already existed, its evidence was retained and stronger explicit feedback promoted rather than duplicated by exact local song key.
+
+The formerly ineligible entries in the candidate pool were moved to `data/candidate_quarantine.csv` with `already-known-or-served` reasons. These historical records remain inspectable and are not deleted. The current eligible candidate pool is small and needs replenishment before broad prospective discovery.
+
+The `found-music` CLI now reads `data/seen_recommendations.csv` automatically; an explicit `--seen` path overrides it. The CLI errors if that ledger is unavailable rather than silently serving repeats. Tracks generated manually outside the CLI are **not** evidence of measured performance of this engine. New recommendation batches must record exposure when issued and collect outcomes afterward.
+
+A number of November screenshot-derived entries lack verified release year and/or genre metadata. Their ownership and feedback status are explicit, but music similarity scores should not be interpreted as fully calibrated until metadata is enriched.
+
+## Issue a reproducible discovery round
+
+For future recommendations that will actually be presented to the listener, use:
+
+```bash
+python scripts/validate_data.py
+python scripts/backtest_rounds.py
+python scripts/compare_scoring.py
+python scripts/serve_batch.py --batch-id 2026-11-round-3 --size 20
+```
+
+The serving command **records** the issued tracks in `data/seen_recommendations.csv` and produces a scored, timestamped manifest at `data/batches/<batch-id>.json`. Commit both files as one change before sharing the batch outside the current working tree. Do not rerun the same batch ID. The CLI's older `found-music` command can inspect rankings but does **not** record them; do not use it to issue live recommendations.
+
+This project distinguishes an *offline ranking comparison* from a *prospective acceptance rate*. Older rounds are backtested in their file order with no presumed pre-existing seed, because the accumulated feedback CSV contains future information. The system cannot claim improving prospective performance until multiple recorded, outcome-complete engine-generated rounds have been evaluated.
+
+Current `data/historical_rounds.csv` includes the fully classified November Round 2. The other recent round contains confirmed additions and ownership duplicates but no explicit ratings for the remaining non-additions, so it is not treated as a fully labelled comparison.
+
+The current candidate inventory is insufficient for sustained twenty-song discovery; vetted catalog expansion and metadata enrichment are still required.

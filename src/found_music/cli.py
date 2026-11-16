@@ -12,7 +12,7 @@ def main() -> None:
     parser.add_argument("--candidates", required=True)
     parser.add_argument("--feedback", required=True)
     parser.add_argument("--library", required=True)
-    parser.add_argument("--seen", default=None, help="Optional CSV of previously served recommendations.")
+    parser.add_argument("--seen", default="data/seen_recommendations.csv", help="Previously served recommendations CSV (required exclusion source).")
     parser.add_argument("--size", type=int, default=15)
     parser.add_argument("--min-year", type=int, default=1989)
     parser.add_argument("--max-year", type=int, default=2016)
@@ -22,7 +22,7 @@ def main() -> None:
     candidates = read_tracks(args.candidates)
     history = read_feedback(args.feedback)
     library = read_tracks(args.library)
-    seen = read_tracks(args.seen) if args.seen else []
+    seen = read_tracks(args.seen)
     batch = recommend_batch(
         candidates,
         history,

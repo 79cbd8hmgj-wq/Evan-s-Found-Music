@@ -4,7 +4,6 @@ import json
 import math
 
 from found_music.backtest import NEGATIVE, POSITIVE, read_historical_rounds
-from found_music.io import read_feedback
 from found_music.models import Feedback, RatedTrack, Track
 from found_music.scoring import score_candidate
 
@@ -56,8 +55,9 @@ def legacy_score(candidate: Track, history: list[RatedTrack]) -> float:
 
 
 def evaluate(scorer):
+    """Walk forward from an empty seed; no accumulated future feedback."""
     rounds = read_historical_rounds("data/historical_rounds.csv")
-    history = read_feedback("data/feedback.csv")
+    history = []
     grouped = {}
     for row in rounds:
         grouped.setdefault(row.round_id, []).append(row)
@@ -96,6 +96,8 @@ def evaluate(scorer):
             "pairwise_accuracy": pair_wins / (len(pos) * len(neg)) if pos and neg else 0.0,
             "precision_at_k": hits / k if k else 0.0,
         })
+        # Reveal labels only AFTER scoring all songs in this round.
+        history.extend(RatedTrack(row.track, row.outcome) for row in rows)
 
     return {
         "pairwise_accuracy": total_pair_wins / total_pairs if total_pairs else 0.0,

@@ -12,7 +12,7 @@ The repository contains multiple screenshot archives of the music library (`Musi
   - stars/favorites and additions as positive evidence
   - explicit rejections as stronger negatives
   - skipped recommendations as mild negatives
-- **73 currently eligible candidate records** in `data/candidates.csv`
+- **1,000 catalog-year-eligible candidate records** in `data/candidates.csv`
 
 Visible Apple Music favorite stars are treated as strong positive taste evidence. Ordinary library membership is used primarily for deduplication and does not automatically receive the same weight.
 
@@ -57,7 +57,7 @@ See `docs/ALGORITHM.md`, `docs/INGESTION_STATUS.md`, and `docs/CANDIDATE_PIPELIN
 
 The current dataset includes 44 user-confirmed latest library additions (19 starred), plus two 20-song discovery rounds. Round 1 recorded 6 adds including 2 stars and 4 confirmed already-owned recommendations; its other 10 outcomes are not assumed to be explicit skips. Round 2 recorded 8 adds including 3 stars and 12 explicit skips. Where an item already existed, its evidence was retained and stronger explicit feedback promoted rather than duplicated by exact local song key.
 
-The formerly ineligible entries in the candidate pool were moved to `data/candidate_quarantine.csv` with `already-known-or-served` reasons. These historical records remain inspectable and are not deleted. The current eligible candidate pool is small and needs replenishment before broad prospective discovery.
+The formerly ineligible entries in the candidate pool were moved to `data/candidate_quarantine.csv` with `already-known-or-served` reasons. These historical records remain inspectable and are not deleted. The candidate pool has been expanded to 1,000 records using catalog search with per-query caps. Catalog dates and version identities still require careful interpretation.
 
 The `found-music` CLI now reads `data/seen_recommendations.csv` automatically; an explicit `--seen` path overrides it. The CLI errors if that ledger is unavailable rather than silently serving repeats. Tracks generated manually outside the CLI are **not** evidence of measured performance of this engine. New recommendation batches must record exposure when issued and collect outcomes afterward.
 
@@ -80,4 +80,22 @@ This project distinguishes an *offline ranking comparison* from a *prospective a
 
 Current `data/historical_rounds.csv` includes the fully classified November Round 2. The other recent round contains confirmed additions and ownership duplicates but no explicit ratings for the remaining non-additions, so it is not treated as a fully labelled comparison.
 
-The current candidate inventory is insufficient for sustained twenty-song discovery; vetted catalog expansion and metadata enrichment are still required.
+The initial 1,000-candidate inventory is in place. Continue replenishing and improving recording-identity and release-year verification before treating this as a fully comprehensive discovery catalog.
+
+## Catalog candidate replenishment
+
+The candidate-replenishment pipeline reads the queries in `data/catalog_queries.txt`, searches Apple's public iTunes catalog (US storefront), filters for catalog years 1989–2016, excludes known library/feedback/served songs, and caps accepted candidates per query to protect breadth.
+
+```bash
+# Preview the next 300 candidates without changing the inventory
+python scripts/replenish_candidates.py --target 1300
+
+# Generate and validate an actual proposal
+python scripts/replenish_candidates.py --target 1300 --apply
+python scripts/validate_data.py
+pytest -q
+```
+
+The initial diversified build preserved the 73 baseline eligible records, imported 927 new entries from 31 search queries, and now contains 1,000 records representing 338 distinct credited artist names. See `data/catalog_replenishment_report.json` and `docs/CANDIDATE_PIPELINE.md` for provenance and caveats. Catalog release year is not necessarily the recording's original release year.
+
+`.github/workflows/catalog-candidates.yml` creates live catalog proposals in CI and weekly once deployed on the default branch. These are artifacts for review, not auto-merged library mutations.

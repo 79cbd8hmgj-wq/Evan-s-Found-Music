@@ -1,0 +1,63 @@
+name: Candidate replenishment proposal
+
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: Desired eligible candidate inventory (not a guaranteed yield)
+        required: true
+        default: "1000"
+        type: string
+  schedule:
+    - cron: "30 9 * * 1"
+  pull_request:
+    paths:
+      - "src/found_music/candidate_discovery.py"
+      - "scripts/replenish_candidates.py"
+      - "data/catalog_queries.txt"
+      - ".github/workflows/catalog-candidates.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -e '.[dev]'
+      - name: Catalog proposal
+        env:
+          REQUESTED_TARGET: ${{ inputs.target || '1000' }}
+          EVENT_KIND: ${{ github.event_name }}
+        run: |
+          set -euo pipefail
+          CURRENT=$(python -c 'import csv; print(sum(1 for _ in csv.DictReader(open("data/candidates.csv", encoding="utf-8"))))')
+          if [[ "$EVENT_KIND" == "pull_request" ]]; then
+            # Fast real-catalog smoke test; never mutate candidate files.
+            REQUESTED_TARGET=$((CURRENT + 30))
+            python scripts/replenish_candidates.py --target "$REQUESTED_TARGET" --max-per-query 30 --pause 0.7 --report data/catalog_replenishment_report.json
+          else
+            if [[ "$EVENT_KIND" == "schedule" ]]; then
+              REQUESTED_TARGET=$((CURRENT + 300))
+            fi
+            if ! [[ "$REQUESTED_TARGET" =~ ^[0-9]+$ ]]; then
+              echo "target must be a positive integer" >&2
+              exit 1
+            fi
+            python scripts/replenish_candidates.py --target "$REQUESTED_TARGET" --max-per-query 30 --pause 0.7 --apply --report data/catalog_replenishment_report.json
+            python scripts/validate_data.py
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: found-music-catalog-proposal-${{ github.run_id }}
+          path: |
+            data/catalog_replenishment_report.json
+            data/candidates.csv
+          retention-days: 30

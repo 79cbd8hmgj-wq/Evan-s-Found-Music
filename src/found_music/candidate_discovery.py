@@ -64,7 +64,7 @@ def extract_songs(payload: dict) -> tuple[list[CatalogSong], list[dict]]:
                     or not isinstance(name, str) or not name.strip()
                     or not isinstance(artist, str) or not artist.strip()
                     or isinstance(catalog_id, bool) or not isinstance(catalog_id, int)
-                    or not isinstance(date, str) or not re.match(r"^\\d{4}-\\d{2}-\\d{2}", date)):
+                    or not isinstance(date, str) or not re.match(r"^\d{4}-\d{2}-\d{2}", date)):
                 raise ValueError("invalid-song-metadata")
             year = int(date[:4])
             if year < 1989 or year > 2016:

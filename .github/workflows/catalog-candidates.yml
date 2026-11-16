@@ -18,7 +18,7 @@ on:
       - ".github/workflows/catalog-candidates.yml"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   discover:
@@ -26,6 +26,8 @@ jobs:
     timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -37,8 +39,9 @@ jobs:
         run: |
           set -euo pipefail
           if [[ "$EVENT_KIND" == "pull_request" ]]; then
-            # Fast live-catalog integration smoke, without editing the repository.
-            python scripts/replenish_candidates.py --target 85 --pause 0.7 --report candidate-report.json
+            # Propose a real replenished candidate inventory on this feature branch.
+            python scripts/replenish_candidates.py --target 1000 --pause 0.7 --apply --report candidate-report.json
+            python scripts/validate_data.py
           else
             if ! [[ "$REQUESTED_TARGET" =~ ^[0-9]+$ ]]; then
               echo "target must be a positive integer" >&2
@@ -46,6 +49,18 @@ jobs:
             fi
             python scripts/replenish_candidates.py --target "$REQUESTED_TARGET" --pause 0.7 --apply --report candidate-report.json
             python scripts/validate_data.py
+          fi
+      - name: Commit candidate proposal to feature branch
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+        env:
+          TARGET_BRANCH: ${{ github.head_ref }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/candidates.csv
+          if ! git diff --cached --quiet; then
+            git commit -m "data: replenish verified eligible catalog candidate inventory"
+            git push origin "HEAD:$TARGET_BRANCH"
           fi
       - uses: actions/upload-artifact@v4
         with:

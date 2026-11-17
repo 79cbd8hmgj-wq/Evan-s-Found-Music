@@ -25,3 +25,6 @@ jobs:
         run: python scripts/backtest_rounds.py
       - name: Compare scoring v1 vs v2
         run: python scripts/compare_scoring.py
+      - name: Generate Found Music Round 5 (temporary)
+        if: github.head_ref == 'round/2026-11-16-5'
+        run: python scripts/serve_batch.py --batch-id 2026-11-16-round-5 --size 20

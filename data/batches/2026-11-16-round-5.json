@@ -1,0 +1,181 @@
+{
+  "batch_id": "2026-11-16-round-5",
+  "generated_at_utc": "2026-11-17T00:37:13.793602+00:00",
+  "model_version": "v2",
+  "requested_size": 20,
+  "source_sha256": {
+    "candidates": "36384003e5b9a523e52ac4b1f1ad3affe4f5b9cae41d2233a564b8ead3053a67",
+    "feedback": "9d7d45d3e271e5f9a93193042bd6fd756e51637ac79cb110f587dc3c42791893",
+    "library": "f6a0d1e9252edaa0f224485d3baad9ddcc34066424cb6d741f630b214981a566",
+    "seen": "16ba695f561ca5fab2109ecd5dc77323f5ac564aa16747f313c21de0896772cd"
+  },
+  "parameters": {
+    "min_year": 1989,
+    "max_year": 2016,
+    "exploration_fraction": 0.2,
+    "diversity_lambda": 0.55,
+    "max_per_artist": 1
+  },
+  "tracks": [
+    {
+      "rank": 1,
+      "title": "Gotta Survive",
+      "artist": "Mase",
+      "year": 2004,
+      "score": 0.384373,
+      "exploration": 0.696768
+    },
+    {
+      "rank": 2,
+      "title": "I Wanna Love You (feat. Snoop Dogg) [Explicit]",
+      "artist": "Akon",
+      "year": 2006,
+      "score": 0.299545,
+      "exploration": 0.75
+    },
+    {
+      "rank": 3,
+      "title": "Love Like This",
+      "artist": "Faith Evans",
+      "year": 1998,
+      "score": 0.309737,
+      "exploration": 0.475387
+    },
+    {
+      "rank": 4,
+      "title": "Who Do You Love? (feat. Drake)",
+      "artist": "YG",
+      "year": 2014,
+      "score": 0.328875,
+      "exploration": 0.678501
+    },
+    {
+      "rank": 5,
+      "title": "Without You (feat. Usher)",
+      "artist": "David Guetta",
+      "year": 2011,
+      "score": 0.353014,
+      "exploration": 0.512403
+    },
+    {
+      "rank": 6,
+      "title": "5 O'Clock (feat. Lily Allen & Wiz Khalifa)",
+      "artist": "T-Pain",
+      "year": 2011,
+      "score": 0.32212,
+      "exploration": 0.714215
+    },
+    {
+      "rank": 7,
+      "title": "Breakdown (feat. Krayzie Bone & Wish Bone)",
+      "artist": "Mariah Carey",
+      "year": 1997,
+      "score": 0.287174,
+      "exploration": 0.52136
+    },
+    {
+      "rank": 8,
+      "title": "All Eyes On You (feat. Chris Brown & Nicki Minaj)",
+      "artist": "Meek Mill",
+      "year": 2015,
+      "score": 0.317392,
+      "exploration": 0.720625
+    },
+    {
+      "rank": 9,
+      "title": "Lotus Flower Bomb (feat. Miguel)",
+      "artist": "Wale",
+      "year": 2011,
+      "score": 0.315434,
+      "exploration": 0.66899
+    },
+    {
+      "rank": 10,
+      "title": "679 (feat. Monty)",
+      "artist": "Fetty Wap",
+      "year": 2015,
+      "score": 0.279413,
+      "exploration": 0.720625
+    },
+    {
+      "rank": 11,
+      "title": "Love Games (feat. Jeremih)",
+      "artist": "Ashanti",
+      "year": 2014,
+      "score": 0.314651,
+      "exploration": 0.553911
+    },
+    {
+      "rank": 12,
+      "title": "Broccoli (feat. Lil Yachty)",
+      "artist": "DRAM",
+      "year": 2016,
+      "score": 0.272963,
+      "exploration": 0.714286
+    },
+    {
+      "rank": 13,
+      "title": "Mic Check (feat. Juelz Santana & Young Jeezy)",
+      "artist": "Jim Jones",
+      "year": 2005,
+      "score": 0.247854,
+      "exploration": 0.702381
+    },
+    {
+      "rank": 14,
+      "title": "Low Life (feat. The Weeknd)",
+      "artist": "Future",
+      "year": 2016,
+      "score": 0.261528,
+      "exploration": 0.714286
+    },
+    {
+      "rank": 15,
+      "title": "Mo Money Mo Problems (feat. Puff Daddy & Mase) [Radio Mix]",
+      "artist": "The Notorious B.I.G.",
+      "year": 1997,
+      "score": 0.343532,
+      "exploration": 0.666667
+    },
+    {
+      "rank": 16,
+      "title": "Beautiful (feat. Pharrell Williams & Uncle Charlie Wilson)",
+      "artist": "Snoop Dogg",
+      "year": 2002,
+      "score": 0.069389,
+      "exploration": 0.75
+    },
+    {
+      "rank": 17,
+      "title": "Holla Holla",
+      "artist": "Ja Rule",
+      "year": 1999,
+      "score": 0.29582,
+      "exploration": 0.714286
+    },
+    {
+      "rank": 18,
+      "title": "Bandz A Make Her Dance (feat. Lil Wayne & 2 Chainz)",
+      "artist": "Juicy J",
+      "year": 2012,
+      "score": 0.124251,
+      "exploration": 0.72612
+    },
+    {
+      "rank": 19,
+      "title": "Me, Myself & I",
+      "artist": "G-Eazy x Bebe Rexha",
+      "year": 2015,
+      "score": 0.111999,
+      "exploration": 0.720625
+    },
+    {
+      "rank": 20,
+      "title": "Any Time, Any Place",
+      "artist": "Janet Jackson",
+      "year": 1993,
+      "score": 0.348229,
+      "exploration": 0.533659
+    }
+  ]
+}

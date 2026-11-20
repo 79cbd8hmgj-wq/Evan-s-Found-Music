@@ -1,0 +1,181 @@
+{
+  "batch_id": "2026-11-20-round-6",
+  "generated_at_utc": "2026-11-20T21:39:17.378808+00:00",
+  "model_version": "v2",
+  "requested_size": 20,
+  "source_sha256": {
+    "candidates": "f7e677afb60cade03a53e2bbaf47ffdbd51f83684f43cbbf3298616616519229",
+    "feedback": "94a167411fd63399def9af7d2dc5215d8185628afbaf429532698c09e3d85766",
+    "library": "256f4c5a4afaa8a72c617dc24601559fed7ba29a82245a069c66523fdea97d5b",
+    "seen": "f217a08d5e82c816efe2f81002fd7e51e151ca29a59d1e521284c2e68e89ba0f"
+  },
+  "parameters": {
+    "min_year": 1989,
+    "max_year": 2016,
+    "exploration_fraction": 0.2,
+    "diversity_lambda": 0.55,
+    "max_per_artist": 1
+  },
+  "tracks": [
+    {
+      "rank": 1,
+      "title": "Wasting My Time",
+      "artist": "Mase",
+      "year": 2004,
+      "score": 0.457005,
+      "exploration": 0.696768
+    },
+    {
+      "rank": 2,
+      "title": "The Body (feat. Jeremih)",
+      "artist": "Wale",
+      "year": 2014,
+      "score": 0.429031,
+      "exploration": 0.72612
+    },
+    {
+      "rank": 3,
+      "title": "Come and See Me (feat. Drake)",
+      "artist": "PARTYNEXTDOOR",
+      "year": 2016,
+      "score": 0.137602,
+      "exploration": 0.756339
+    },
+    {
+      "rank": 4,
+      "title": "Ooh Wee (feat. Ghostface Killah, Nate Dogg, Trife & Saigon)",
+      "artist": "Mark Ronson, Ghostface Killah, Nate Dogg, Trife & Saigon",
+      "year": 2003,
+      "score": 0.250497,
+      "exploration": 0.52828
+    },
+    {
+      "rank": 5,
+      "title": "Where I Wanna Be",
+      "artist": "Donell Jones",
+      "year": 1999,
+      "score": 0.233172,
+      "exploration": 0.666667
+    },
+    {
+      "rank": 6,
+      "title": "Temperature",
+      "artist": "Sean Paul",
+      "year": 2005,
+      "score": 0.079305,
+      "exploration": 0.689316
+    },
+    {
+      "rank": 7,
+      "title": "Run the Show (feat. Busta Rhymes)",
+      "artist": "Kat Deluna",
+      "year": 2007,
+      "score": 0.098874,
+      "exploration": 0.708077
+    },
+    {
+      "rank": 8,
+      "title": "Elevators (Me & You)",
+      "artist": "Outkast",
+      "year": 1996,
+      "score": 0.291956,
+      "exploration": 0.696768
+    },
+    {
+      "rank": 9,
+      "title": "You Be Killin' Em",
+      "artist": "Fabolous",
+      "year": 2010,
+      "score": 0.284647,
+      "exploration": 0.673006
+    },
+    {
+      "rank": 10,
+      "title": "Beware (feat. Lil Wayne & Jhene Aiko)",
+      "artist": "Big Sean",
+      "year": 2013,
+      "score": 0.13124,
+      "exploration": 0.730884
+    },
+    {
+      "rank": 11,
+      "title": "Big Brother Beat (feat. Mos Def)",
+      "artist": "De La Soul",
+      "year": 1996,
+      "score": 0.272009,
+      "exploration": 0.718979
+    },
+    {
+      "rank": 12,
+      "title": "Never Again",
+      "artist": "Ja Rule",
+      "year": 2001,
+      "score": 0.28208,
+      "exploration": 0.714286
+    },
+    {
+      "rank": 13,
+      "title": "Surviving the Times",
+      "artist": "Nas",
+      "year": 2007,
+      "score": 0.2749,
+      "exploration": 0.694077
+    },
+    {
+      "rank": 14,
+      "title": "Hit 'Em Up",
+      "artist": "2Pac",
+      "year": 1998,
+      "score": 0.27113,
+      "exploration": 0.666667
+    },
+    {
+      "rank": 15,
+      "title": "Danger Zone (feat. Big L & Mase)",
+      "artist": "McGruff",
+      "year": 1998,
+      "score": 0.250882,
+      "exploration": 0.673006
+    },
+    {
+      "rank": 16,
+      "title": "How Low",
+      "artist": "Ludacris",
+      "year": 2009,
+      "score": 0.253003,
+      "exploration": 0.673006
+    },
+    {
+      "rank": 17,
+      "title": "Crime & Medicine",
+      "artist": "Mos Def",
+      "year": 2006,
+      "score": 0.250881,
+      "exploration": 0.696768
+    },
+    {
+      "rank": 18,
+      "title": "Party (feat. André 3000)",
+      "artist": "Beyoncé",
+      "year": 2011,
+      "score": 0.004379,
+      "exploration": 0.75
+    },
+    {
+      "rank": 19,
+      "title": "Sensual Seduction",
+      "artist": "Snoop Dogg",
+      "year": 2007,
+      "score": 0.24507,
+      "exploration": 0.678501
+    },
+    {
+      "rank": 20,
+      "title": "Horse & Carriage",
+      "artist": "Cam'ron",
+      "year": 1998,
+      "score": 0.242849,
+      "exploration": 0.714286
+    }
+  ]
+}

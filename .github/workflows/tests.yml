@@ -25,6 +25,3 @@ jobs:
         run: python scripts/backtest_rounds.py
       - name: Compare scoring v1 vs v2
         run: python scripts/compare_scoring.py
-      - name: Generate Round 6 (temporary)
-        if: github.head_ref == 'round/2026-11-20-6'
-        run: python scripts/serve_batch.py --batch-id 2026-11-20-round-6 --size 20

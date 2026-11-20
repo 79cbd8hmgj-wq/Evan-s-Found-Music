@@ -25,3 +25,6 @@ jobs:
         run: python scripts/backtest_rounds.py
       - name: Compare scoring v1 vs v2
         run: python scripts/compare_scoring.py
+      - name: Generate ten Round 5 replacements (temporary)
+        if: github.head_ref == 'round/2026-11-20-5-replacements-1'
+        run: python scripts/serve_batch.py --batch-id 2026-11-20-round-5-replacements-1 --size 10

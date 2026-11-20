@@ -1,0 +1,101 @@
+{
+  "batch_id": "2026-11-20-round-5-replacements-1",
+  "generated_at_utc": "2026-11-20T20:48:37.587823+00:00",
+  "model_version": "v2",
+  "requested_size": 10,
+  "source_sha256": {
+    "candidates": "3e7f6886857fad8a9b86e32ff797fc4f7f863c67f0a885f647b2fa53e7b1fc12",
+    "feedback": "9d7d45d3e271e5f9a93193042bd6fd756e51637ac79cb110f587dc3c42791893",
+    "library": "f0da3eb9bbb04b6a3d2a87067772fa1091e6329424c715e7ccbf7b058bca6451",
+    "seen": "13ef284e89b1eb6e21c46fc49e6d0f114d5c917afcaa77228a4b47d690d513ed"
+  },
+  "parameters": {
+    "min_year": 1989,
+    "max_year": 2016,
+    "exploration_fraction": 0.2,
+    "diversity_lambda": 0.55,
+    "max_per_artist": 1
+  },
+  "tracks": [
+    {
+      "rank": 1,
+      "title": "Money Comes and Goes",
+      "artist": "Mase",
+      "year": 2004,
+      "score": 0.384373,
+      "exploration": 0.696768
+    },
+    {
+      "rank": 2,
+      "title": "Bad (feat. Tiara Thomas)",
+      "artist": "Wale",
+      "year": 2013,
+      "score": 0.293972,
+      "exploration": 0.673344
+    },
+    {
+      "rank": 3,
+      "title": "Lost You (feat. Twin Shadow & D'Angelo Lacy)",
+      "artist": "Zeds Dead",
+      "year": 2014,
+      "score": 0.265332,
+      "exploration": 0.49993
+    },
+    {
+      "rank": 4,
+      "title": "2 On (feat. ScHoolboy Q)",
+      "artist": "Tinashe",
+      "year": 2014,
+      "score": 0.103448,
+      "exploration": 0.756339
+    },
+    {
+      "rank": 5,
+      "title": "Say It Right",
+      "artist": "Nelly Furtado",
+      "year": 2006,
+      "score": 0.088506,
+      "exploration": 0.632768
+    },
+    {
+      "rank": 6,
+      "title": "Hey Ma (feat. Juelz Santana, Freekey Zeekey, Freekey Zekey & Toya)",
+      "artist": "Cam'ron",
+      "year": 2002,
+      "score": 0.103693,
+      "exploration": 0.718979
+    },
+    {
+      "rank": 7,
+      "title": "Crazy, Dangerous",
+      "artist": "Nate Dogg",
+      "year": 1999,
+      "score": 0.26421,
+      "exploration": 0.637398
+    },
+    {
+      "rank": 8,
+      "title": "Natural Thang",
+      "artist": "Donell Jones",
+      "year": 1996,
+      "score": 0.143616,
+      "exploration": 0.683265
+    },
+    {
+      "rank": 9,
+      "title": "Breathe",
+      "artist": "Fabolous",
+      "year": 2004,
+      "score": 0.249416,
+      "exploration": 0.673006
+    },
+    {
+      "rank": 10,
+      "title": "Hail Mary",
+      "artist": "2Pac",
+      "year": 1996,
+      "score": 0.230607,
+      "exploration": 0.666667
+    }
+  ]
+}

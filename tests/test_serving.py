@@ -30,7 +30,8 @@ def test_recorded_batch_updates_exposure_and_writes_manifest(tmp_path):
 
     first = serve_batch(candidates, feedback, library, seen, "batch-001", 1, manifest)
     assert len(first["tracks"]) == 1
-    assert first["model_version"] == "v2"
+    assert first["model_version"] == "v3"
+    assert first["diversity"]["shortfall"] == 0
     assert first["source_sha256"]["candidates"]
     assert json.loads(manifest.read_text(encoding="utf-8"))["batch_id"] == "batch-001"
     with seen.open(newline="", encoding="utf-8") as fh:

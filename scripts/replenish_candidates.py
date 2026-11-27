@@ -16,6 +16,7 @@ def main() -> None:
     parser.add_argument("--target", type=int, default=1000)
     parser.add_argument("--pause", type=float, default=0.5)
     parser.add_argument("--max-per-query", type=int, default=30)
+    parser.add_argument("--max-per-artist", type=int, default=8)
     parser.add_argument("--seed-candidates", default=None, help="Optional prior approved pool used to rebuild deterministically")
     parser.add_argument("--apply", action="store_true", help="Write the staged candidate CSV; default is dry-run")
     parser.add_argument("--report", default="data/catalog_replenishment_report.json")
@@ -26,7 +27,8 @@ def main() -> None:
     result = replenish(
         args.candidates, args.library, args.feedback, args.seen,
         terms=terms, target=args.target, apply=args.apply, pause_seconds=args.pause,
-        max_per_query=args.max_per_query, seed_candidates_path=args.seed_candidates,
+        max_per_query=args.max_per_query, max_per_artist=args.max_per_artist,
+        seed_candidates_path=args.seed_candidates,
     )
     report = Path(args.report)
     report.parent.mkdir(parents=True, exist_ok=True)

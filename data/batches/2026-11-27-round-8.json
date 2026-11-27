@@ -29,7 +29,7 @@
     "unfamiliar_credit_tracks": 14,
     "recent_reuse_slots": 0
   },
-  "notes": "Actual Python v3 dry run passed but 14 unfamiliar candidates were query-name collisions or weakly relevant; one familiar track was a known alternate. Final curated replacements were verified in Apple Music. This is not a pure prospective v3 benchmark. Catalog years, not necessarily recording originals. Screening-only extras are not rated.",
+  "notes": "Actual Python v3 dry run passed but 14 unfamiliar candidates were query-name collisions or weakly relevant; one familiar track was a known alternate. Final curated replacements were verified in Apple Music. This is not a pure prospective v3 benchmark. Catalog years, not necessarily recording originals. Screening-only extras are not rated. The final Apple Music lookup returned different catalog edition IDs for Mis-Teeq and Beenie Man; final and screening IDs are retained. Catalog-year metadata for those entries comes from screening.",
   "tracks": [
     {
       "rank": 1,
@@ -196,20 +196,23 @@
       "title": "Scandalous (StarGate Radio Mix)",
       "artist": "Mis-Teeq",
       "year": 2003,
-      "catalog_id": "1162723451",
+      "catalog_id": "6763024448",
       "lane": "exploration",
       "selection": "manual quality replacement",
-      "score": null
+      "score": null,
+      "screening_catalog_id": "1162723451",
+      "matched_title": "Scandalous (feat. Stargate) [Stargate Radio Mix]"
     },
     {
       "rank": 18,
       "title": "Who Am I",
       "artist": "Beenie Man",
       "year": 1997,
-      "catalog_id": "1724842761",
+      "catalog_id": "351986123",
       "lane": "exploration",
       "selection": "manual quality replacement",
-      "score": null
+      "score": null,
+      "screening_catalog_id": "1724842761"
     },
     {
       "rank": 19,

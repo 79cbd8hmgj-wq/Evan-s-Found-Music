@@ -269,5 +269,136 @@
     "in_library": 0,
     "minimum_duration_seconds": 170,
     "verification_date": "2026-11-27"
+  },
+  "outcomes": {
+    "recorded_date": "2026-11-27",
+    "source": "user screenshot and statement 'The rest got cut'",
+    "classification": "Visible tracks added; other final-round tracks skipped (not strong explicit dislikes); superseded exposures not rated.",
+    "added": 5,
+    "starred": 0,
+    "skipped": 15,
+    "acceptance_rate": 0.25,
+    "tracks": [
+      {
+        "rank": 1,
+        "title": "I Owe",
+        "artist": "Mase",
+        "outcome": "skipped"
+      },
+      {
+        "rank": 2,
+        "title": "This Luv",
+        "artist": "Donell Jones",
+        "outcome": "added"
+      },
+      {
+        "rank": 3,
+        "title": "It's So Hard (feat. Donell Jones)",
+        "artist": "Big Punisher featuring Donell Jones",
+        "outcome": "skipped"
+      },
+      {
+        "rank": 4,
+        "title": "Hold You Down (feat. Emanny)",
+        "artist": "Jadakiss",
+        "outcome": "skipped"
+      },
+      {
+        "rank": 5,
+        "title": "Dear Mama",
+        "artist": "2Pac",
+        "outcome": "added"
+      },
+      {
+        "rank": 6,
+        "title": "That's the Way (feat. Fabolous Sport, Foxy Brown & Mase)",
+        "artist": "DJ Clue",
+        "outcome": "skipped"
+      },
+      {
+        "rank": 7,
+        "title": "There Is a Way",
+        "artist": "Mos Def",
+        "outcome": "skipped"
+      },
+      {
+        "rank": 8,
+        "title": "We Be Burnin' (Recognize It)",
+        "artist": "Sean Paul",
+        "outcome": "skipped"
+      },
+      {
+        "rank": 9,
+        "title": "Clap Back",
+        "artist": "Ja Rule",
+        "outcome": "skipped"
+      },
+      {
+        "rank": 10,
+        "title": "Touch Me Tease Me (feat. Foxy Brown & Mary J. Blige)",
+        "artist": "Case",
+        "outcome": "skipped"
+      },
+      {
+        "rank": 11,
+        "title": "Snoop Dogg (What's My Name, Pt. 2)",
+        "artist": "Snoop Dogg",
+        "outcome": "skipped"
+      },
+      {
+        "rank": 12,
+        "title": "How It Was Supposed to Be (feat. Jadakiss) [Remix]",
+        "artist": "Ryan Leslie",
+        "outcome": "skipped"
+      },
+      {
+        "rank": 13,
+        "title": "Put It Down (feat. Chris Brown)",
+        "artist": "Brandy",
+        "outcome": "skipped"
+      },
+      {
+        "rank": 14,
+        "title": "Rainy Dayz (feat. Ja Rule)",
+        "artist": "Mary J. Blige",
+        "outcome": "skipped"
+      },
+      {
+        "rank": 15,
+        "title": "Don't Let Them",
+        "artist": "Ashanti",
+        "outcome": "added"
+      },
+      {
+        "rank": 16,
+        "title": "Lean Back (Remix) [feat. Lil Jon, Eminem, Mase & Remy Martin]",
+        "artist": "Fat Joe",
+        "outcome": "skipped"
+      },
+      {
+        "rank": 17,
+        "title": "Kiss of Death (feat. Jadakiss)",
+        "artist": "Ruff Ryders",
+        "outcome": "added"
+      },
+      {
+        "rank": 18,
+        "title": "The Essence (feat. Nas)",
+        "artist": "AZ",
+        "outcome": "added"
+      },
+      {
+        "rank": 19,
+        "title": "Funky For You",
+        "artist": "Common",
+        "outcome": "skipped"
+      },
+      {
+        "rank": 20,
+        "title": "You Are Everything (Remix Radio Edit) [feat. Ja Rule]",
+        "artist": "Dru Hill",
+        "outcome": "skipped"
+      }
+    ]
   }
 }

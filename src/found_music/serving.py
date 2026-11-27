@@ -10,10 +10,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from .io import read_feedback, read_tracks
-from .models import library_key_set
-from .recommend import recommend_batch
+from .diversity import recommend_diverse_batch
 
-MODEL_VERSION = "v2"
+MODEL_VERSION = "v3"
 
 
 def _digest(path: Path) -> str:
@@ -71,9 +70,11 @@ def serve_batch(
     feedback = read_feedback(feedback_path)
     library = read_tracks(library_path)
     seen = read_tracks(seen_path)
-    batch = recommend_batch(
-        candidates, feedback, library_key_set(library),
-        batch_size=size, seen_recommendation_keys=library_key_set(seen)
+    # Ledger order is issuance order; group by batch rather than track count.
+    recent_ids = list(dict.fromkeys(row["batch_id"] for row in previously_seen))[-3:]
+    recent = [track for track, row in zip(seen, previously_seen) if row["batch_id"] in recent_ids]
+    batch, diversity = recommend_diverse_batch(
+        candidates, feedback, library, seen, recent, batch_size=size
     )
     if not batch:
         raise ValueError("No eligible candidate songs; replenish candidate pool")
@@ -92,10 +93,14 @@ def serve_batch(
         "parameters": {
             "min_year": 1989,
             "max_year": 2016,
-            "exploration_fraction": 0.20,
+            "established_fraction": 0.30,
+            "new_artist_fraction": 0.40,
+            "exploration_fraction": 0.30,
+            "recent_batch_window": 3,
             "diversity_lambda": 0.55,
             "max_per_artist": 1,
         },
+        "diversity": diversity,
         "tracks": [
             {"rank": rank, "title": item.track.title, "artist": item.track.artist,
              "year": item.track.year, "score": round(item.final_score, 6),

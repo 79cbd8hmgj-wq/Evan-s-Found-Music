@@ -1,3 +1,53 @@
+# New discovery seeds grouped by sound: melodic crossover, rhythmic R&B, East Coast, dancehall, alternative pop.
+# Search lower-exposure artists first; these are sourcing seeds, not issued recommendations.
+Changing Faces
+Allure
+702
+Koffee Brown
+Zhane
+Monifah
+Shanice
+Mona Lisa
+Mista
+Kut Klose
+Ideal
+Silk
+Next
+Syleena Johnson
+Teedra Moses
+Ryan Leslie
+Glenn Lewis
+Jon B.
+Dwele
+Ruff Endz
+Dante Thomas
+Sunshine Anderson
+Lumidee
+Blu Cantrell
+Samantha Mumba
+Jamelia
+Mis-Teeq
+Kardinal Offishall
+Wayne Wonder
+Kevin Lyttle
+T.O.K.
+Chaka Demus & Pliers
+Beenie Man
+Mr. Vegas
+Black Moon
+Smif-N-Wessun
+Group Home
+The Beatnuts
+The Alkaholiks
+Lost Boyz
+Brand Nubian
+Pete Rock & C.L. Smooth
+Jeru the Damaja
+Black Rob
+Memphis Bleek
+Freeway
+Beanie Sigel
+
 # Ordered, diverse discovery seeds. Each artist search is catalog discovery, not an endorsement.
 # The 1989–2016 year gate applies to returned SONG records, not to artist careers.
 Mase

@@ -97,3 +97,28 @@ def test_replenishment_limits_each_query_to_preserve_discovery_breadth(tmp_path)
     assert result["new_candidates"] == 9
     assert result["query_count"] == 3
     assert result["unique_query_sources"] == 3
+
+def test_replenishment_caps_artist_across_queries_and_prior_pool(tmp_path):
+    paths = []
+    for name, header in [
+        ("candidates.csv", "title,artist,year,genres,tags\nPrior,Heavy,2001,,\n"),
+        ("library.csv", "title,artist,year,genres,tags\n"),
+        ("feedback.csv", "title,artist,year,genres,tags,feedback\n"),
+        ("seen.csv", "title,artist,year,genres,tags,batch_id\n"),
+    ]:
+        p = tmp_path / name
+        p.write_text(header)
+        paths.append(p)
+    order = []
+
+    def fetch(term):
+        order.append(term)
+        return {"results": [song(f"{term} {i}", "Heavy", track_id=100 + i) for i in range(4)] +
+                [song(f"{term} Fresh", term, track_id=200)]}
+
+    replenish(*paths, terms=["Heavy", "Fresh"], fetch=fetch, target=20, max_per_artist=2)
+    assert order == ["Fresh", "Heavy"]
+    with paths[0].open(newline="") as f:
+        rows = list(csv.DictReader(f))
+    assert sum(r["artist"] == "Heavy" for r in rows) == 2
+    assert any(r["artist"] == "Fresh" for r in rows)

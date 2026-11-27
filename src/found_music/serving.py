@@ -10,9 +10,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from .io import read_feedback, read_tracks
-from .diversity import recommend_diverse_batch
+from .diversity import recommend_relevance_batch, EXPOSURE_PENALTY, RECENT_EXPOSURE_PENALTY, DIVERSITY_PENALTY
 
-MODEL_VERSION = "v3"
+MODEL_VERSION = "v4"
 
 
 def _digest(path: Path) -> str:
@@ -73,7 +73,7 @@ def serve_batch(
     # Ledger order is issuance order; group by batch rather than track count.
     recent_ids = list(dict.fromkeys(row["batch_id"] for row in previously_seen))[-3:]
     recent = [track for track, row in zip(seen, previously_seen) if row["batch_id"] in recent_ids]
-    batch, diversity = recommend_diverse_batch(
+    batch, diversity = recommend_relevance_batch(
         candidates, feedback, library, seen, recent, batch_size=size
     )
     if not batch:
@@ -93,11 +93,10 @@ def serve_batch(
         "parameters": {
             "min_year": 1989,
             "max_year": 2016,
-            "established_fraction": 0.30,
-            "new_artist_fraction": 0.40,
-            "exploration_fraction": 0.30,
+            "artist_exposure_penalty": EXPOSURE_PENALTY,
+            "recent_artist_exposure_penalty": RECENT_EXPOSURE_PENALTY,
             "recent_batch_window": 3,
-            "diversity_lambda": 0.55,
+            "diversity_lambda": DIVERSITY_PENALTY,
             "max_per_artist": 1,
         },
         "diversity": diversity,

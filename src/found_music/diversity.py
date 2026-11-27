@@ -111,3 +111,77 @@ def recommend_diverse_batch(
         "distinct_credited_names": len(used_credits),
         "unfamiliar_credit_tracks": sum(not (credits[id(x)] & known_credits) for x in selected),
     }
+
+
+# Initial tuning defaults; these are score penalties, never allocation quotas.
+EXPOSURE_PENALTY = 0.12
+RECENT_EXPOSURE_PENALTY = 0.14
+DIVERSITY_PENALTY = 0.55
+
+
+def recommend_relevance_batch(
+    candidates: list[Track],
+    history: list[RatedTrack],
+    library: list[Track],
+    seen: list[Track],
+    recent: list[Track],
+    *,
+    batch_size: int = 20,
+    weights: Weights = Weights(),
+) -> tuple[list[ScoredTrack], dict]:
+    """Rank all eligible songs together; familiarity is descriptive, not a quota.
+
+    Exposure counts use previously recommended tracks, not library ownership.
+    A frequent collaborator incurs the same exposure penalty as a lead credit.
+    Logarithmic penalties remain finite so a sufficiently strong fit can win.
+    """
+    import math
+
+    excluded = library_key_set(library) | history_key_set(history) | library_key_set(seen)
+    known = set().union(*(artist_credits(t) for t in [*library, *(r.track for r in history), *seen]))
+    exposure = Counter(a for t in seen for a in artist_credits(t))
+    recent_exposure = Counter(a for t in recent for a in artist_credits(t))
+    scored = [
+        score_candidate(t, history, weights) for t in candidates
+        if t.year is not None and 1989 <= t.year <= 2016 and not t.alias_keys & excluded
+    ]
+    credits = {id(item): artist_credits(item.track) for item in scored}
+    selected: list[ScoredTrack] = []
+    used_credits: set[str] = set()
+    used_tracks: set[str] = set()
+    trace = []
+    while len(selected) < batch_size:
+        best = None
+        best_value = float("-inf")
+        best_trace = None
+        for item in scored:
+            names = credits[id(item)]
+            if item.track.alias_keys & used_tracks or names & used_credits:
+                continue
+            total = max((exposure[a] for a in names), default=0)
+            recent_count = max((recent_exposure[a] for a in names), default=0)
+            penalty = EXPOSURE_PENALTY * math.log1p(total) + RECENT_EXPOSURE_PENALTY * math.log1p(recent_count)
+            redundancy = max((similarity(item.track, other.track, weights) for other in selected), default=0.0)
+            value = item.final_score - penalty - DIVERSITY_PENALTY * redundancy
+            if value > best_value:
+                best, best_value = item, value
+                best_trace = {"title": item.track.title, "artist": item.track.artist,
+                              "base_score": round(item.final_score, 6),
+                              "artist_exposure": total, "recent_exposure": recent_count,
+                              "exposure_penalty": round(penalty, 6),
+                              "redundancy_penalty": round(DIVERSITY_PENALTY * redundancy, 6),
+                              "selection_score": round(value, 6)}
+        if best is None:
+            break
+        selected.append(best)
+        used_credits.update(credits[id(best)])
+        used_tracks.update(best.track.alias_keys)
+        trace.append(best_trace)
+    return selected, {
+        "policy": "relevance-first-soft-exposure",
+        "shortfall": max(0, batch_size - len(selected)),
+        "distinct_credited_names": len(used_credits),
+        "unfamiliar_credit_tracks": sum(not (credits[id(x)] & known) for x in selected),
+        "recent_reuse_slots": sum(any(recent_exposure[a] for a in credits[id(x)]) for x in selected),
+        "selection_trace": trace,
+    }

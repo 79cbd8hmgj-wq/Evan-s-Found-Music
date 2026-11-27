@@ -1,0 +1,382 @@
+{
+  "batch_id": "2026-11-27-round-8",
+  "generated_at_utc": "2026-11-27",
+  "model_version": "v3-curated-after-audit",
+  "requested_size": 20,
+  "source_commit": "4451cedc81034c99ae150f834a5d9ccdee18992a",
+  "dry_run_workflow_id": 46084161453,
+  "source_sha256": {
+    "candidates": "ea35ba40d0f86d981d425c0698ce1fc1fa5e1db069a752480afccb517f6dd51d",
+    "feedback": "983cbe3b0a6ece314a7a7f1e2d95bea7b859cd7b2322259ca14af373b4a94a0a",
+    "library": "a90610e0d9db8cb6d6b4d0428cc6c8e30b41e6c034f1098e34b2be4abb0784da",
+    "seen": "bebdeeefdddecaa083e659bf48639f585a277f5d51ef2d600b1f99eb44b471cb"
+  },
+  "parameters": {
+    "min_year": 1989,
+    "max_year": 2016,
+    "established_fraction": 0.3,
+    "new_artist_fraction": 0.4,
+    "exploration_fraction": 0.3,
+    "recent_batch_window": 3,
+    "max_per_artist": 1
+  },
+  "diversity": {
+    "selected": {
+      "established": 6,
+      "new_artist": 8,
+      "exploration": 6
+    },
+    "unfamiliar_credit_tracks": 14,
+    "recent_reuse_slots": 0
+  },
+  "notes": "Actual Python v3 dry run passed but 14 unfamiliar candidates were query-name collisions or weakly relevant; one familiar track was a known alternate. Final curated replacements were verified in Apple Music. This is not a pure prospective v3 benchmark. Catalog years, not necessarily recording originals. Screening-only extras are not rated.",
+  "tracks": [
+    {
+      "rank": 1,
+      "title": "Unpretty",
+      "artist": "TLC",
+      "year": 1999,
+      "catalog_id": "298575252",
+      "lane": "established",
+      "selection": "v3 dry run",
+      "score": null
+    },
+    {
+      "rank": 2,
+      "title": "Never Been In Love",
+      "artist": "Talib Kweli",
+      "year": 2004,
+      "catalog_id": "1443601364",
+      "lane": "established",
+      "selection": "manual quality replacement",
+      "score": null
+    },
+    {
+      "rank": 3,
+      "title": "Tell Me Do U Wanna",
+      "artist": "Ginuwine",
+      "year": 1996,
+      "catalog_id": "157465482",
+      "lane": "established",
+      "selection": "v3 dry run",
+      "score": null
+    },
+    {
+      "rank": 4,
+      "title": "Clubbin' (feat. Pied Piper & Joe Budden)",
+      "artist": "Marques Houston",
+      "year": 2003,
+      "catalog_id": "1550261187",
+      "lane": "established",
+      "selection": "v3 dry run",
+      "score": null
+    },
+    {
+      "rank": 5,
+      "title": "Bounce Along",
+      "artist": "Wayne Wonder",
+      "year": 2003,
+      "catalog_id": "921538448",
+      "lane": "established",
+      "selection": "v3 dry run",
+      "score": null
+    },
+    {
+      "rank": 6,
+      "title": "Best Friends (feat. Aaliyah)",
+      "artist": "Missy Elliott",
+      "year": 1997,
+      "catalog_id": "302943641",
+      "lane": "established",
+      "selection": "v3 dry run",
+      "score": null
+    },
+    {
+      "rank": 7,
+      "title": "Stroke You Up",
+      "artist": "Changing Faces",
+      "year": 1994,
+      "catalog_id": "390317854",
+      "lane": "new_artist",
+      "selection": "manual quality replacement",
+      "score": null
+    },
+    {
+      "rank": 8,
+      "title": "Where My Girls At?",
+      "artist": "702",
+      "year": 1999,
+      "catalog_id": "1444020824",
+      "lane": "new_artist",
+      "selection": "manual quality replacement",
+      "score": null
+    },
+    {
+      "rank": 9,
+      "title": "Touch It",
+      "artist": "Monifah",
+      "year": 1998,
+      "catalog_id": "1442859312",
+      "lane": "new_artist",
+      "selection": "manual quality replacement",
+      "score": null
+    },
+    {
+      "rank": 10,
+      "title": "Tell Me",
+      "artist": "Groove Theory",
+      "year": 1995,
+      "catalog_id": "157330334",
+      "lane": "new_artist",
+      "selection": "manual quality replacement",
+      "score": null
+    },
+    {
+      "rank": 11,
+      "title": "Whoa!",
+      "artist": "Black Rob",
+      "year": 2000,
+      "catalog_id": "575960827",
+      "lane": "new_artist",
+      "selection": "manual quality replacement",
+      "score": null
+    },
+    {
+      "rank": 12,
+      "title": "Sometimes I Rhyme Slow",
+      "artist": "Nice & Smooth",
+      "year": 1995,
+      "catalog_id": "1478457640",
+      "lane": "new_artist",
+      "selection": "manual quality replacement",
+      "score": null
+    },
+    {
+      "rank": 13,
+      "title": "Watch Out Now",
+      "artist": "The Beatnuts",
+      "year": 1999,
+      "catalog_id": "1460078107",
+      "lane": "new_artist",
+      "selection": "manual quality replacement",
+      "score": null
+    },
+    {
+      "rank": 14,
+      "title": "I Got Cha Opin' (Remix)",
+      "artist": "Black Moon",
+      "year": 1993,
+      "catalog_id": "57708473",
+      "lane": "new_artist",
+      "selection": "manual quality replacement",
+      "score": null
+    },
+    {
+      "rank": 15,
+      "title": "7 Days",
+      "artist": "Craig David",
+      "year": 2000,
+      "catalog_id": "1207938311",
+      "lane": "exploration",
+      "selection": "manual quality replacement",
+      "score": null
+    },
+    {
+      "rank": 16,
+      "title": "Superstar",
+      "artist": "Jamelia",
+      "year": 2003,
+      "catalog_id": "1349961672",
+      "lane": "exploration",
+      "selection": "manual quality replacement",
+      "score": null
+    },
+    {
+      "rank": 17,
+      "title": "Scandalous (StarGate Radio Mix)",
+      "artist": "Mis-Teeq",
+      "year": 2003,
+      "catalog_id": "1162723451",
+      "lane": "exploration",
+      "selection": "manual quality replacement",
+      "score": null
+    },
+    {
+      "rank": 18,
+      "title": "Who Am I",
+      "artist": "Beenie Man",
+      "year": 1997,
+      "catalog_id": "1724842761",
+      "lane": "exploration",
+      "selection": "manual quality replacement",
+      "score": null
+    },
+    {
+      "rank": 19,
+      "title": "Brown Sugar",
+      "artist": "D'Angelo",
+      "year": 1995,
+      "catalog_id": "1440842297",
+      "lane": "exploration",
+      "selection": "manual quality replacement",
+      "score": null
+    },
+    {
+      "rank": 20,
+      "title": "Lovin' It (feat. Joe Scudda)",
+      "artist": "Little Brother featuring Joe Scudda",
+      "year": 2005,
+      "catalog_id": "79566893",
+      "lane": "exploration",
+      "selection": "manual quality replacement",
+      "score": null
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "title": "Ja Rule",
+      "artist": "Baba Stiltz",
+      "reason": "catalog-query-relevance-review"
+    },
+    {
+      "title": "Brown Sugar",
+      "artist": "D'Angelo",
+      "reason": "served-2026-11-27-round-8"
+    },
+    {
+      "title": "Scarface - Original",
+      "artist": "Rico and His All Stars",
+      "reason": "catalog-query-relevance-review"
+    },
+    {
+      "title": "Scarface",
+      "artist": "Capone-N-Noreaga",
+      "reason": "catalog-query-relevance-review"
+    },
+    {
+      "title": "Mónica",
+      "artist": "Grupo Ébano",
+      "reason": "catalog-query-relevance-review"
+    },
+    {
+      "title": "Monica",
+      "artist": "Fito Olivares",
+      "reason": "catalog-query-relevance-review"
+    },
+    {
+      "title": "Monica",
+      "artist": "Fattburger",
+      "reason": "catalog-query-relevance-review"
+    },
+    {
+      "title": "Don't Take It Personal (Just One of Dem Days)",
+      "artist": "Monica",
+      "reason": "screened-2026-11-27-round-8"
+    },
+    {
+      "title": "Never Been In Love",
+      "artist": "Talib Kweli",
+      "reason": "served-2026-11-27-round-8"
+    },
+    {
+      "title": "TLC (Instrumental)",
+      "artist": "V Don",
+      "reason": "catalog-query-relevance-review"
+    },
+    {
+      "title": "TLC (feat. Matt Marshak)",
+      "artist": "Marcus Anderson & Matt Marshak",
+      "reason": "catalog-query-relevance-review"
+    },
+    {
+      "title": "Tlc",
+      "artist": "Sy Ari Da Kid",
+      "reason": "catalog-query-relevance-review"
+    },
+    {
+      "title": "Unpretty",
+      "artist": "TLC",
+      "reason": "served-2026-11-27-round-8"
+    },
+    {
+      "title": "Tell Me Do U Wanna",
+      "artist": "Ginuwine",
+      "reason": "served-2026-11-27-round-8"
+    },
+    {
+      "title": "The Roots",
+      "artist": "Long Arm",
+      "reason": "catalog-query-relevance-review"
+    },
+    {
+      "title": "Break You Off (Radio Edit)",
+      "artist": "The Roots",
+      "reason": "known-alternate-version"
+    },
+    {
+      "title": "Janet Jackson",
+      "artist": "Miss Tony aka Big Tony",
+      "reason": "catalog-query-relevance-review"
+    },
+    {
+      "title": "Common",
+      "artist": "Rap Beats",
+      "reason": "catalog-query-relevance-review"
+    },
+    {
+      "title": "Aaliyah",
+      "artist": "Lorik",
+      "reason": "catalog-query-relevance-review"
+    },
+    {
+      "title": "Best Friends (feat. Aaliyah)",
+      "artist": "Missy Elliott",
+      "reason": "served-2026-11-27-round-8"
+    },
+    {
+      "title": "Outkast (New Version + Hidden Track \"Tambura\")",
+      "artist": "P.O.D.",
+      "reason": "catalog-query-relevance-review"
+    },
+    {
+      "title": "Bounce Along",
+      "artist": "Wayne Wonder",
+      "reason": "served-2026-11-27-round-8"
+    },
+    {
+      "title": "Clubbin' (feat. Pied Piper & Joe Budden)",
+      "artist": "Marques Houston",
+      "reason": "served-2026-11-27-round-8"
+    }
+  ],
+  "screening_only": [
+    {
+      "title": "Don't Take It Personal (Just One of Dem Days)",
+      "artist": "Monica"
+    },
+    {
+      "title": "No More",
+      "artist": "Ruff Endz"
+    },
+    {
+      "title": "You're Makin' Me High (Radio Edit)",
+      "artist": "Toni Braxton"
+    }
+  ],
+  "known_screening": [
+    {
+      "title": "Break You Off",
+      "artist": "The Roots",
+      "reason": "known alternate"
+    },
+    {
+      "title": "U Don't Have to Call",
+      "artist": "USHER",
+      "reason": "Apple Music owned"
+    }
+  ],
+  "apple_music_verification": {
+    "matched": 20,
+    "in_library": 0
+  }
+}

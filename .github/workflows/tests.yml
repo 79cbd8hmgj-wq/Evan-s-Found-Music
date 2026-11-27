@@ -25,7 +25,3 @@ jobs:
         run: python scripts/backtest_rounds.py
       - name: Compare scoring v1 vs v2
         run: python scripts/compare_scoring.py
-      - name: Round 8 dry-run (not issued)
-        run: |
-          cp data/seen_recommendations.csv /tmp/seen-round8.csv
-          python scripts/serve_batch.py --batch-id 2026-11-27-round-8 --size 20 --seen /tmp/seen-round8.csv --manifest /tmp/round8.json

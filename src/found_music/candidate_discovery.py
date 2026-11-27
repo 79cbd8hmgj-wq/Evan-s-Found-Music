@@ -13,13 +13,14 @@ import re
 import tempfile
 import time
 from dataclasses import dataclass
+from collections import Counter
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 from .io import read_tracks
-from .models import Track, library_key_set
+from .models import Track, library_key_set, normalize_artist
 
 FIELDS = ["title", "artist", "year", "genres", "tags"]
 BASE = "https://itunes.apple.com/search"
@@ -164,6 +165,7 @@ def replenish(
     apply: bool = True,
     pause_seconds: float = 0.0,
     max_per_query: int = 30,
+    max_per_artist: int = 8,
     seed_candidates_path: str | Path | None = None,
 ) -> dict:
     """Stage all searches before writing; a failed request leaves inputs intact."""
@@ -171,6 +173,8 @@ def replenish(
         raise ValueError("target must be positive")
     if max_per_query < 1:
         raise ValueError("max_per_query must be positive")
+    if max_per_artist < 1:
+        raise ValueError("max_per_artist must be positive")
     if not terms:
         raise ValueError("At least one catalog search term required")
     candidates_path = Path(candidates_path)
@@ -182,6 +186,9 @@ def replenish(
     exclusions = [(t.title, t.artist) for t in [*library, *feedback, *seen]]
     keys = _exclusion_keys(exclusions + existing)
     tracks = list(previous)
+    artist_counts = Counter(normalize_artist(t.artist) for t in tracks)
+    # Existing overrepresented artists remain in the pool, but cannot grow.
+    terms = sorted(terms, key=lambda term: artist_counts[normalize_artist(term)])
     provenance = []
     retrieved = 0
     dropped = 0
@@ -198,9 +205,11 @@ def replenish(
         queries += 1
         for song in songs:
             t = Track(song.title, song.artist, song.year, (song.genre,) if song.genre else (), ("itunes-catalog",))
-            if t.alias_keys & keys:
+            artist = normalize_artist(t.artist)
+            if t.alias_keys & keys or artist_counts[artist] >= max_per_artist:
                 dropped += 1
                 continue
+            artist_counts[artist] += 1
             keys.update(t.alias_keys)
             tracks.append(t)
             provenance.append({"artist": song.artist, "title": song.title, "catalog_id": song.catalog_id,
@@ -221,6 +230,7 @@ def replenish(
         "query_count": queries,
         "unique_query_sources": len(used_sources),
         "max_per_query": max_per_query,
+        "max_per_artist": max_per_artist,
         "catalog_results": retrieved,
         "filtered_results": dropped,
         "source": "Apple iTunes Search API, US storefront, catalog release year",

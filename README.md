@@ -99,3 +99,9 @@ pytest -q
 The initial diversified build preserved the 73 baseline eligible records, imported 927 new entries from 31 search queries, and now contains 1,000 records representing 338 distinct credited artist names. See `data/catalog_replenishment_report.json` and `docs/CANDIDATE_PIPELINE.md` for provenance and caveats. Catalog release year is not necessarily the recording's original release year.
 
 `.github/workflows/catalog-candidates.yml` creates live catalog proposals in CI and weekly once deployed on the default branch. These are artifacts for review, not auto-merged library mutations.
+
+## V3 artist diversity policy
+
+Prospective `serve_batch.py` runs now use a separate v3 selection policy. The historical v2 ranking API remains unchanged for comparisons. For a 20-song batch, target 6 established-credit tracks, 8 tracks whose credited names are absent from the library, feedback and exposure ledger, and 6 exploration tracks. Exploration prioritizes distance from positive anchors and unfamiliar credits, not the same relevance objective as exploitation. The previous three batch IDs are an initial exclusion window, with explicit fallback counts when the pool cannot fill a round. A strict within-round shared-credit cap includes text-parsed title features and multi-artist credits; it is never relaxed. The manifest reports quota results, shortfalls and recent-credit reuse. Text aliases are not canonical artist IDs, and a collaborator may be uncredited in catalog metadata.
+
+Catalog replenishment prioritizes lower-inventory query names and limits new inventory to eight tracks per normalized primary artist across queries (existing over-cap rows are preserved). New seed artists broaden sourcing; they are not recommendations, and no actual catalog refresh is claimed here. Future work: metadata-rich sound-based retrieval and prospective outcome evaluation.
